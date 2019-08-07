@@ -1,2 +1,1 @@
-# flybase-ontology-scripts
-Scripts for working with FlyBase ontologies, uses include bulk ontology edits and report generation.
+# coding-projects [![Build Status](https://travis-ci.org/Clare72/coding-projects.svg?branch=master)](https://travis-ci.org/Clare72/coding-projects)

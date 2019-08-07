@@ -1,3 +1,6 @@
+sudo: required
+dist: xenial
+
 language: python
 
 python:
@@ -7,4 +10,4 @@ install:
   - pip install -r requirements.txt
   
 script:
-  echo "Travis works, but aint testing anything yet!"
+  - python ./part_of_search/src/test_json_functions.py

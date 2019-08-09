@@ -8,11 +8,11 @@ import pandas as pd
 import sys
 import json_functions
 
-# import fbbt from web
+# import fbbt from web TODO - EDIT LOCATION FOR NEW RELEASE PROCESS
 # fbbt = requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json()
 
-# import fbbt from /oort TODO - EDIT LOCATION FOR NEW RELEASE PROCESS
-fbbt = json.load(open("/Users/clare/git/drosophila-anatomy-developmental-ontology/oort/fbbt.json", "r"))
+# import fbbt (local copy)
+fbbt = json.load(open("/Users/clare/git/drosophila-anatomy-developmental-ontology/fbbt-simple.json", "r"))
 
 # get user input for the search term
 # nervous system = FBbt_00005093, sense organ = FBbt_00005155, male terminalia = FBbt_00004835, ovary = FBbt_00004865
@@ -34,7 +34,7 @@ if len(label) == 0:
 else:
     print('term = ' + label)
 
-# carry out recursive search for terms with part_of or is_a relationships back to search term
+# carry out search for terms with part_of or is_a relationships back to search term
 result_id = json_functions.part_search(fbbt, search_term)
 
 # check against list of terms for cells if required

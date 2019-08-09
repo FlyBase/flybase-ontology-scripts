@@ -12,7 +12,7 @@ term_list = pd.read_csv("term_list.tsv", sep="\t")  # DO NOT CHANGE
 term_list = term_list.applymap(lambda x: x.replace("['", ""))  # tidy beginnings of lists
 term_list = term_list.applymap(lambda x: x.replace("']", ""))  # tidy ends of lists
 term_list = term_list.applymap(lambda x: x.replace("', '", "; "))  # tidy middles of lists
-term_list = term_list.applymap(lambda x: re.sub("FBC:[a-zA-Z]+;*\s*", "", x))  # remove FBC: refs
+term_list = term_list.applymap(lambda x: re.sub("FBC:[a-zA-Z_]+;*\s*", "", x))  # remove FBC: refs
 term_list = term_list.applymap(lambda x: re.sub("FlyBase:", "", x))  # remove FlyBase: prefixes
 
 # substitute IRIs with hyperlinks

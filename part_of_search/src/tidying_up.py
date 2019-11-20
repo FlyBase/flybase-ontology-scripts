@@ -1,5 +1,5 @@
-# This script tidies up (and overwrites) the tsv produced by search_json.py
-# search_json.py must be run first
+# This script tidies up the tsv produced by FCA_spreadsheets.py
+# FCA_spreadsheets.py must be run first
 
 import pandas as pd
 import re

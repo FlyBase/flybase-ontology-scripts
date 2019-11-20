@@ -1,5 +1,9 @@
 #  These all take a decoded json version of an ontology (tested with fbbt) as produced by json.load()
 import re
+import pandas as pd
+import sys
+import json
+import requests
 
 
 def part_search(ontology, search_term):
@@ -104,6 +108,48 @@ def find_def_refs(ontology, term_id):
                 refs = "None"
     return refs
 
+
+def get_term_iris(search_iri, ontology=requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json(),
+                  cells_only=False):
+    """Returns a list of all parts of all subclasses of the search term ('search_iri').
+
+     Ontology can be specified (must be json - default = FBbt).
+     Can choose to restrict to cell types (in FBbt) using cells_only=True (default = False)."""
+
+    # check term is in ontology and print term name
+    label = find_label(ontology, search_iri)
+    if len(label) == 0:
+        print("term not found - aborting")
+        sys.exit()
+    else:
+        print('term = ' + label)
+
+    # carry out search for terms with part_of or is_a relationships back to search term
+    result_id_list = part_search(ontology, search_iri)
+
+    # create and check against list of terms for cells if required
+    # cell = FBbt:00007002
+    if cells_only:
+        cell_type_list = sub_search(ontology, "http://purl.obolibrary.org/obo/FBbt_00007002")
+        result_id_list = [x for x in result_id_list if x in cell_type_list]
+
+    return result_id_list
+
+
+def get_term_details(id_list, ontology=requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json()):
+    """Returns a DataFrame with labels, synonyms, definitions and references for iris in id_list.
+
+    Can specify ontology (default = FBbt)."""
+
+    result_label = [find_label(ontology, i) for i in id_list]  # one label per term
+    result_syn = [find_synonyms(ontology, i) for i in id_list]  # list of synonyms per term
+    result_def = [find_definition(ontology, i) for i in id_list]  # one def per term
+    result_ref = [find_def_refs(ontology, i) for i in id_list]  # list of def refs per term
+
+    # output list of results
+    data = {"FBbt_ID": id_list, "Name": result_label, "Synonyms": result_syn,
+            "Definition": result_def, "References": result_ref}
+    return pd.DataFrame(data)
 
 # move this somewhere else?
 def iri_to_ols(iri):

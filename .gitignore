@@ -1,0 +1,5 @@
+.idea/
+.DS_Store
+part_of_search/venv/*
+part_of_search/src/term_list.tsv
+part_of_search/src/__pycache__/

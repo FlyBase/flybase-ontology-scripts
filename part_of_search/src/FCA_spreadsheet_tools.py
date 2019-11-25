@@ -1,7 +1,5 @@
-# Run release to put latest version fbbt.json in /oort
-# This script finds is_a and part_of subclasses of a search term (IRI)
-# and returns IDs, names, synonyms, definitions and definition references
-# Then tidies this up and makes a nice xslx format spreadsheet
+# Run release to make new fbbt.json
+# These functions produce Excel files for Fly Cell Atlas review of terms
 
 import json_functions
 import json
@@ -9,18 +7,12 @@ import pandas as pd
 import re
 
 
-# example terms
-# nervous system = FBbt_00005093, sense organ = FBbt_00005155, male terminalia = FBbt_00004835, ovary = FBbt_00004865
-
-
-# ALTERNATIVELY - import terms from external file
-
 def generate_report(iri_list, fbbt_path, xlsx_out):
     # get details and make table for id list
-    """Generate an excel spreadsheet report for tern review.
+    """Generate an excel spreadsheet report for term review.
     iri_list = List of IRIs
     fbbt_path = path to fbbt json file
-    xlsx_= name of xlsx output_file"""
+    xlsx_out = name of xlsx output file"""
     fbbt = json.load(open(fbbt_path, "r"))
     term_table = json_functions.get_term_details(list(iri_list), ontology=fbbt).applymap(str)
 
@@ -77,16 +69,18 @@ def generate_report(iri_list, fbbt_path, xlsx_out):
 
 
 def generate_report_from_file(file_path, fbbt_path, xlsx_out):
-    """Generate an excel spreadsheet report for tern review
-    using and iri list specified in a  file. """
+    """Generate an excel spreadsheet report for term review using an iri list specified in a file."""
 
     id_list = [line.rstrip('\n') for line in open(file_path, "r")]
     generate_report(id_list, fbbt_path, xlsx_out)
 
 
 def generate_report_from_term(search_iri, fbbt_path, xlsx_out, cell_only=True):
-    # search_iri = "http://purl.obolibrary.org/obo/FBbt_00004508"
+    """Finds all is_a and part_of subclasses of given term (full IRI) and generates a spreadsheet for review.
 
+    Example terms:
+    nervous system = FBbt_00005093, sense organ = FBbt_00005155,
+    male terminalia = FBbt_00004835, ovary = FBbt_00004865."""
     # fbbt (local copy)
     fbbt = json.load(open(fbbt_path, "r"))
 

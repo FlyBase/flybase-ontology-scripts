@@ -109,12 +109,14 @@ def find_def_refs(ontology, term_id):
     return refs
 
 
-def get_term_iris(search_iri, ontology=requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json(),
+def get_term_iris(search_iri, ontology=None,
                   cells_only=False):
     """Returns a list of all parts of all subclasses of the search term ('search_iri').
 
-     Ontology can be specified (must be json - default = FBbt).
+     Ontology file can be specified (must be json - default = FBbt from PURL).
      Can choose to restrict to cell types (in FBbt) using cells_only=True (default = False)."""
+    if not ontology:
+        ontology = requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json()
 
     # check term is in ontology and print term name
     label = find_label(ontology, search_iri)
@@ -136,10 +138,13 @@ def get_term_iris(search_iri, ontology=requests.get("http://purl.obolibrary.org/
     return result_id_list
 
 
-def get_term_details(id_list, ontology=requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json()):
+def get_term_details(id_list, ontology=None):
     """Returns a DataFrame with labels, synonyms, definitions and references for iris in id_list.
 
     Can specify ontology (default = FBbt)."""
+
+    if not ontology:
+        ontology = requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json()
 
     result_label = [find_label(ontology, i) for i in id_list]  # one label per term
     result_syn = [find_synonyms(ontology, i) for i in id_list]  # list of synonyms per term

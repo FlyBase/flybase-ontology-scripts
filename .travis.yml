@@ -11,3 +11,4 @@ install:
   
 script:
   - python ./part_of_search/src/test_json_functions.py
+  - python ./part_of_search/src/test_FCA_spreadsheets.py

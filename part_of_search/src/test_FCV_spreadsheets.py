@@ -1,5 +1,5 @@
 import unittest
-from FCA_spreadsheets import generate_report
+from FCA_spreadsheet_tools import generate_report
 
 
 class TestFCAspreadsheets(unittest.TestCase):

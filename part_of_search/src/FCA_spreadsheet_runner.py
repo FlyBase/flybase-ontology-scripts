@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-from FCA_spreadsheets import generate_report_from_file
+from FCA_spreadsheet_tools import generate_report_from_file
 import sys
 
 

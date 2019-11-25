@@ -22,7 +22,7 @@ def generate_report(iri_list, fbbt_path, xlsx_out):
     fbbt_path = path to fbbt json file
     xlsx_= name of xlsx output_file"""
     fbbt = json.load(open(fbbt_path, "r"))
-    term_table = json_functions.get_term_details(iri_list, ontology=fbbt).applymap(str)
+    term_table = json_functions.get_term_details(list(iri_list), ontology=fbbt).applymap(str)
 
     # minor tidying strings and lists
     term_table = term_table.applymap(lambda x: x.replace("['", ""))  # tidy beginnings of lists
@@ -69,6 +69,8 @@ def generate_report(iri_list, fbbt_path, xlsx_out):
     term_table = term_table.reindex(
         columns=term_table.columns.tolist()
                 + ['Review_notes', 'Suggested_markers', 'Abundance'])
+
+    # sort on label:
 
     # make new term file as xslx format
     term_table.to_excel(xlsx_out, header=True, index=False)

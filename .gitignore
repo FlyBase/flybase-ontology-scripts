@@ -1,5 +1,6 @@
 .idea/
-.DS_Store
+*.DS_Store
 part_of_search/venv/*
 part_of_search/src/term_list.tsv
 part_of_search/src/__pycache__/
+*.ipynb_checkpoints

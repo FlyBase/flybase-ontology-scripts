@@ -1,0 +1,106 @@
+#SUBMITTED ID	NAME	SYMBOL
+FBgn0000137	asense	ase
+FBgn0000395	crossveinless 2	cv-2
+FBgn0000490	decapentaplegic	dpp
+FBgn0000504	doublesex	dsx
+FBgn0000577	engrailed	en
+FBgn0000606	even skipped	eve
+FBgn0000636	Fasciclin 3	Fas3
+FBgn0000964	traffic jam	tj
+FBgn0002985	odd skipped	odd
+FBgn0003249	Rhodopsin 3	Rh3
+FBgn0003250	Rhodopsin 4	Rh4
+FBgn0003463	short gastrulation	sog
+FBgn0003651	seven up	svp
+FBgn0004595	prospero	pros
+FBgn0004606	Zn finger homeodomain 1	zfh1
+FBgn0004644	hedgehog	hh
+FBgn0004652	fruitless	fru
+FBgn0004666	single-minded	sim
+FBgn0004956	unpaired 1	upd1
+FBgn0005638	slow border cells	slbo
+FBgn0005775	Connectin	Con
+FBgn0010226	Glutathione S transferase S1	GstS1
+FBgn0010397	Lamin C	LamC
+FBgn0010433	atonal	ato
+FBgn0010453	Wnt oncogene analog 4	Wnt4
+FBgn0011581	Myosuppressin	Ms
+FBgn0011701	reversed polarity	repo
+FBgn0012344	Diuretic hormone 44	Dh44
+FBgn0013767	Corazonin	Crz
+FBgn0014019	Rhodopsin 5	Rh5
+FBgn0014163	failed axon connections	fax
+FBgn0014179	glial cells missing	gcm
+FBgn0019940	Rhodopsin 6	Rh6
+FBgn0020299	stumps	stumps
+FBgn0020386	Phosphoinositide-dependent kinase 1	Pdk1
+FBgn0023091	dimmed	dimm
+FBgn0023178	Pigment-dispersing factor	Pdf
+FBgn0025360	Optix	Optix
+FBgn0025680	cryptochrome	cry
+FBgn0025697	scavenger receptor acting in neural tissue and majority of rhodopsin is absent	santa-maria
+FBgn0025739	partner of numb	pon
+FBgn0026384	Odorant receptor 59a	Or59a
+FBgn0026386	Odorant receptor 47a	Or47a
+FBgn0026391	Odorant receptor 33b	Or33b
+FBgn0026392	Odorant receptor 33a	Or33a
+FBgn0026394	Odorant receptor 24a	Or24a
+FBgn0026396	Odorant receptor 22c	Or22c
+FBgn0027109	neuropeptide F	NPF
+FBgn0028374	Hugin	Hug
+FBgn0028418	Leucokinin	Lk
+FBgn0028946	Odorant receptor 35a	Or35a
+FBgn0029521	Odorant receptor 1a	Or1a
+FBgn0030715	Odorant receptor 13a	Or13a
+FBgn0030795	pickpocket 28	ppk28
+FBgn0030900	Holes in muscle	Him
+FBgn0031209	Ionotropic receptor 21a	Ir21a
+FBgn0032096	Odorant receptor 30a	Or30a
+FBgn0032840	short neuropeptide F precursor	sNPF
+FBgn0033041	Odorant receptor 42a	Or42a
+FBgn0033043	Odorant receptor 42b	Or42b
+FBgn0033404	Odorant receptor 45a	Or45a
+FBgn0033422	Odorant receptor 45b	Or45b
+FBgn0033652	thisbe	ths
+FBgn0033725	Cuticular protein 49Ac	Cpr49Ac
+FBgn0033727	Odorant receptor 49a	Or49a
+FBgn0033744	Diuretic hormone 44 receptor 2	Dh44-R2
+FBgn0034458	Ionotropic receptor 56d	Ir56d
+FBgn0035023	Ion transport peptide	ITP
+FBgn0035382	Odorant receptor 63a	Or63a
+FBgn0035604	Ionotropic receptor 64a	Ir64a
+FBgn0035610	Leucokinin receptor	Lkr
+FBgn0035934	Transient receptor potential cation channel A1	TrpA1
+FBgn0036019	Odorant receptor 67b	Or67b
+FBgn0036046	Insulin-like peptide 2	Ilp2
+FBgn0036150	Ionotropic receptor 68a	Ir68a
+FBgn0036260	Rhodopsin 7	Rh7
+FBgn0036414	nanchung	nan
+FBgn0036709	Odorant receptor 74a	Or74a
+FBgn0037322	Odorant receptor 83a	Or83a
+FBgn0037591	Odorant receptor 85c	Or85c
+FBgn0037976	Tachykinin	Tk
+FBgn0039033	Odorant receptor 94a	Or94a
+FBgn0039034	Odorant receptor 94b	Or94b
+FBgn0039080	Ionotropic receptor 94h	Ir94h
+FBgn0039722	Capability	Capa
+FBgn0041229	Gustatory receptor 93a	Gr93a
+FBgn0041231	Gustatory receptor 68a	Gr68a
+FBgn0041243	Gustatory receptor 43a	Gr43a
+FBgn0041247	Gustatory receptor 28a	Gr28a
+FBgn0041621	Odorant receptor 82a	Or82a
+FBgn0044046	Insulin-like peptide 7	Ilp7
+FBgn0045477	Gustatory receptor 64c	Gr64c
+FBgn0045498	Gustatory receptor 22d	Gr22d
+FBgn0052693	Gustatory receptor 9a	Gr9a
+FBgn0053527	SIFamide	SIFa
+FBgn0085417	natalisin	natalisin
+FBgn0259185	Ionotropic receptor 60b	Ir60b
+FBgn0259683	Ionotropic receptor 40a	Ir40a
+FBgn0260400	embryonic lethal abnormal vision	elav
+FBgn0260942	james bond	bond
+FBgn0263776	-	CG43693
+FBgn0265139	Gustatory receptor 2a	Gr2a
+FBgn0267796	Transmembrane channel-like	Tmc
+FBgn0283442	vasa	vas
+FBgn0285963	-	CG46339

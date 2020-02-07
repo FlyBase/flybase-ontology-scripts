@@ -37,6 +37,7 @@ FBgn0020386	Phosphoinositide-dependent kinase 1	Pdk1
 FBgn0023091	dimmed	dimm
 FBgn0023178	Pigment-dispersing factor	Pdf
 FBgn0025360	Optix	Optix
+FBgn0025525	bric a brac 2	bab2
 FBgn0025680	cryptochrome	cry
 FBgn0025697	scavenger receptor acting in neural tissue and majority of rhodopsin is absent	santa-maria
 FBgn0025739	partner of numb	pon

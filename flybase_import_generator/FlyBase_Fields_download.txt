@@ -36,22 +36,36 @@ FBgn0020299	stumps	stumps
 FBgn0020386	Phosphoinositide-dependent kinase 1	Pdk1
 FBgn0023091	dimmed	dimm
 FBgn0023178	Pigment-dispersing factor	Pdf
+FBgn0023523	Odorant receptor 2a	Or2a
 FBgn0025360	Optix	Optix
 FBgn0025525	bric a brac 2	bab2
 FBgn0025680	cryptochrome	cry
 FBgn0025697	scavenger receptor acting in neural tissue and majority of rhodopsin is absent	santa-maria
 FBgn0025739	partner of numb	pon
 FBgn0026384	Odorant receptor 59a	Or59a
+FBgn0026385	Odorant receptor 47b	Or47b
 FBgn0026386	Odorant receptor 47a	Or47a
+FBgn0026388	Odorant receptor 46a	Or46a
+FBgn0026389	Odorant receptor 43a	Or43a
+FBgn0026390	Odorant receptor 33c	Or33c
 FBgn0026391	Odorant receptor 33b	Or33b
 FBgn0026392	Odorant receptor 33a	Or33a
+FBgn0026393	Odorant receptor 43b	Or43b
 FBgn0026394	Odorant receptor 24a	Or24a
+FBgn0026395	Odorant receptor 23a	Or23a
 FBgn0026396	Odorant receptor 22c	Or22c
+FBgn0026397	Odorant receptor 22b	Or22b
+FBgn0026398	Odorant receptor 22a	Or22a
+FBgn0026399	Odorant receptor 85e	Or85e
 FBgn0027109	neuropeptide F	NPF
 FBgn0028374	Hugin	Hug
 FBgn0028418	Leucokinin	Lk
 FBgn0028946	Odorant receptor 35a	Or35a
+FBgn0028963	Odorant receptor 49b	Or49b
 FBgn0029521	Odorant receptor 1a	Or1a
+FBgn0030016	Odorant receptor 7a	Or7a
+FBgn0030204	Odorant receptor 9a	Or9a
+FBgn0030298	Odorant receptor 10a	Or10a
 FBgn0030715	Odorant receptor 13a	Or13a
 FBgn0030795	pickpocket 28	ppk28
 FBgn0030900	Holes in muscle	Him
@@ -67,39 +81,73 @@ FBgn0033725	Cuticular protein 49Ac	Cpr49Ac
 FBgn0033727	Odorant receptor 49a	Or49a
 FBgn0033744	Diuretic hormone 44 receptor 2	Dh44-R2
 FBgn0034458	Ionotropic receptor 56d	Ir56d
+FBgn0034473	Odorant receptor 56a	Or56a
+FBgn0034865	Odorant receptor 59b	Or59b
+FBgn0034866	Odorant receptor 59c	Or59c
 FBgn0035023	Ion transport peptide	ITP
 FBgn0035382	Odorant receptor 63a	Or63a
+FBgn0035468	Gustatory receptor 63a	Gr63a
 FBgn0035604	Ionotropic receptor 64a	Ir64a
 FBgn0035610	Leucokinin receptor	Lkr
 FBgn0035934	Transient receptor potential cation channel A1	TrpA1
+FBgn0036009	Odorant receptor 67a	Or67a
 FBgn0036019	Odorant receptor 67b	Or67b
 FBgn0036046	Insulin-like peptide 2	Ilp2
+FBgn0036078	Odorant receptor 67c	Or67c
+FBgn0036080	Odorant receptor 67d	Or67d
 FBgn0036150	Ionotropic receptor 68a	Ir68a
 FBgn0036260	Rhodopsin 7	Rh7
 FBgn0036414	nanchung	nan
+FBgn0036474	Odorant receptor 71a	Or71a
 FBgn0036709	Odorant receptor 74a	Or74a
+FBgn0036757	Ionotropic receptor 75a	Ir75a
+FBgn0036829	Ionotropic receptor 75d	Ir75d
+FBgn0036937	Ionotropic receptor 76b	Ir76b
 FBgn0037322	Odorant receptor 83a	Or83a
+FBgn0037399	Odorant receptor 83c	Or83c
+FBgn0037501	Ionotropic receptor 84a	Ir84a
+FBgn0037576	Odorant receptor 85a	Or85a
+FBgn0037590	Odorant receptor 85b	Or85b
 FBgn0037591	Odorant receptor 85c	Or85c
+FBgn0037594	Odorant receptor 85d	Or85d
+FBgn0037685	Odorant receptor 85f	Or85f
 FBgn0037976	Tachykinin	Tk
+FBgn0038203	Odorant receptor 88a	Or88a
+FBgn0038789	Ionotropic receptor 92a	Ir92a
+FBgn0038798	Odorant receptor 92a	Or92a
 FBgn0039033	Odorant receptor 94a	Or94a
 FBgn0039034	Odorant receptor 94b	Or94b
 FBgn0039080	Ionotropic receptor 94h	Ir94h
+FBgn0039551	Odorant receptor 98a	Or98a
+FBgn0039582	Odorant receptor 98b	Or98b
 FBgn0039722	Capability	Capa
+FBgn0040849	Ionotropic receptor 41a	Ir41a
 FBgn0041229	Gustatory receptor 93a	Gr93a
 FBgn0041231	Gustatory receptor 68a	Gr68a
 FBgn0041243	Gustatory receptor 43a	Gr43a
 FBgn0041247	Gustatory receptor 28a	Gr28a
+FBgn0041250	Gustatory receptor 21a	Gr21a
 FBgn0041621	Odorant receptor 82a	Or82a
+FBgn0041622	Odorant receptor 69a	Or69a
+FBgn0041623	Odorant receptor 65c	Or65c
+FBgn0041624	Odorant receptor 65b	Or65b
+FBgn0041625	Odorant receptor 65a	Or65a
+FBgn0041626	Odorant receptor 19a	Or19a
 FBgn0044046	Insulin-like peptide 7	Ilp7
 FBgn0045477	Gustatory receptor 64c	Gr64c
 FBgn0045498	Gustatory receptor 22d	Gr22d
+FBgn0045502	Gustatory receptor 10a	Gr10a
+FBgn0051718	Ionotropic receptor 31a	Ir31a
 FBgn0052693	Gustatory receptor 9a	Gr9a
 FBgn0053527	SIFamide	SIFa
+FBgn0062565	Odorant receptor 19b	Or19b
 FBgn0085417	natalisin	natalisin
 FBgn0259185	Ionotropic receptor 60b	Ir60b
 FBgn0259683	Ionotropic receptor 40a	Ir40a
 FBgn0260400	embryonic lethal abnormal vision	elav
+FBgn0260874	Ionotropic receptor 76a	Ir76a
 FBgn0260942	james bond	bond
+FBgn0261402	Ionotropic receptor 75b	Ir75b
 FBgn0263776	-	CG43693
 FBgn0265139	Gustatory receptor 2a	Gr2a
 FBgn0267796	Transmembrane channel-like	Tmc

@@ -2,6 +2,7 @@
 FBgn0000137	asense	ase
 FBgn0000395	crossveinless 2	cv-2
 FBgn0000490	decapentaplegic	dpp
+FBgn0000500	Drosulfakinin	Dsk
 FBgn0000504	doublesex	dsx
 FBgn0000546	Ecdysone receptor	EcR
 FBgn0000577	engrailed	en
@@ -32,6 +33,7 @@ FBgn0013767	Corazonin	Crz
 FBgn0014019	Rhodopsin 5	Rh5
 FBgn0014163	failed axon connections	fax
 FBgn0014179	glial cells missing	gcm
+FBgn0015591	Allatostatin A	AstA
 FBgn0019940	Rhodopsin 6	Rh6
 FBgn0020299	stumps	stumps
 FBgn0020386	Phosphoinositide-dependent kinase 1	Pdk1
@@ -151,6 +153,7 @@ FBgn0260942	james bond	bond
 FBgn0261402	Ionotropic receptor 75b	Ir75b
 FBgn0263776	-	CG43693
 FBgn0265139	Gustatory receptor 2a	Gr2a
+FBgn0266429	Allatostatin A receptor 1	AstA-R1
 FBgn0267796	Transmembrane channel-like	Tmc
 FBgn0283442	vasa	vas
 FBgn0285963	-	CG46339

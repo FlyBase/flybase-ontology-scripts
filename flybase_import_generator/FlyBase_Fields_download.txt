@@ -5,6 +5,7 @@ FBgn0000490	decapentaplegic	dpp
 FBgn0000500	Drosulfakinin	Dsk
 FBgn0000504	doublesex	dsx
 FBgn0000546	Ecdysone receptor	EcR
+FBgn0000564	Eclosion hormone	Eh
 FBgn0000577	engrailed	en
 FBgn0000606	even skipped	eve
 FBgn0000636	Fasciclin 3	Fas3
@@ -118,6 +119,7 @@ FBgn0037976	Tachykinin	Tk
 FBgn0038203	Odorant receptor 88a	Or88a
 FBgn0038789	Ionotropic receptor 92a	Ir92a
 FBgn0038798	Odorant receptor 92a	Or92a
+FBgn0039007	Crustacean cardioactive peptide	CCAP
 FBgn0039033	Odorant receptor 94a	Or94a
 FBgn0039034	Odorant receptor 94b	Or94b
 FBgn0039080	Ionotropic receptor 94h	Ir94h

@@ -159,3 +159,17 @@ FBgn0266429	Allatostatin A receptor 1	AstA-R1
 FBgn0267796	Transmembrane channel-like	Tmc
 FBgn0283442	vasa	vas
 FBgn0285963	-	CG46339
+FBgn0085424	nubbin	nub
+FBgn0004228	midgut expression 1	mex1
+FBgn0086347	Myosin 31DF	Myo31DF
+FBgn0011723	brachyenteron	byn
+FBgn0259211	grainy head	grh
+FBgn0013469	klumpfuss	klu
+FBgn0000463	Delta	Dl
+FBgn0001981	escargot	esg
+FBgn0002522	labial	lab
+FBgn0033327	Peptidoglycan recognition protein SC1b	PGRP-SC1b
+FBgn0043576	Peptidoglycan recognition protein SC1a	PGRP-SC1a
+FBgn0264953	Piezo	Piezo
+FBgn0027558	Polypeptide N-Acetylgalactosaminyltransferase 3	Pgant3
+FBgn0284084	wingless	wg

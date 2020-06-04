@@ -3,4 +3,5 @@
 feedback_spreadsheet_generation/venv/*
 feedback_spreadsheet_generation/src/term_list.tsv
 feedback_spreadsheet_generation/src/__pycache__/
+change_report_generation/src/__pycache__/
 *.ipynb_checkpoints

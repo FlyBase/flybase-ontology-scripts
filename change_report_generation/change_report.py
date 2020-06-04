@@ -1,12 +1,12 @@
 import subprocess
 import pandas as pd
 import os
-import change_report_generation.change_report_functions as crf
+import change_report_functions as crf
 
 # details of releases to look at
 input_details = pd.read_csv(os.path.join(os.getcwd(), "input.tsv"), sep='\t')
-if input_details.notnull()['new_release'][0]:
-    new_release = input_details['new_release'][0]
+if input_details.notnull()['new_fbbt_release'][0]:
+    new_release = input_details['new_fbbt_release'][0]
 else:
     new_release = ""
 parameters = crf.Parameters(

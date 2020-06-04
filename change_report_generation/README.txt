@@ -4,7 +4,7 @@ https://raw.githubusercontent.com/FlyBase/drosophila-anatomy-developmental-ontol
 
 Prepares a report showing the number of terms and changed names, definitions, comments and obsoletions.
 
-Fill in the details of releases in the input.tsv file:
+Fill in the details of releases in the src/input.tsv file:
 REQUIRED FIELDS
 ontology is one of 'FBbt', 'FBdv', 'FBcv' or 'DO' (case insensitive, but will appear on report as written in file)
 new_date is the date the newer file was released (found in obo file header - YYYY-MM-DD format)

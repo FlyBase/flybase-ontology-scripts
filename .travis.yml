@@ -10,6 +10,6 @@ install:
   - pip install -r requirements.txt
   
 script:
-  - cd part_of_search/src/
+  - cd feedback_spreadsheet_generation/src/
   - python ./test_json_functions.py
   - python ./test_FCA_spreadsheets.py

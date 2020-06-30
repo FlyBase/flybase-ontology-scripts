@@ -1,0 +1,78 @@
+ID	CLASS_TYPE	RDF_Type	Symbol	ref1	Synonym_gr	ref2	Synonym_en	ref3
+ID	CLASS_TYPE	TYPE	A IAO:0000028	<A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	<A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	<A oboInOwl:hasDbXref
+FBbt:00003731	subclass	owl:Class	T4					
+FBbt:00003736	subclass	owl:Class	T5					
+FBbt:00003874	subclass	owl:Class	LC4					
+FBbt:00003876	subclass	owl:Class	LC6					
+FBbt:00007405	subclass	owl:Class	CSD		CSD			
+FBbt:00100226	subclass	owl:Class	MB-C1					
+FBbt:00100230	subclass	owl:Class	PAM-γ3		PAM-γ3			
+FBbt:00100231	subclass	owl:Class	PAM-β2β'2a		PAM-β2β'2a			
+FBbt:00100232	subclass	owl:Class	MBON-β'2mp		MBON-β'2mp			
+FBbt:00100234	subclass	owl:Class	MBON-γ5β'2a		MBON-γ5β'2a			
+FBbt:00100236	subclass	owl:Class	PPL1-α'2α2		PPL1-α'2α2			
+FBbt:00100238	subclass	owl:Class	MBON-α3		MBON-α3			
+FBbt:00100240	subclass	owl:Class	MBON-calyx					
+FBbt:00100241	subclass	owl:Class	PPL1-γ2α'1		PPL1-γ2α'1			
+FBbt:00100242	subclass	owl:Class	MBON-β1>α		MBON-β1>α			
+FBbt:00100243	subclass	owl:Class	PPL1-γ1pedc		PPL1-γ1pedc			
+FBbt:00100246	subclass	owl:Class	MBON-γ1pedc>α/β		MBON-γ1pedc>α/β			
+FBbt:00100250	subclass	owl:Class	α'/β'ap KC		α'/β'ap KC		alpha'/beta'ap KC	
+FBbt:00100253	subclass	owl:Class	α'/β'm KC		α'/β'm KC		alpha'/beta'm KC	
+FBbt:00100480	subclass	owl:Class	LC9		LC9			
+FBbt:00100482	subclass	owl:Class	LC10		LC10			
+FBbt:00100483	subclass	owl:Class	LC11		LC11			
+FBbt:00100484	subclass	owl:Class	LC12		LC12			
+FBbt:00100485	subclass	owl:Class	LC13		LC13			
+FBbt:00110101	subclass	owl:Class	MBON-α2sc		MBON-α2sc			
+FBbt:00110102	subclass	owl:Class	MBON-α'2		MBON-α'2		MBON-alpha'2	
+FBbt:00110151	subclass	owl:Class	OA-VPM3					
+FBbt:00110152	subclass	owl:Class	OA-VPM4					
+FBbt:00110320	subclass	owl:Class	PPL1-α3		PPL1-α3			
+FBbt:00110321	subclass	owl:Class	PPL1-α'3		PPL1-α'3			
+FBbt:00110929	subclass	owl:Class	α/βc KC		α/βc KC		alpha/betac KC	
+FBbt:00110930	subclass	owl:Class	α/βs KC		α/βs KC		alpha/betas KC	
+FBbt:00110931	subclass	owl:Class	α/βp KC		α/βp KC		alpha/betap KC	
+FBbt:00110932	subclass	owl:Class	γd KC		γd KC		gammad KC	
+FBbt:00110993	subclass	owl:Class	PAM-β2		PAM-β2			
+FBbt:00110994	subclass	owl:Class	PAM-β1		PAM-β1			
+FBbt:00111004	subclass	owl:Class	MBON-γ4>γ1γ2		MBON-γ4>γ1γ2			
+FBbt:00111005	subclass	owl:Class	MBON-α1		MBON-α1			
+FBbt:00111006	subclass	owl:Class	MBON-γ3		MBON-γ3			
+FBbt:00111007	subclass	owl:Class	MBON-γ3β'1		MBON-γ3β'1			
+FBbt:00111008	subclass	owl:Class	MBON-β'1		MBON-β'1			
+FBbt:00111009	subclass	owl:Class	MBON-γ2α'1		MBON-γ2α'1			
+FBbt:00111010	subclass	owl:Class	MBON-α'1		MBON-α'1			
+FBbt:00111011	subclass	owl:Class	MBON-α2p3p		MBON-α2p3p			
+FBbt:00111012	subclass	owl:Class	MBON-β2β'2a		MBON-β2β'2a			
+FBbt:00111014	subclass	owl:Class	MBON-β'2mp_bilateral		MBON-β'2mp_bilateral			
+FBbt:00111015	subclass	owl:Class	PAM-γ5		PAM-γ5			
+FBbt:00111016	subclass	owl:Class	PAM-β'2a		PAM-β'2a			
+FBbt:00111017	subclass	owl:Class	PAM-β'2p		PAM-β'2p			
+FBbt:00111018	subclass	owl:Class	PAM-β'2m		PAM-β'2m			
+FBbt:00111019	subclass	owl:Class	PAM-γ4<γ1γ2		PAM-γ4<γ1γ2		PAM-gamma4<gamma1gamma2	
+FBbt:00111020	subclass	owl:Class	PAM-γ4		PAM-γ4			
+FBbt:00111021	subclass	owl:Class	PAM-β1ped		PAM-β1ped			
+FBbt:00111022	subclass	owl:Class	PAM-α1		PAM-α1			
+FBbt:00111023	subclass	owl:Class	PAM-β'1 ap		PAM-β'1 ap		PAM-beta'1 ap	
+FBbt:00111024	subclass	owl:Class	PAM-β'1 m		PAM-β'1 m		PAM-beta'1 m	
+FBbt:00111061	subclass	owl:Class	γmain KC		γmain KC		gammamain KC	
+FBbt:00111063	subclass	owl:Class	MBON-α'3ap		MBON-α'3ap			
+FBbt:00111064	subclass	owl:Class	MBON-α'3m		MBON-α'3m			
+FBbt:00111288	subclass	owl:Class	LPi4-3					
+FBbt:00111745	subclass	owl:Class	LC10b		LC10b			
+FBbt:00111746	subclass	owl:Class	LC10c		LC10c			
+FBbt:00111747	subclass	owl:Class	LC10a		LC10a			
+FBbt:00111748	subclass	owl:Class	LC10d		LC10d			
+FBbt:00111750	subclass	owl:Class	LC15		LC15			
+FBbt:00111751	subclass	owl:Class	LC16		LC16			
+FBbt:00111752	subclass	owl:Class	LC17		LC17			
+FBbt:00111753	subclass	owl:Class	LC18		LC18			
+FBbt:00111755	subclass	owl:Class	LC20		LC20			
+FBbt:00111756	subclass	owl:Class	LC21		LC21			
+FBbt:00111757	subclass	owl:Class	LC22		LC22			
+FBbt:00111759	subclass	owl:Class	LC24		LC24			
+FBbt:00111760	subclass	owl:Class	LC25		LC25			
+FBbt:00111761	subclass	owl:Class	LC26		LC26			
+FBbt:00111762	subclass	owl:Class	LPLC1		LPLC1			
+FBbt:00111763	subclass	owl:Class	LPLC2		LPLC2			

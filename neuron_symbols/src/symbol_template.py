@@ -67,7 +67,6 @@ template_seed = OrderedDict([('ID', 'ID'), ('CLASS_TYPE', 'CLASS_TYPE'),
                              ('ref2', ">A oboInOwl:hasDbXref"),
                              ('Synonym_en', "A oboInOwl:hasExactSynonym"),
                              ('ref3', ">A oboInOwl:hasDbXref")])
-# TODO - references
 
 template = pd.DataFrame.from_records([template_seed])
 

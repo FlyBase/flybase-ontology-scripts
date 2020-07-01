@@ -4,61 +4,61 @@ FBbt:00003731	subclass	owl:Class	T4
 FBbt:00003736	subclass	owl:Class	T5					
 FBbt:00003874	subclass	owl:Class	LC4					
 FBbt:00003876	subclass	owl:Class	LC6					
-FBbt:00007405	subclass	owl:Class	CSD		CSD			
-FBbt:00100226	subclass	owl:Class	MB-C1					
-FBbt:00100230	subclass	owl:Class	PAM-γ3		PAM-γ3			
-FBbt:00100231	subclass	owl:Class	PAM-β2β'2a		PAM-β2β'2a			
-FBbt:00100232	subclass	owl:Class	MBON-β'2mp		MBON-β'2mp			
-FBbt:00100234	subclass	owl:Class	MBON-γ5β'2a		MBON-γ5β'2a			
-FBbt:00100236	subclass	owl:Class	PPL1-α'2α2		PPL1-α'2α2			
-FBbt:00100238	subclass	owl:Class	MBON-α3		MBON-α3			
-FBbt:00100240	subclass	owl:Class	MBON-calyx					
-FBbt:00100241	subclass	owl:Class	PPL1-γ2α'1		PPL1-γ2α'1			
-FBbt:00100242	subclass	owl:Class	MBON-β1>α		MBON-β1>α			
-FBbt:00100243	subclass	owl:Class	PPL1-γ1pedc		PPL1-γ1pedc			
-FBbt:00100246	subclass	owl:Class	MBON-γ1pedc>α/β		MBON-γ1pedc>α/β			
-FBbt:00100250	subclass	owl:Class	α'/β'ap KC		α'/β'ap KC		alpha'/beta'ap KC	
-FBbt:00100253	subclass	owl:Class	α'/β'm KC		α'/β'm KC		alpha'/beta'm KC	
+FBbt:00007405	subclass	owl:Class	CSD	FlyBase:FBrf0227179	CSD	FlyBase:FBrf0227179		
+FBbt:00100226	subclass	owl:Class	MB-C1	FlyBase:FBrf0227179				
+FBbt:00100230	subclass	owl:Class	PAM-γ3	FlyBase:FBrf0227179	PAM-γ3	FlyBase:FBrf0227179		
+FBbt:00100231	subclass	owl:Class	PAM-β2β'2a	FlyBase:FBrf0227179	PAM-β2β'2a	FlyBase:FBrf0227179		
+FBbt:00100232	subclass	owl:Class	MBON-β'2mp	FlyBase:FBrf0227179	MBON-β'2mp	FlyBase:FBrf0227179		
+FBbt:00100234	subclass	owl:Class	MBON-γ5β'2a	FlyBase:FBrf0227179	MBON-γ5β'2a	FlyBase:FBrf0227179		
+FBbt:00100236	subclass	owl:Class	PPL1-α'2α2	FlyBase:FBrf0227179	PPL1-α'2α2	FlyBase:FBrf0227179		
+FBbt:00100238	subclass	owl:Class	MBON-α3	FlyBase:FBrf0227179	MBON-α3	FlyBase:FBrf0227179		
+FBbt:00100240	subclass	owl:Class	MBON-calyx	FlyBase:FBrf0227179				
+FBbt:00100241	subclass	owl:Class	PPL1-γ2α'1	FlyBase:FBrf0227179	PPL1-γ2α'1	FlyBase:FBrf0227179		
+FBbt:00100242	subclass	owl:Class	MBON-β1>α	FlyBase:FBrf0227179	MBON-β1>α	FlyBase:FBrf0227179		
+FBbt:00100243	subclass	owl:Class	PPL1-γ1pedc	FlyBase:FBrf0227179	PPL1-γ1pedc	FlyBase:FBrf0227179		
+FBbt:00100246	subclass	owl:Class	MBON-γ1pedc>α/β	FlyBase:FBrf0227179	MBON-γ1pedc>α/β	FlyBase:FBrf0227179		
+FBbt:00100250	subclass	owl:Class	α'/β'ap KC	FlyBase:FBrf0227179	α'/β'ap KC	FlyBase:FBrf0227179	alpha'/beta'ap KC	FlyBase:FBrf0227179
+FBbt:00100253	subclass	owl:Class	α'/β'm KC	FlyBase:FBrf0227179	α'/β'm KC	FlyBase:FBrf0227179	alpha'/beta'm KC	FlyBase:FBrf0227179
 FBbt:00100480	subclass	owl:Class	LC9		LC9			
 FBbt:00100482	subclass	owl:Class	LC10		LC10			
 FBbt:00100483	subclass	owl:Class	LC11		LC11			
 FBbt:00100484	subclass	owl:Class	LC12		LC12			
 FBbt:00100485	subclass	owl:Class	LC13		LC13			
-FBbt:00110101	subclass	owl:Class	MBON-α2sc		MBON-α2sc			
-FBbt:00110102	subclass	owl:Class	MBON-α'2		MBON-α'2		MBON-alpha'2	
-FBbt:00110151	subclass	owl:Class	OA-VPM3					
-FBbt:00110152	subclass	owl:Class	OA-VPM4					
-FBbt:00110320	subclass	owl:Class	PPL1-α3		PPL1-α3			
-FBbt:00110321	subclass	owl:Class	PPL1-α'3		PPL1-α'3			
-FBbt:00110929	subclass	owl:Class	α/βc KC		α/βc KC		alpha/betac KC	
-FBbt:00110930	subclass	owl:Class	α/βs KC		α/βs KC		alpha/betas KC	
-FBbt:00110931	subclass	owl:Class	α/βp KC		α/βp KC		alpha/betap KC	
-FBbt:00110932	subclass	owl:Class	γd KC		γd KC		gammad KC	
-FBbt:00110993	subclass	owl:Class	PAM-β2		PAM-β2			
-FBbt:00110994	subclass	owl:Class	PAM-β1		PAM-β1			
-FBbt:00111004	subclass	owl:Class	MBON-γ4>γ1γ2		MBON-γ4>γ1γ2			
-FBbt:00111005	subclass	owl:Class	MBON-α1		MBON-α1			
-FBbt:00111006	subclass	owl:Class	MBON-γ3		MBON-γ3			
-FBbt:00111007	subclass	owl:Class	MBON-γ3β'1		MBON-γ3β'1			
-FBbt:00111008	subclass	owl:Class	MBON-β'1		MBON-β'1			
-FBbt:00111009	subclass	owl:Class	MBON-γ2α'1		MBON-γ2α'1			
-FBbt:00111010	subclass	owl:Class	MBON-α'1		MBON-α'1			
-FBbt:00111011	subclass	owl:Class	MBON-α2p3p		MBON-α2p3p			
-FBbt:00111012	subclass	owl:Class	MBON-β2β'2a		MBON-β2β'2a			
-FBbt:00111014	subclass	owl:Class	MBON-β'2mp_bilateral		MBON-β'2mp_bilateral			
-FBbt:00111015	subclass	owl:Class	PAM-γ5		PAM-γ5			
-FBbt:00111016	subclass	owl:Class	PAM-β'2a		PAM-β'2a			
-FBbt:00111017	subclass	owl:Class	PAM-β'2p		PAM-β'2p			
-FBbt:00111018	subclass	owl:Class	PAM-β'2m		PAM-β'2m			
-FBbt:00111019	subclass	owl:Class	PAM-γ4<γ1γ2		PAM-γ4<γ1γ2		PAM-gamma4<gamma1gamma2	
-FBbt:00111020	subclass	owl:Class	PAM-γ4		PAM-γ4			
-FBbt:00111021	subclass	owl:Class	PAM-β1ped		PAM-β1ped			
-FBbt:00111022	subclass	owl:Class	PAM-α1		PAM-α1			
-FBbt:00111023	subclass	owl:Class	PAM-β'1 ap		PAM-β'1 ap		PAM-beta'1 ap	
-FBbt:00111024	subclass	owl:Class	PAM-β'1 m		PAM-β'1 m		PAM-beta'1 m	
-FBbt:00111061	subclass	owl:Class	γmain KC		γmain KC		gammamain KC	
-FBbt:00111063	subclass	owl:Class	MBON-α'3ap		MBON-α'3ap			
-FBbt:00111064	subclass	owl:Class	MBON-α'3m		MBON-α'3m			
+FBbt:00110101	subclass	owl:Class	MBON-α2sc	FlyBase:FBrf0227179	MBON-α2sc	FlyBase:FBrf0227179		
+FBbt:00110102	subclass	owl:Class	MBON-α'2	FlyBase:FBrf0227179	MBON-α'2	FlyBase:FBrf0227179	MBON-alpha'2	FlyBase:FBrf0227179
+FBbt:00110151	subclass	owl:Class	OA-VPM3	FlyBase:FBrf0227179				
+FBbt:00110152	subclass	owl:Class	OA-VPM4	FlyBase:FBrf0227179				
+FBbt:00110320	subclass	owl:Class	PPL1-α3	FlyBase:FBrf0227179	PPL1-α3	FlyBase:FBrf0227179		
+FBbt:00110321	subclass	owl:Class	PPL1-α'3	FlyBase:FBrf0227179	PPL1-α'3	FlyBase:FBrf0227179		
+FBbt:00110929	subclass	owl:Class	α/βc KC	FlyBase:FBrf0227179	α/βc KC	FlyBase:FBrf0227179	alpha/betac KC	FlyBase:FBrf0227179
+FBbt:00110930	subclass	owl:Class	α/βs KC	FlyBase:FBrf0227179	α/βs KC	FlyBase:FBrf0227179	alpha/betas KC	FlyBase:FBrf0227179
+FBbt:00110931	subclass	owl:Class	α/βp KC	FlyBase:FBrf0227179	α/βp KC	FlyBase:FBrf0227179	alpha/betap KC	FlyBase:FBrf0227179
+FBbt:00110932	subclass	owl:Class	γd KC	FlyBase:FBrf0227179	γd KC	FlyBase:FBrf0227179	gammad KC	FlyBase:FBrf0227179
+FBbt:00110993	subclass	owl:Class	PAM-β2	FlyBase:FBrf0227179	PAM-β2	FlyBase:FBrf0227179		
+FBbt:00110994	subclass	owl:Class	PAM-β1	FlyBase:FBrf0227179	PAM-β1	FlyBase:FBrf0227179		
+FBbt:00111004	subclass	owl:Class	MBON-γ4>γ1γ2	FlyBase:FBrf0227179	MBON-γ4>γ1γ2	FlyBase:FBrf0227179		
+FBbt:00111005	subclass	owl:Class	MBON-α1	FlyBase:FBrf0227179	MBON-α1	FlyBase:FBrf0227179		
+FBbt:00111006	subclass	owl:Class	MBON-γ3	FlyBase:FBrf0227179	MBON-γ3	FlyBase:FBrf0227179		
+FBbt:00111007	subclass	owl:Class	MBON-γ3β'1	FlyBase:FBrf0227179	MBON-γ3β'1	FlyBase:FBrf0227179		
+FBbt:00111008	subclass	owl:Class	MBON-β'1	FlyBase:FBrf0227179	MBON-β'1	FlyBase:FBrf0227179		
+FBbt:00111009	subclass	owl:Class	MBON-γ2α'1	FlyBase:FBrf0227179	MBON-γ2α'1	FlyBase:FBrf0227179		
+FBbt:00111010	subclass	owl:Class	MBON-α'1	FlyBase:FBrf0227179	MBON-α'1	FlyBase:FBrf0227179		
+FBbt:00111011	subclass	owl:Class	MBON-α2p3p	FlyBase:FBrf0227179	MBON-α2p3p	FlyBase:FBrf0227179		
+FBbt:00111012	subclass	owl:Class	MBON-β2β'2a	FlyBase:FBrf0227179	MBON-β2β'2a	FlyBase:FBrf0227179		
+FBbt:00111014	subclass	owl:Class	MBON-β'2mp_bilateral	FlyBase:FBrf0227179	MBON-β'2mp_bilateral	FlyBase:FBrf0227179		
+FBbt:00111015	subclass	owl:Class	PAM-γ5	FlyBase:FBrf0227179	PAM-γ5	FlyBase:FBrf0227179		
+FBbt:00111016	subclass	owl:Class	PAM-β'2a	FlyBase:FBrf0227179	PAM-β'2a	FlyBase:FBrf0227179		
+FBbt:00111017	subclass	owl:Class	PAM-β'2p	FlyBase:FBrf0227179	PAM-β'2p	FlyBase:FBrf0227179		
+FBbt:00111018	subclass	owl:Class	PAM-β'2m	FlyBase:FBrf0227179	PAM-β'2m	FlyBase:FBrf0227179		
+FBbt:00111019	subclass	owl:Class	PAM-γ4<γ1γ2	FlyBase:FBrf0227179	PAM-γ4<γ1γ2	FlyBase:FBrf0227179	PAM-gamma4<gamma1gamma2	FlyBase:FBrf0227179
+FBbt:00111020	subclass	owl:Class	PAM-γ4	FlyBase:FBrf0227179	PAM-γ4	FlyBase:FBrf0227179		
+FBbt:00111021	subclass	owl:Class	PAM-β1ped	FlyBase:FBrf0227179	PAM-β1ped	FlyBase:FBrf0227179		
+FBbt:00111022	subclass	owl:Class	PAM-α1	FlyBase:FBrf0227179	PAM-α1	FlyBase:FBrf0227179		
+FBbt:00111023	subclass	owl:Class	PAM-β'1 ap	FlyBase:FBrf0227179	PAM-β'1 ap	FlyBase:FBrf0227179	PAM-beta'1 ap	FlyBase:FBrf0227179
+FBbt:00111024	subclass	owl:Class	PAM-β'1 m	FlyBase:FBrf0227179	PAM-β'1 m	FlyBase:FBrf0227179	PAM-beta'1 m	FlyBase:FBrf0227179
+FBbt:00111061	subclass	owl:Class	γmain KC	FlyBase:FBrf0227179	γmain KC	FlyBase:FBrf0227179	gammamain KC	FlyBase:FBrf0227179
+FBbt:00111063	subclass	owl:Class	MBON-α'3ap	FlyBase:FBrf0227179	MBON-α'3ap	FlyBase:FBrf0227179		
+FBbt:00111064	subclass	owl:Class	MBON-α'3m	FlyBase:FBrf0227179	MBON-α'3m	FlyBase:FBrf0227179		
 FBbt:00111288	subclass	owl:Class	LPi4-3					
 FBbt:00111745	subclass	owl:Class	LC10b		LC10b			
 FBbt:00111746	subclass	owl:Class	LC10c		LC10c			
@@ -76,3 +76,101 @@ FBbt:00111760	subclass	owl:Class	LC25		LC25
 FBbt:00111761	subclass	owl:Class	LC26		LC26			
 FBbt:00111762	subclass	owl:Class	LPLC1		LPLC1			
 FBbt:00111763	subclass	owl:Class	LPLC2		LPLC2			
+FBbt:00047590	subclass	owl:Class	DNd01	FlyBase:FBrf0239335				
+FBbt:00047591	subclass	owl:Class	DNd02	FlyBase:FBrf0239335				
+FBbt:00047592	subclass	owl:Class	DNd03	FlyBase:FBrf0239335				
+FBbt:00047572	subclass	owl:Class	DNa01	FlyBase:FBrf0239335				
+FBbt:00047573	subclass	owl:Class	DNa02	FlyBase:FBrf0239335				
+FBbt:00047574	subclass	owl:Class	DNa03	FlyBase:FBrf0239335				
+FBbt:00047575	subclass	owl:Class	DNa04	FlyBase:FBrf0239335				
+FBbt:00047576	subclass	owl:Class	DNa05	FlyBase:FBrf0239335				
+FBbt:00047577	subclass	owl:Class	DNa06	FlyBase:FBrf0239335				
+FBbt:00047578	subclass	owl:Class	DNa07	FlyBase:FBrf0239335				
+FBbt:00047579	subclass	owl:Class	DNa08	FlyBase:FBrf0239335				
+FBbt:00047580	subclass	owl:Class	DNa09	FlyBase:FBrf0239335				
+FBbt:00047581	subclass	owl:Class	DNa10	FlyBase:FBrf0239335				
+FBbt:00047582	subclass	owl:Class	DNb01	FlyBase:FBrf0239335				
+FBbt:00047583	subclass	owl:Class	DNb02	FlyBase:FBrf0239335				
+FBbt:00047584	subclass	owl:Class	DNb03	FlyBase:FBrf0239335				
+FBbt:00047585	subclass	owl:Class	DNb04	FlyBase:FBrf0239335				
+FBbt:00047586	subclass	owl:Class	DNb05	FlyBase:FBrf0239335				
+FBbt:00047587	subclass	owl:Class	DNb06	FlyBase:FBrf0239335				
+FBbt:00047593	subclass	owl:Class	DNg01	FlyBase:FBrf0239335				
+FBbt:00047594	subclass	owl:Class	DNg02	FlyBase:FBrf0239335				
+FBbt:00047595	subclass	owl:Class	DNg03	FlyBase:FBrf0239335				
+FBbt:00047596	subclass	owl:Class	DNg04	FlyBase:FBrf0239335				
+FBbt:00047597	subclass	owl:Class	DNg05	FlyBase:FBrf0239335				
+FBbt:00047598	subclass	owl:Class	DNg06	FlyBase:FBrf0239335				
+FBbt:00047599	subclass	owl:Class	DNg07	FlyBase:FBrf0239335				
+FBbt:00047600	subclass	owl:Class	DNg08	FlyBase:FBrf0239335				
+FBbt:00047601	subclass	owl:Class	DNg09	FlyBase:FBrf0239335				
+FBbt:00047602	subclass	owl:Class	DNg10	FlyBase:FBrf0239335				
+FBbt:00047603	subclass	owl:Class	DNg11	FlyBase:FBrf0239335				
+FBbt:00047604	subclass	owl:Class	DNg12	FlyBase:FBrf0239335				
+FBbt:00047605	subclass	owl:Class	DNg13	FlyBase:FBrf0239335				
+FBbt:00047606	subclass	owl:Class	DNg14	FlyBase:FBrf0239335				
+FBbt:00047607	subclass	owl:Class	DNg15	FlyBase:FBrf0239335				
+FBbt:00047608	subclass	owl:Class	DNg16	FlyBase:FBrf0239335				
+FBbt:00047609	subclass	owl:Class	DNg17	FlyBase:FBrf0239335				
+FBbt:00047610	subclass	owl:Class	DNg18	FlyBase:FBrf0239335				
+FBbt:00047611	subclass	owl:Class	DNg19	FlyBase:FBrf0239335				
+FBbt:00047612	subclass	owl:Class	DNg20	FlyBase:FBrf0239335				
+FBbt:00047613	subclass	owl:Class	DNg21	FlyBase:FBrf0239335				
+FBbt:00047614	subclass	owl:Class	DNg22	FlyBase:FBrf0239335				
+FBbt:00047615	subclass	owl:Class	DNg23	FlyBase:FBrf0239335				
+FBbt:00047616	subclass	owl:Class	DNg24	FlyBase:FBrf0239335				
+FBbt:00047617	subclass	owl:Class	DNg25	FlyBase:FBrf0239335				
+FBbt:00047618	subclass	owl:Class	DNg26	FlyBase:FBrf0239335				
+FBbt:00047619	subclass	owl:Class	DNg27	FlyBase:FBrf0239335				
+FBbt:00047620	subclass	owl:Class	DNg28	FlyBase:FBrf0239335				
+FBbt:00047621	subclass	owl:Class	DNg29	FlyBase:FBrf0239335				
+FBbt:00047622	subclass	owl:Class	DNg30	FlyBase:FBrf0239335				
+FBbt:00047623	subclass	owl:Class	DNg31	FlyBase:FBrf0239335				
+FBbt:00047624	subclass	owl:Class	DNg32	FlyBase:FBrf0239335				
+FBbt:00047625	subclass	owl:Class	DNg33	FlyBase:FBrf0239335				
+FBbt:00047626	subclass	owl:Class	DNg34	FlyBase:FBrf0239335				
+FBbt:00047627	subclass	owl:Class	DNg35	FlyBase:FBrf0239335				
+FBbt:00047628	subclass	owl:Class	DNg36	FlyBase:FBrf0239335				
+FBbt:00047629	subclass	owl:Class	DNg37	FlyBase:FBrf0239335				
+FBbt:00047630	subclass	owl:Class	DNg38	FlyBase:FBrf0239335				
+FBbt:00047631	subclass	owl:Class	DNg39	FlyBase:FBrf0239335				
+FBbt:00047632	subclass	owl:Class	DNg40	FlyBase:FBrf0239335				
+FBbt:00047633	subclass	owl:Class	DNg41	FlyBase:FBrf0239335				
+FBbt:00047588	subclass	owl:Class	DNc01	FlyBase:FBrf0239335				
+FBbt:00047589	subclass	owl:Class	DNc02	FlyBase:FBrf0239335				
+FBbt:00047634	subclass	owl:Class	DNp01	FlyBase:FBrf0239335				
+FBbt:00047635	subclass	owl:Class	DNp02	FlyBase:FBrf0239335				
+FBbt:00047636	subclass	owl:Class	DNp03	FlyBase:FBrf0239335				
+FBbt:00047637	subclass	owl:Class	DNp04	FlyBase:FBrf0239335				
+FBbt:00047638	subclass	owl:Class	DNp05	FlyBase:FBrf0239335				
+FBbt:00047639	subclass	owl:Class	DNp06	FlyBase:FBrf0239335				
+FBbt:00047640	subclass	owl:Class	DNp07	FlyBase:FBrf0239335				
+FBbt:00047641	subclass	owl:Class	DNp08	FlyBase:FBrf0239335				
+FBbt:00047642	subclass	owl:Class	DNp09	FlyBase:FBrf0239335				
+FBbt:00047643	subclass	owl:Class	DNp10	FlyBase:FBrf0239335				
+FBbt:00047644	subclass	owl:Class	DNp11	FlyBase:FBrf0239335				
+FBbt:00047645	subclass	owl:Class	DNp12	FlyBase:FBrf0239335				
+FBbt:00047646	subclass	owl:Class	DNp13	FlyBase:FBrf0239335				
+FBbt:00047647	subclass	owl:Class	DNp14	FlyBase:FBrf0239335				
+FBbt:00047648	subclass	owl:Class	DNp15	FlyBase:FBrf0239335				
+FBbt:00047649	subclass	owl:Class	DNp16	FlyBase:FBrf0239335				
+FBbt:00047650	subclass	owl:Class	DNp17	FlyBase:FBrf0239335				
+FBbt:00047651	subclass	owl:Class	DNp18	FlyBase:FBrf0239335				
+FBbt:00047652	subclass	owl:Class	DNp19	FlyBase:FBrf0239335				
+FBbt:00047653	subclass	owl:Class	DNp20	FlyBase:FBrf0239335				
+FBbt:00047654	subclass	owl:Class	DNp21	FlyBase:FBrf0239335				
+FBbt:00047655	subclass	owl:Class	DNp22	FlyBase:FBrf0239335				
+FBbt:00047656	subclass	owl:Class	DNp23	FlyBase:FBrf0239335				
+FBbt:00047657	subclass	owl:Class	DNp24	FlyBase:FBrf0239335				
+FBbt:00047658	subclass	owl:Class	DNp25	FlyBase:FBrf0239335				
+FBbt:00047659	subclass	owl:Class	DNp26	FlyBase:FBrf0239335				
+FBbt:00047660	subclass	owl:Class	DNp27	FlyBase:FBrf0239335				
+FBbt:00047661	subclass	owl:Class	DNp28	FlyBase:FBrf0239335				
+FBbt:00047662	subclass	owl:Class	DNp29	FlyBase:FBrf0239335				
+FBbt:00047663	subclass	owl:Class	DNp30	FlyBase:FBrf0239335				
+FBbt:00047664	subclass	owl:Class	DNp31	FlyBase:FBrf0239335				
+FBbt:00047665	subclass	owl:Class	DNp32	FlyBase:FBrf0239335				
+FBbt:00047666	subclass	owl:Class	DNp33	FlyBase:FBrf0239335				
+FBbt:00047667	subclass	owl:Class	DNp34	FlyBase:FBrf0239335				
+FBbt:00047668	subclass	owl:Class	DNp35	FlyBase:FBrf0239335				
+FBbt:00047669	subclass	owl:Class	DNx01	FlyBase:FBrf0239335				

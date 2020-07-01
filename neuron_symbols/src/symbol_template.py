@@ -62,11 +62,11 @@ for s in term_table['symbol']:
 # prepare an empty template:
 template_seed = OrderedDict([('ID', 'ID'), ('CLASS_TYPE', 'CLASS_TYPE'),
                              ('RDF_Type', 'TYPE'), ("Symbol", "A IAO:0000028"),
-                             ('ref1', "<A oboInOwl:hasDbXref"),
+                             ('ref1', ">A oboInOwl:hasDbXref"),
                              ('Synonym_gr', "A oboInOwl:hasExactSynonym"),
-                             ('ref2', "<A oboInOwl:hasDbXref"),
+                             ('ref2', ">A oboInOwl:hasDbXref"),
                              ('Synonym_en', "A oboInOwl:hasExactSynonym"),
-                             ('ref3', "<A oboInOwl:hasDbXref")])
+                             ('ref3', ">A oboInOwl:hasDbXref")])
 # TODO - references
 
 template = pd.DataFrame.from_records([template_seed])

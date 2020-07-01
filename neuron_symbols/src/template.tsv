@@ -1,5 +1,5 @@
 ID	CLASS_TYPE	RDF_Type	Symbol	ref1	Synonym_gr	ref2	Synonym_en	ref3
-ID	CLASS_TYPE	TYPE	A IAO:0000028	<A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	<A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	<A oboInOwl:hasDbXref
+ID	CLASS_TYPE	TYPE	A IAO:0000028	>A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	>A oboInOwl:hasDbXref	A oboInOwl:hasExactSynonym	>A oboInOwl:hasDbXref
 FBbt:00003731	subclass	owl:Class	T4					
 FBbt:00003736	subclass	owl:Class	T5					
 FBbt:00003874	subclass	owl:Class	LC4					

@@ -35,7 +35,7 @@ def generate_report(iri_list, fbbt_path, xlsx_out):
     # substitute FBrfs with citations and links:
 
     # open pub_miniref file (FBrfs are the index)
-    ref_list = pd.read_csv("pub_miniref.txt", sep=" == ", engine="python")
+    ref_list = pd.read_csv("resources/pub_miniref.txt", sep=" == ", engine="python")
     ref_list.columns = ["Reference"]
 
     # list FBrfs in References column

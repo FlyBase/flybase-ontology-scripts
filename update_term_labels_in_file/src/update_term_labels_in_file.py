@@ -22,6 +22,7 @@ def replace_labels(dataframe, id_col_name='FBbt_ID', label_col_name='FBbt_name')
     labels_df = pd.DataFrame(labels)
     labels_df = labels_df.applymap(lambda x: x.replace('_', ':'))
 
+    existing_column = True
     try:
         dataframe = dataframe.drop(label_col_name, axis=1)
     except KeyError:

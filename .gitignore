@@ -6,3 +6,4 @@ feedback_spreadsheet_generation/src/__pycache__/
 change_report_generation/src/__pycache__/
 neuron_symbols/src/__pycache__/
 *.ipynb_checkpoints
+*.pyc

@@ -1416,7 +1416,7 @@ ER4m	FBbt:00007537	ring neuron R4m
 ER5	FBbt:00047042	ring neuron R5				
 ER6	FBbt:00047043	ring neuron R6				
 ExR1	FBbt:00003655	extrinsic ring neuron ExR1				
-ExR2	FBbt:00003656	extrinsic ring neuron ExR2				
+ExR2	FBbt:00110327	EB neuron of the dopaminergic PPM3 cluster				
 ExR3	FBbt:00047035	extrinsic ring neuron ExR3				
 ExR4	FBbt:00047036	extrinsic ring neuron ExR4				
 ExR5	FBbt:00003654	extrinsic ring neuron			specificity	

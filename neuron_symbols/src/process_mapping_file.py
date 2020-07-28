@@ -54,8 +54,9 @@ chsym_df_labels.to_csv('symbol_conflicts.tsv', sep='\t', index=None)
 indices_to_drop = changed_symbols_df[changed_symbols_df['in_file'] == 'old'].index
 mapping = mapping.drop(indices_to_drop, axis=0).drop(['_merge'], axis=1)
 
-# drop Giant Fiber
-mapping = mapping.drop(mapping[mapping['term'] == 'Giant Fiber'].index, axis=0)
+# drop Giant Fiber and too broad mappings - TODO - check again later
+mapping = mapping.drop(mapping[mapping['term'].isin(
+    ['Giant Fiber', 'PAM15', 'H2', 'JO-A/B/C', 'TRN_VP3'])].index, axis=0)
 
 # update term labels and save file
 mapping = update_term_labels_in_file.replace_labels(mapping, id_col_name='FBbt')

@@ -154,7 +154,6 @@ ExR2	FBbt:00110327		EB neuron of the dopaminergic PPM3 cluster
 ExR3	FBbt:00047035		extrinsic ring neuron ExR3
 ExR4	FBbt:00047036		extrinsic ring neuron ExR4
 H1	FBbt:00047991		lobula plate tangential neuron H1
-H2	FBbt:00003907		lobula plate tangential neuron
 HBeyelet	FBbt:00005740		eyelet photoreceptor
 HRN_VP4	FBbt:00047225		adult olfactory receptor neuron Ir40a VP4
 HRN_VP5	FBbt:00047222		adult olfactory receptor neuron Ir68a
@@ -162,7 +161,6 @@ HSE	FBbt:00003919		equatorial giant horizontal cell HSE
 HSN	FBbt:00003918		dorsal giant horizontal cell HSN
 HSS	FBbt:00003920		ventral giant horizontal cell HSS
 IbSpsP	FBbt:00111383	FlyBase:FBrf0240744	CCP-VMP-PB neuron
-JO-A/B/C	FBbt:00100000		Johnston organ neuron
 KCa'b'-m	FBbt:00100253		alpha\'/beta\' middle Kenyon cell
 KCab-c	FBbt:00110929		alpha/beta core Kenyon cell
 KCab-m	FBbt:00100248		alpha/beta Kenyon cell
@@ -408,7 +406,6 @@ PAM11	FBbt:00111022		dopaminergic PAM neuron 11
 PAM12	FBbt:00100230		mushroom body medial lobe arborizing neuron 2
 PAM13	FBbt:00111023		dopaminergic PAM neuron 13
 PAM14	FBbt:00111024		dopaminergic PAM neuron 14
-PAM15	FBbt:00100214		dopaminergic PAM neuron
 PEG	FBbt:00047031	FlyBase:FBrf0240744	PBG1-9.s-EBt.b-D/V GA.b neuron
 PFGs	FBbt:00111457	FlyBase:FBrf0240744	PB 1 glomerulus-FB layers 3 and 6-ventral gall surround neuron
 PFNa	FBbt:00111396	FlyBase:FBrf0240744	PB-FB-NO3 anterior domain neuron
@@ -430,7 +427,6 @@ T4	FBbt:00003731		T neuron T4
 T5	FBbt:00003736		T neuron T5
 TRN_VP1m	FBbt:00047226		adult olfactory receptor neuron Ir40a VP1
 TRN_VP2	FBbt:00007575		aristal sensory neuron VP2
-TRN_VP3	FBbt:00005918		thermosensory neuron
 VA1d_adPN	FBbt:00067357		adult antennal lobe projection neuron VA1d adPN
 VA1v_adPN	FBbt:00067361		adult antennal lobe projection neuron VA1v adPN
 VA1v_vPN	FBbt:00067371		adult antennal lobe projection neuron VA1v vPN

@@ -33,11 +33,19 @@ for i in term_table.index:
 term_table['symbol'] = symbol
 
 # check for duplicates in input IDs and symbols
-if max(term_table['FBbt'].value_counts()) > 1:
+fbbt_frequencies = term_table['FBbt'].value_counts()
+if max(fbbt_frequencies) > 1:
     print("Error: duplicate FBbt IDs in input file\nAborting")
+    print(fbbt_frequencies[fbbt_frequencies > 1])
+    if delete_edit_file:
+        os.remove("input_files/fbbt-edit.obo")
     raise SystemExit
-if max(term_table['symbol'].value_counts()) > 1:
+symbol_frequencies = term_table['symbol'].value_counts()
+if max(symbol_frequencies) > 1:
     print("Error: duplicate symbols in input file\nAborting")
+    print(symbol_frequencies[symbol_frequencies > 1])
+    if delete_edit_file:
+        os.remove("input_files/fbbt-edit.obo")
     raise SystemExit
 
 # Get existing symbol and synonym data for terms from FBbt
@@ -48,6 +56,8 @@ for term in term_table['FBbt']:
     if (len(synonym_info[term].existing_symbol) > 0) \
             and (synonym_info[term].existing_symbol != synonym_info[term].new_symbol):
         print("Error: %s already has a different symbol\nAborting" % term)
+        if delete_edit_file:
+            os.remove("input_files/fbbt-edit.obo")
         raise SystemExit
 
 # Check symbol does not exist as a symbol on another term
@@ -56,6 +66,8 @@ for s in term_table['symbol']:
     if s in existing_symbols.keys():
         print("Error: symbol %s already in use for %s\nAborting"
               % (s, existing_symbols[s]))
+        if delete_edit_file:
+            os.remove("input_files/fbbt-edit.obo")
         raise SystemExit
 
 

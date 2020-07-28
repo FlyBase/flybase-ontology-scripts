@@ -7,7 +7,7 @@ import re
 # 3 check new_input and manually rename to input
 # 4 run symbol_template.py
 
-# load old input file and set symbol as index
+# load old input file and set symbol and ID as multiindex
 old_input = pd.read_csv('input_files/old_input.tsv', sep='\t')
 old_input = old_input[['term', 'FBbt', 'reference']].set_index('term', 'FBbt')
 
@@ -21,7 +21,7 @@ mapping = mapping[mapping['FBbt'].notnull()]
 mapping['term'] = mapping['term'].map(lambda x: re.sub(re.compile('_[a-z]$'), "", x))
 mapping = mapping.drop_duplicates()
 
-# keep only rows with a unique FBbt ID and set symbol as index
+# keep only rows with a unique FBbt ID and set symbol and ID as multiindex
 mapping = mapping[mapping.FBbt.isin(list(mapping['FBbt'].value_counts()[
                 mapping['FBbt'].value_counts() == 1].index))].set_index('term', 'FBbt')
 
@@ -30,9 +30,10 @@ changed_ids = []
 for i in mapping.index:
     if i in old_input.index and old_input['FBbt'][i] != mapping['FBbt'][i]:
         changed_ids.append({i: {'old': old_input['FBbt'][i], 'new': mapping['FBbt'][i]}})
-print('Changed FBbt IDs: ', changed_ids)
+if len(changed_ids) > 0:
+    print('WARNING: Symbols with changed FBbt IDs: ', changed_ids)
 
-# add any reference detail that was in old file and missing from new
+# add reference detail that was in old file and missing from new (only for matching mapping)
 mapping.update(old_input)
 # merge old and new (indicator keeps track of which file row came from)
 mapping = pd.merge(mapping, old_input, on=['term', 'FBbt', 'reference'], how='outer', indicator=True)

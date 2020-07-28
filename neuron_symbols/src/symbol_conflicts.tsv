@@ -29,14 +29,14 @@ PPL1-alpha3	FBbt:00110320	FlyBase:FBrf0227179	old	MB-alpha neuron of the dopamin
 PPL106	FBbt:00110320		new	MB-alpha neuron of the dopaminergic PPL1 cluster
 PPL1-alpha'3	FBbt:00110321	FlyBase:FBrf0227179	old	MB-alpha\' neuron of the dopaminergic PPL1 cluster
 PPL104	FBbt:00110321		new	MB-alpha\' neuron of the dopaminergic PPL1 cluster
-alpha/betac KC	FBbt:00110929	FlyBase:FBrf0227179	old	alpha/beta core Kenyon cell
 KCab-c	FBbt:00110929		new	alpha/beta core Kenyon cell
+alpha/betac KC	FBbt:00110929	FlyBase:FBrf0227179	old	alpha/beta core Kenyon cell
 alpha/betas KC	FBbt:00110930	FlyBase:FBrf0227179	old	alpha/beta surface Kenyon cell
 KCab-s	FBbt:00110930		new	alpha/beta surface Kenyon cell
 alpha/betap KC	FBbt:00110931	FlyBase:FBrf0227179	old	alpha/beta posterior Kenyon cell
 KCab-p	FBbt:00110931		new	alpha/beta posterior Kenyon cell
-KCg-d	FBbt:00110932		new	gamma dorsal Kenyon cell
 gammad KC	FBbt:00110932	FlyBase:FBrf0227179	old	gamma dorsal Kenyon cell
+KCg-d	FBbt:00110932		new	gamma dorsal Kenyon cell
 PAM-beta2	FBbt:00110993	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 4
 PAM04	FBbt:00110993		new	dopaminergic PAM neuron 4
 PAM10	FBbt:00110994		new	dopaminergic PAM neuron 10
@@ -49,14 +49,14 @@ MBON09	FBbt:00111007		new	mushroom body output neuron 9
 MBON-gamma3beta'1	FBbt:00111007	FlyBase:FBrf0227179	old	mushroom body output neuron 9
 MBON10	FBbt:00111008		new	mushroom body output neuron 10
 MBON-beta'1	FBbt:00111008	FlyBase:FBrf0227179	old	mushroom body output neuron 10
-MBON-gamma2alpha'1	FBbt:00111009	FlyBase:FBrf0227179	old	mushroom body output neuron 12
 MBON12	FBbt:00111009		new	mushroom body output neuron 12
+MBON-gamma2alpha'1	FBbt:00111009	FlyBase:FBrf0227179	old	mushroom body output neuron 12
 MBON-alpha'1	FBbt:00111010	FlyBase:FBrf0227179	old	mushroom body output neuron 15
 MBON15	FBbt:00111010		new	mushroom body output neuron 15
-MBON19	FBbt:00111011		new	mushroom body output neuron 19
 MBON-alpha2p3p	FBbt:00111011	FlyBase:FBrf0227179	old	mushroom body output neuron 19
-MBON-beta2beta'2a	FBbt:00111012	FlyBase:FBrf0227179	old	mushroom body output neuron 2
+MBON19	FBbt:00111011		new	mushroom body output neuron 19
 MBON02	FBbt:00111012		new	mushroom body output neuron 2
+MBON-beta2beta'2a	FBbt:00111012	FlyBase:FBrf0227179	old	mushroom body output neuron 2
 MBON04	FBbt:00111014		new	mushroom body output neuron 4
 MBON-beta'2mp_bilateral	FBbt:00111014	FlyBase:FBrf0227179	old	mushroom body output neuron 4
 PAM-gamma5	FBbt:00111015	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 1
@@ -69,6 +69,8 @@ PAM06	FBbt:00111018		new	dopaminergic PAM neuron 6
 PAM-beta'2m	FBbt:00111018	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 6
 PAM07	FBbt:00111019		new	dopaminergic PAM neuron 7
 PAM-gamma4<gamma1gamma2	FBbt:00111019	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 7
+PAM08	FBbt:00111020		new	dopaminergic PAM neuron 8
+PAM-gamma4	FBbt:00111020	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 8
 PAM09	FBbt:00111021		new	dopaminergic PAM neuron 9
 PAM-beta1ped	FBbt:00111021	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 9
 PAM11	FBbt:00111022		new	dopaminergic PAM neuron 11

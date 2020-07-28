@@ -150,7 +150,7 @@ ER4m	FBbt:00007537		ring neuron R4m
 ER5	FBbt:00047042		ring neuron R5
 ER6	FBbt:00047043		ring neuron R6
 ExR1	FBbt:00003655		extrinsic ring neuron ExR1
-ExR2	FBbt:00003656		extrinsic ring neuron ExR2
+ExR2	FBbt:00110327		EB neuron of the dopaminergic PPM3 cluster
 ExR3	FBbt:00047035		extrinsic ring neuron ExR3
 ExR4	FBbt:00047036		extrinsic ring neuron ExR4
 H1	FBbt:00047991		lobula plate tangential neuron H1
@@ -394,7 +394,6 @@ ORN_VM5v	FBbt:00067062		adult olfactory receptor neuron Or98a
 ORN_VM7d	FBbt:00067042		adult olfactory receptor neuron Or42a
 ORN_VM7v	FBbt:00067007		adult olfactory receptor neuron Or59c
 P6-8P9	FBbt:00111056		protocerebral bridge 4 glomeruli neuron
-PAM-gamma4	FBbt:00111020 	FlyBase:FBrf0227179	
 PAM01	FBbt:00111015		dopaminergic PAM neuron 1
 PAM02	FBbt:00111016		dopaminergic PAM neuron 2
 PAM03	FBbt:00100231		mushroom body medial lobe arborizing neuron 3

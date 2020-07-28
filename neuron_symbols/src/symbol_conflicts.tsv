@@ -1,0 +1,85 @@
+term	FBbt	reference	in_file	FBbt_name
+PAM-gamma3	FBbt:00100230	FlyBase:FBrf0227179	old	mushroom body medial lobe arborizing neuron 2
+PAM12	FBbt:00100230		new	mushroom body medial lobe arborizing neuron 2
+PAM03	FBbt:00100231		new	mushroom body medial lobe arborizing neuron 3
+PAM-beta2beta'2a	FBbt:00100231	FlyBase:FBrf0227179	old	mushroom body medial lobe arborizing neuron 3
+MBON-beta'2mp	FBbt:00100232	FlyBase:FBrf0227179	old	mushroom body medial lobe arborizing neuron 4
+MBON03	FBbt:00100232		new	mushroom body medial lobe arborizing neuron 4
+MBON-gamma5beta'2a	FBbt:00100234	FlyBase:FBrf0227179	old	mushroom body medial lobe arborizing neuron 6
+MBON01	FBbt:00100234		new	mushroom body medial lobe arborizing neuron 6
+PPL105	FBbt:00100236		new	mushroom body vertical lobe arborizing neuron 1
+PPL1-alpha'2alpha2	FBbt:00100236	FlyBase:FBrf0227179	old	mushroom body vertical lobe arborizing neuron 1
+MBON-alpha3	FBbt:00100238	FlyBase:FBrf0227179	old	mushroom body vertical lobe arborizing neuron 3
+MBON14	FBbt:00100238		new	mushroom body vertical lobe arborizing neuron 3
+MBON-calyx	FBbt:00100240	FlyBase:FBrf0227179	old	mushroom body calyx-pedunculus arborizing neuron 1
+MBON22	FBbt:00100240		new	mushroom body calyx-pedunculus arborizing neuron 1
+PPL1-gamma2alpha'1	FBbt:00100241	FlyBase:FBrf0227179	old	mushroom body medial-vertical lobe arborizing neuron 1
+PPL103	FBbt:00100241		new	mushroom body medial-vertical lobe arborizing neuron 1
+MBON06	FBbt:00100242		new	mushroom body medial-vertical lobe arborizing neuron 2
+MBON-beta1>alpha	FBbt:00100242	FlyBase:FBrf0227179	old	mushroom body medial-vertical lobe arborizing neuron 2
+PPL1-gamma1pedc	FBbt:00100243	FlyBase:FBrf0227179	old	mushroom body pedunculus-medial lobe arborizing neuron 1
+PPL101	FBbt:00100243		new	mushroom body pedunculus-medial lobe arborizing neuron 1
+MBON11	FBbt:00100246		new	mushroom body pedunculus-medial lobe and vertical lobe arborizing neuron 2
+MBON-gamma1pedc>alpha/beta	FBbt:00100246	FlyBase:FBrf0227179	old	mushroom body pedunculus-medial lobe and vertical lobe arborizing neuron 2
+alpha'/beta'm KC	FBbt:00100253	FlyBase:FBrf0227179	old	alpha\'/beta\' middle Kenyon cell
+KCa'b'-m	FBbt:00100253		new	alpha\'/beta\' middle Kenyon cell
+MBON-alpha2sc	FBbt:00110101	FlyBase:FBrf0227179	old	mushroom body vertical lobe arborizing neuron 2 alpha
+MBON18	FBbt:00110101		new	mushroom body vertical lobe arborizing neuron 2 alpha
+PPL1-alpha3	FBbt:00110320	FlyBase:FBrf0227179	old	MB-alpha neuron of the dopaminergic PPL1 cluster
+PPL106	FBbt:00110320		new	MB-alpha neuron of the dopaminergic PPL1 cluster
+PPL1-alpha'3	FBbt:00110321	FlyBase:FBrf0227179	old	MB-alpha\' neuron of the dopaminergic PPL1 cluster
+PPL104	FBbt:00110321		new	MB-alpha\' neuron of the dopaminergic PPL1 cluster
+alpha/betac KC	FBbt:00110929	FlyBase:FBrf0227179	old	alpha/beta core Kenyon cell
+KCab-c	FBbt:00110929		new	alpha/beta core Kenyon cell
+alpha/betas KC	FBbt:00110930	FlyBase:FBrf0227179	old	alpha/beta surface Kenyon cell
+KCab-s	FBbt:00110930		new	alpha/beta surface Kenyon cell
+alpha/betap KC	FBbt:00110931	FlyBase:FBrf0227179	old	alpha/beta posterior Kenyon cell
+KCab-p	FBbt:00110931		new	alpha/beta posterior Kenyon cell
+KCg-d	FBbt:00110932		new	gamma dorsal Kenyon cell
+gammad KC	FBbt:00110932	FlyBase:FBrf0227179	old	gamma dorsal Kenyon cell
+PAM-beta2	FBbt:00110993	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 4
+PAM04	FBbt:00110993		new	dopaminergic PAM neuron 4
+PAM10	FBbt:00110994		new	dopaminergic PAM neuron 10
+PAM-beta1	FBbt:00110994	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 10
+MBON05	FBbt:00111004		new	mushroom body output neuron 5
+MBON-gamma4>gamma1gamma2	FBbt:00111004	FlyBase:FBrf0227179	old	mushroom body output neuron 5
+MBON07	FBbt:00111005		new	mushroom body output neuron 7
+MBON-alpha1	FBbt:00111005	FlyBase:FBrf0227179	old	mushroom body output neuron 7
+MBON09	FBbt:00111007		new	mushroom body output neuron 9
+MBON-gamma3beta'1	FBbt:00111007	FlyBase:FBrf0227179	old	mushroom body output neuron 9
+MBON10	FBbt:00111008		new	mushroom body output neuron 10
+MBON-beta'1	FBbt:00111008	FlyBase:FBrf0227179	old	mushroom body output neuron 10
+MBON-gamma2alpha'1	FBbt:00111009	FlyBase:FBrf0227179	old	mushroom body output neuron 12
+MBON12	FBbt:00111009		new	mushroom body output neuron 12
+MBON-alpha'1	FBbt:00111010	FlyBase:FBrf0227179	old	mushroom body output neuron 15
+MBON15	FBbt:00111010		new	mushroom body output neuron 15
+MBON19	FBbt:00111011		new	mushroom body output neuron 19
+MBON-alpha2p3p	FBbt:00111011	FlyBase:FBrf0227179	old	mushroom body output neuron 19
+MBON-beta2beta'2a	FBbt:00111012	FlyBase:FBrf0227179	old	mushroom body output neuron 2
+MBON02	FBbt:00111012		new	mushroom body output neuron 2
+MBON04	FBbt:00111014		new	mushroom body output neuron 4
+MBON-beta'2mp_bilateral	FBbt:00111014	FlyBase:FBrf0227179	old	mushroom body output neuron 4
+PAM-gamma5	FBbt:00111015	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 1
+PAM01	FBbt:00111015		new	dopaminergic PAM neuron 1
+PAM02	FBbt:00111016		new	dopaminergic PAM neuron 2
+PAM-beta'2a	FBbt:00111016	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 2
+PAM-beta'2p	FBbt:00111017	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 5
+PAM05	FBbt:00111017		new	dopaminergic PAM neuron 5
+PAM06	FBbt:00111018		new	dopaminergic PAM neuron 6
+PAM-beta'2m	FBbt:00111018	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 6
+PAM07	FBbt:00111019		new	dopaminergic PAM neuron 7
+PAM-gamma4<gamma1gamma2	FBbt:00111019	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 7
+PAM09	FBbt:00111021		new	dopaminergic PAM neuron 9
+PAM-beta1ped	FBbt:00111021	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 9
+PAM11	FBbt:00111022		new	dopaminergic PAM neuron 11
+PAM-alpha1	FBbt:00111022	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 11
+PAM13	FBbt:00111023		new	dopaminergic PAM neuron 13
+PAM-beta'1 ap	FBbt:00111023	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 13
+PAM-beta'1 m	FBbt:00111024	FlyBase:FBrf0227179	old	dopaminergic PAM neuron 14
+PAM14	FBbt:00111024		new	dopaminergic PAM neuron 14
+gammamain KC	FBbt:00111061	FlyBase:FBrf0227179	old	gamma main Kenyon cell
+KCg-m	FBbt:00111061		new	gamma main Kenyon cell
+MBON16	FBbt:00111063		new	mushroom body vertical lobe arborizing neuron 2 alpha\' anterior-posterior
+MBON-alpha'3ap	FBbt:00111063	FlyBase:FBrf0227179	old	mushroom body vertical lobe arborizing neuron 2 alpha\' anterior-posterior
+MBON17	FBbt:00111064		new	mushroom body vertical lobe arborizing neuron 2 alpha\' middle
+MBON-alpha'3m	FBbt:00111064	FlyBase:FBrf0227179	old	mushroom body vertical lobe arborizing neuron 2 alpha\' middle

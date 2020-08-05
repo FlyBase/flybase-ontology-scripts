@@ -36,7 +36,10 @@ def get_synonym_info(mapping, ontology):
         term_id = mapping['FBbt'][i]
         x = Term()
         x.new_symbol = mapping['symbol'][i]
-        x.label = ontology.nodes[term_id]['name']
+        try:
+            x.label = ontology.nodes[term_id]['name']
+        except KeyError:
+            pass
 
         try:
             for p in ontology.nodes[term_id]['property_value']:

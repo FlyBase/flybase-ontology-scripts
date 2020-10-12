@@ -19,6 +19,7 @@ parameters.set_parameters()
 subprocess.run("mkdir " + parameters.outpath, shell=True)
 
 scriptpath = os.path.join(os.getcwd(), "perl_scripts")
+print(scriptpath)
 if input_details['update_scripts'][0].lower() in ["y", "yes"]:
     crf.update_scripts(scriptpath)
 
@@ -45,9 +46,9 @@ if parameters.ontology.lower() == 'fbcv':
 
     for i in namespace_list:
         number = str(count)
-        subprocess.run("perl %s %s %s > "
+        subprocess.run("perl -I %s %s %s %s > "
                        "%s_%s_no_defs.tsv"
-                       % (os.path.join(scriptpath, "onto_metrics_calc.pl"), i, parameters.new_file,
+                       % (scriptpath, os.path.join(scriptpath, "onto_metrics_calc.pl"), i, parameters.new_file,
                           parameters.report_prefix, number), shell=True)
         try:
             result = pd.read_csv("%s_%s_no_defs.tsv"
@@ -70,15 +71,15 @@ if parameters.ontology.lower() == 'fbcv':
     output.to_csv("%s_no_defs.tsv" % parameters.report_prefix, sep='\t', index=False)
 else:
     # Count number of terms and percent defined (not fbcv)
-    subprocess.run("perl %s %s %s > %s_no_defs.txt"
-                   % (os.path.join(scriptpath, "onto_metrics_calc.pl"), parameters.namespace, parameters.new_file,
+    subprocess.run("perl -I %s %s %s %s > %s_no_defs.txt"
+                   % (scriptpath, os.path.join(scriptpath, "onto_metrics_calc.pl"), parameters.namespace, parameters.new_file,
                       parameters.report_prefix), shell=True)
 
     termcount = pd.read_csv("%s_no_defs.txt" % parameters.report_prefix, sep='\t', index_col=False)
 
 # run obo_def_comp.pl, which shows new/changed definitions/comments
-subprocess.run("perl %s %s %s > %s_def_com_chg.txt"
-               % (os.path.join(scriptpath, "obo_def_comp.pl"), parameters.old_file, parameters.new_file,
+subprocess.run("perl -I %s %s %s %s > %s_def_com_chg.txt"
+               % (scriptpath, os.path.join(scriptpath, "obo_def_comp.pl"), parameters.old_file, parameters.new_file,
                   parameters.report_prefix), shell=True)
 
 # get number of new definitions
@@ -106,8 +107,8 @@ ncom = out3.decode().rstrip('\n')
 chcom = out4.decode().rstrip('\n')
 
 # for name changes obsoletions and merges:
-subprocess.run("perl %s %s %s > %s_name_obs_merge.txt"
-               % (os.path.join(scriptpath, "obo_track_new.pl"), parameters.old_file, parameters.new_file,
+subprocess.run("perl -I %s %s %s %s > %s_name_obs_merge.txt"
+               % (scriptpath, os.path.join(scriptpath, "obo_track_new.pl"), parameters.old_file, parameters.new_file,
                   parameters.report_prefix), shell=True)
 
 # get number of name changes

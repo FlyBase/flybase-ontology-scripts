@@ -44,10 +44,14 @@ def update_scripts(scriptpath):
     """Delete existing scripts and redownload from fbbt repo."""
     for script in ["onto_metrics_calc.pl", "obo_def_comp.pl", "obo_track_new.pl"]:
         subprocess.run("rm %s" % os.path.join(scriptpath, script), shell=True)
+        subprocess.run("rm %s" % os.path.join(scriptpath, "OboModel.pm"), shell=True)
 
         wget.download(("https://raw.githubusercontent.com/FlyBase/drosophila-anatomy-developmental-ontology/"
                        "master/tools/release_and_checking_scripts/releases/%s" % script),
                       os.path.join(scriptpath, script))
+        wget.download(("https://raw.githubusercontent.com/FlyBase/drosophila-anatomy-developmental-ontology/"
+                       "master/tools/perl_modules/releases/OboModel.pm"),
+                      os.path.join(scriptpath, "OboModel.pm"))
 
 
 def get_ontology_from_github(ontology, release_date, filename):

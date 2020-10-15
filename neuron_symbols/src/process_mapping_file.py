@@ -1,5 +1,5 @@
 import pandas as pd
-import update_term_labels_in_file
+#import update_term_labels_in_file
 import re
 
 # 1 rename input to old_input manually, then
@@ -46,9 +46,11 @@ changed_symbols_df = mapping[mapping.FBbt.isin(FBbt_with_new_symbol)].sort_value
 changed_symbols_df['in_file'] = changed_symbols_df['_merge'].map({'left_only': 'new', 'right_only': 'old'})
 changed_symbols_df = changed_symbols_df.drop(['_merge'], axis=1)
 
+"""
 # update term labels and save file of conflicts
 chsym_df_labels = update_term_labels_in_file.replace_labels(changed_symbols_df, id_col_name='FBbt')
 chsym_df_labels.to_csv('symbol_conflicts.tsv', sep='\t', index=None)
+"""
 
 # drop rows from old mapping where symbol is now different in new mapping
 indices_to_drop = changed_symbols_df[changed_symbols_df['in_file'] == 'old'].index
@@ -56,9 +58,10 @@ mapping = mapping.drop(indices_to_drop, axis=0).drop(['_merge'], axis=1)
 
 # drop Giant Fiber and too broad mappings - TODO - check again later
 mapping = mapping.drop(mapping[mapping['term'].isin(
-    ['Giant Fiber', 'PAM15', 'H2', 'JO-A/B/C', 'TRN_VP1m', 'LPC2'])].index, axis=0)
-
+    ['Giant Fiber', 'H2', 'JO-A/B/C', 'TRN_VP1m', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m', 'vDeltaA'])].index, axis=0)
+"""
 # update term labels and save file
 mapping = update_term_labels_in_file.replace_labels(mapping, id_col_name='FBbt')
+"""
 mapping = mapping.sort_values(by='term')
 mapping.to_csv('input_files/new_input.tsv', sep='\t', index=None)

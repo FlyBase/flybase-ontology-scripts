@@ -1,5 +1,5 @@
-requests~=2.21.0
-pandas~=0.24.2
+requests
+pandas
 openpyxl
-wget~=3.2
-obonet~=0.2.5
+wget
+obonet

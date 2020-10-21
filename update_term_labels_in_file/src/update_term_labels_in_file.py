@@ -47,7 +47,7 @@ def replace_labels_in_file(filename, id_col_name='FBbt_ID', label_col_name='FBbt
     input_dataframe = pd.read_csv(filename, sep='\t')
     output_dataframe = replace_labels(input_dataframe, id_col_name, label_col_name)
 
-    output_dataframe.to_csv(filename, sep='\t', index=None)
+    output_dataframe.to_csv(filename, sep='\t', index=False)
 
 
 if __name__ == "__main__":

@@ -19,7 +19,6 @@ parameters.set_parameters()
 subprocess.run("mkdir " + parameters.outpath, shell=True)
 
 scriptpath = os.path.join(os.getcwd(), "perl_scripts")
-print(scriptpath)
 if input_details['update_scripts'][0].lower() in ["y", "yes"]:
     crf.update_scripts(scriptpath)
 

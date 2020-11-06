@@ -58,7 +58,8 @@ mapping = mapping.drop(indices_to_drop, axis=0).drop(['_merge'], axis=1)
 
 # drop Giant Fiber and too broad mappings - TODO - check again later
 mapping = mapping.drop(mapping[mapping['term'].isin(
-    ['Giant Fiber', 'H2', 'JO-A/B/C', 'TRN_VP1m', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m', 'vDeltaA'])].index, axis=0)
+    ['Giant Fiber', 'H2', 'JO-A/B/C', 'TRN_VP1m', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
+     'vDeltaA', 'DM3_vPN', 'V_l2PN'])].index, axis=0)
 """
 # update term labels and save file
 mapping = update_term_labels_in_file.replace_labels(mapping, id_col_name='FBbt')

@@ -29,7 +29,7 @@ aMe19b					?
 aMe2					?	
 aMe20					?	
 aMe22					?	
-aMe23					?	
+aMe23	FBbt:00049789	DN1-like neuron	doi:10.1101/2020.08.29.273276			
 aMe24					?	
 aMe25					?	
 aMe26					?	
@@ -115,7 +115,7 @@ aSP-f1B	FBbt:00110459	adult fruitless aSP-f (female) neuron			specificity
 aSP-f2	FBbt:00110459	adult fruitless aSP-f (female) neuron			specificity	
 aSP-f3	FBbt:00110459	adult fruitless aSP-f (female) neuron			specificity	
 aSP-f4	FBbt:00110459	adult fruitless aSP-f (female) neuron			specificity	
-aSP-g1	FBbt:00110461	adult fruitless aSP-g (female) neuron			specificity	
+aSP-g1	FBbt:00049330	adult fruitless aSP-g1 neuron				
 aSP-g2	FBbt:00110461	adult fruitless aSP-g (female) neuron			specificity	
 aSP-g3A	FBbt:00110461	adult fruitless aSP-g (female) neuron			specificity	
 aSP-g3B	FBbt:00110461	adult fruitless aSP-g (female) neuron			specificity	
@@ -1349,9 +1349,9 @@ DNb04	FBbt:00047585	descending neuron of the anterior ventral brain DNb04
 DNb05	FBbt:00047586	descending neuron of the anterior ventral brain DNb05				
 DNb06	FBbt:00047587	descending neuron of the anterior ventral brain DNb06				
 DNd01	FBbt:00047590	descending neuron of the anterior brain DNd01				
-DNES1					?	DN that doesn’t use neck connective? - Scheffer2020
-DNES2					?	DN that doesn’t use neck connective? - Scheffer2020
-DNES3					?	DN that doesn’t use neck connective? - Scheffer2020
+DNES1					?	DN that doesn�t use neck connective? - Scheffer2020
+DNES2					?	DN that doesn�t use neck connective? - Scheffer2020
+DNES3					?	DN that doesn�t use neck connective? - Scheffer2020
 DNg30	FBbt:00047622	descending neuron of the gnathal ganglion DNg30				
 DNp02	FBbt:00047635	descending neuron of the posterior brain DNp02				
 DNp03	FBbt:00047636	descending neuron of the posterior brain DNp03				
@@ -1387,11 +1387,11 @@ DP1l_vPN	FBbt:00049769	adult antennal lobe projection neuron DP1l vPN
 DP1m_adPN	FBbt:00067021	adult antennal lobe projection neuron DP1m adPN				
 DP1m_vPN	FBbt:00049773	adult antennal lobe projection neuron DP1m vPN				
 DPM	FBbt:00005780	mushroom body dorsal paired medial cell				
-DSKMP1A	FBbt:00048999	adult Drosulfakinin neuron	doi:10.7554/eLife.57443		specificity	medial protocerebrum
-DSKMP1B	FBbt:00048999	adult Drosulfakinin neuron	doi:10.7554/eLife.57443		specificity	medial protocerebrum
-DSKMP3	FBbt:00048999	adult Drosulfakinin neuron	doi:10.7554/eLife.57443		specificity	medial protocerebrum
+DSKMP1A	FBbt:00048999	adult Drosulfakinin neuron	FlyBase:FBrf0246888		specificity	medial protocerebrum
+DSKMP1B	FBbt:00048999	adult Drosulfakinin neuron	FlyBase:FBrf0246888		specificity	medial protocerebrum
+DSKMP3	FBbt:00048999	adult Drosulfakinin neuron	FlyBase:FBrf0246888		specificity	medial protocerebrum
 EL	FBbt:00049180	EBw.AMP.s-Dga-s.b neuron	FlyBase:FBrf0240744	Mapping based on personal communication from Tanya Wolff.	TW	
-EPG	FBbt:00047030	EB-IDFP D/VSB-PB 1 glomerulus neuron	FlyBase:FBrf0240744			
+EPG	FBbt:00047030	E-PG neuron	FlyBase:FBrf0240744			
 EPGt	FBbt:00111423	EB slice 8-GA-PB slice 9 neuron	FlyBase:FBrf0240744			
 ER1_a	FBbt:00003650	ring neuron R1				
 ER1_b	FBbt:00003650	ring neuron R1				
@@ -1423,192 +1423,192 @@ ExR5	FBbt:00003654	extrinsic ring neuron			specificity
 ExR6	FBbt:00003654	extrinsic ring neuron			specificity	
 ExR7	FBbt:00003654	extrinsic ring neuron			specificity	
 ExR8	FBbt:00003654	extrinsic ring neuron			specificity	
-FB1A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1E_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1E_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1F	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1G	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1H	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1I	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB1J	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2B_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2B_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2F_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2F_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2F_c	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2G_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2G_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2H_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2H_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2I_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2I_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2J	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2K	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2L	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB2M	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB3A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB3B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB3C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB3D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB3E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4F_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4F_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4G	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4H	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4I	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4J	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4K	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4L	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4M	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4N	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4O	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4P_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4P_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4Q_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4Q_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4R	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4X	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4Y	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB4Z	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5AA	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5AB	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5F	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5G	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5H	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5I	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5J	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5K	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5L	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5M	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5N	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5O	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5P	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5Q	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5R	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5S	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5T	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5U	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5V	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5W	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5X	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5Y	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB5Z	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6C_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6C_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6F	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6G	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6H	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6I	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6J	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6K	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6L	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6M	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6N	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6O	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6P	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6Q	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6R	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6S	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6T	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6U	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6V	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6W	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6X	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6Y	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB6Z	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7F	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7G	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7H	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7I	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7J	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7K	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7L	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB7M	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8B	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8C	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8D	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8E	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8F_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8F_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8G	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8H	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB8I	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9A	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9B_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9B_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9B_c	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9B_d	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9B_e	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9C_a	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FB9C_b	FBbt:00003657	fan-shaped neuron		FB = fan-shaped body tangential neuron based on personal communication from Tanya Wolff.	specificity	
-FC1A	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC1B	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC1C	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC1D	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC1E	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC1F	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC2A	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC2B	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC2C	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FC3	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-CRE
-FR1	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-RUB
-FR2	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-RUB
-FS1A	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
-FS1B	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
-FS2	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
-FS3	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
-FS4A	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
-FS4B	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
-FS4C	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	FB-SMP
+FB1A	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1B	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1C	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1D	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1E_a	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1E_b	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1F	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1G	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1H	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1I	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB1J	FBbt:00007540	fan-shaped neuron F1	FlyBase:FBrf0246888		specificity	
+FB2A	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2B_a	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2B_b	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2C	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2D	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2E	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2F_a	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2F_b	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2F_c	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2G_a	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2G_b	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2H_a	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2H_b	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2I_a	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2I_b	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2J	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2K	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2L	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB2M	FBbt:00007541	fan-shaped neuron F2	FlyBase:FBrf0246888		specificity	
+FB3A	FBbt:00007542	fan-shaped neuron F3	FlyBase:FBrf0246888		specificity	
+FB3B	FBbt:00007542	fan-shaped neuron F3	FlyBase:FBrf0246888		specificity	
+FB3C	FBbt:00007542	fan-shaped neuron F3	FlyBase:FBrf0246888		specificity	
+FB3D	FBbt:00007542	fan-shaped neuron F3	FlyBase:FBrf0246888		specificity	
+FB3E	FBbt:00007542	fan-shaped neuron F3	FlyBase:FBrf0246888		specificity	
+FB4A	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4B	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4C	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4D	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4E	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4F_a	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4F_b	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4G	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4H	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4I	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4J	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4K	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4L	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4M	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4N	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4O	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4P_a	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4P_b	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4Q_a	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4Q_b	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4R	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4X	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4Y	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB4Z	FBbt:00007543	fan-shaped neuron F4	FlyBase:FBrf0246888		specificity	
+FB5A	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5AA	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5AB	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5B	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5C	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5D	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5E	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5F	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5G	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5H	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5I	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5J	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5K	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5L	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5M	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5N	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5O	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5P	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5Q	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5R	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5S	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5T	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5U	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5V	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5W	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5X	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5Y	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB5Z	FBbt:00007544	fan-shaped neuron F5	FlyBase:FBrf0246888		specificity	
+FB6A	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6B	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6C_a	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6C_b	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6D	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6E	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6F	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6G	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6H	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6I	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6J	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6K	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6L	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6M	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6N	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6O	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6P	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6Q	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6R	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6S	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6T	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6U	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6V	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6W	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6X	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6Y	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB6Z	FBbt:00007536	fan-shaped neuron F6	FlyBase:FBrf0246888		specificity	
+FB7A	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7B	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7C	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7D	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7E	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7F	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7G	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7H	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7I	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7J	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7K	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7L	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB7M	FBbt:00049534	fan-shaped neuron F7	FlyBase:FBrf0246888		specificity	
+FB8A	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8B	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8C	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8D	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8E	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8F_a	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8F_b	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8G	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8H	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB8I	FBbt:00049535	fan-shaped neuron F8	FlyBase:FBrf0246888		specificity	
+FB9A	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9B_a	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9B_b	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9B_c	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9B_d	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9B_e	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9C_a	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FB9C_b	FBbt:00049536	fan-shaped neuron F9	FlyBase:FBrf0246888		specificity	
+FC1A	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC1B	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC1C	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC1D	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC1E	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC1F	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC2A	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC2B	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC2C	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FC3	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-CRE
+FR1	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-RUB
+FR2	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-RUB
+FS1A	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
+FS1B	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
+FS2	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
+FS3	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
+FS4A	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
+FS4B	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
+FS4C	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	FB-SMP
 Giant Fiber	FBbt:00004020	giant fiber neuron				
-GLNO	FBbt:00049135	LG-N neuron	doi:10.7554/eLife.57443			
+GLNO	FBbt:00049135	LG-N neuron	FlyBase:FBrf0246888			
 H1	FBbt:00047991	lobula plate tangential neuron H1				
 H2	FBbt:00003907	lobula plate tangential neuron		Based on H1.	specificity	mapped based on H1
 HBeyelet	FBbt:00005740	eyelet photoreceptor				
-hDeltaA	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaB	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaC	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaD	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaE	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaF	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaG	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaH	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaI	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaJ	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaK	FBbt:00049820	fan-shaped body columnar neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaL	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-hDeltaM	FBbt:00003636	pontine neuron	doi:10.7554/eLife.57443		specificity	
-HRN_VP1d	FBbt:00047226	adult hygrosensory neuron Ir40a VP1d	FBrf0246456			
-HRN_VP1l	FBbt:00111336	adult thermosensory neuron Ir21a VP1l	FBrf0246456			
-HRN_VP4	FBbt:00047225	adult olfactory receptor neuron Ir40a VP4				assuming 1 HRN per glomerulus
-HRN_VP5	FBbt:00047222	adult olfactory receptor neuron Ir68a				assuming 1 HRN per glomerulus
+hDeltaA	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaB	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaC	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaD	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaE	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaF	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaG	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaH	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaI	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaJ	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaK	FBbt:00049820	fan-shaped body columnar neuron	FlyBase:FBrf0246888		specificity	
+hDeltaL	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+hDeltaM	FBbt:00003636	pontine neuron	FlyBase:FBrf0246888		specificity	
+HRN_VP1d	FBbt:00047226	adult hygrosensory neuron Ir40a VP1d	FlyBase:FBrf0246456			
+HRN_VP1l	FBbt:00111336	adult thermosensory neuron Ir21a VP1l	FlyBase:FBrf0246456			
+HRN_VP4	FBbt:00047225	adult hygrosensory neuron Ir40a VP4				assuming 1 HRN per glomerulus
+HRN_VP5	FBbt:00047222	adult hygrosensory neuron Ir68a				assuming 1 HRN per glomerulus
 HSE	FBbt:00003919	equatorial giant horizontal cell HSE				
 HSN	FBbt:00003918	dorsal giant horizontal cell HSN				
 HSS	FBbt:00003920	ventral giant horizontal cell HSS				
@@ -1736,7 +1736,7 @@ il3LN6	FBbt:00007390	local interneuron of adult antennal lobe			specificity
 JO-A/B/C	FBbt:00100000	Johnston organ neuron			specificity	
 KCa'b'-ap1	FBbt:00049836	alpha'/beta' anterior-posterior type 1 Kenyon cell				
 KCa'b'-ap2	FBbt:00049837	alpha'/beta' anterior-posterior type 2 Kenyon cell				
-KCa'b'-m	FBbt:00100253	alpha\'/beta\' middle Kenyon cell				
+KCa'b'-m	FBbt:00100253	alpha'/beta' middle Kenyon cell				
 KCab-c	FBbt:00110929	alpha/beta core Kenyon cell				
 KCab-m	FBbt:00100248	alpha/beta Kenyon cell			specificity	
 KCab-p	FBbt:00110931	alpha/beta posterior Kenyon cell				
@@ -2004,31 +2004,31 @@ LC6	FBbt:00003876	lobula columnar neuron Lcn6
 LC9	FBbt:00100480	lobula columnar neuron LC9				
 LCNOp	FBbt:00049139	adult LC-NP neuron	FlyBase:FBrf0240744	Mapping aided by personal communication from Tanya Wolff.		
 LCNOpm	FBbt:00049138	adult LC-NPM neuron	FlyBase:FBrf0240744	Mapping aided by personal communication from Tanya Wolff.		
-LHAD1a1	FBbt:00049318	adult AD1a1 neuron				
-LHAD1a2_a	FBbt:00049319	adult AD1a2 neuron				
-LHAD1a2_b	FBbt:00049319	adult AD1a2 neuron				
-LHAD1a2_c	FBbt:00049319	adult AD1a2 neuron				
-LHAD1a3	FBbt:00049320	adult AD1a3 neuron				
-LHAD1a4_a	FBbt:00049321	adult AD1a4 neuron				
-LHAD1a4_b	FBbt:00049321	adult AD1a4 neuron				
-LHAD1b1_a	FBbt:00049322	adult AD1b1 neuron				
-LHAD1b1_b	FBbt:00049322	adult AD1b1 neuron				
-LHAD1b2_a	FBbt:00049323	adult AD1b2 neuron				
-LHAD1b2_b	FBbt:00049323	adult AD1b2 neuron				
-LHAD1b2_c	FBbt:00049323	adult AD1b2 neuron				
-LHAD1b2_d	FBbt:00049323	adult AD1b2 neuron				
+LHAD1a1	FBbt:00049318	adult lateral horn AD1a1 neuron				
+LHAD1a2_a	FBbt:00049319	adult lateral horn AD1a2 neuron				
+LHAD1a2_b	FBbt:00049319	adult lateral horn AD1a2 neuron				
+LHAD1a2_c	FBbt:00049319	adult lateral horn AD1a2 neuron				
+LHAD1a3	FBbt:00049320	adult lateral horn AD1a3 neuron				
+LHAD1a4_a	FBbt:00049321	adult lateral horn AD1a4 neuron				
+LHAD1a4_b	FBbt:00049321	adult lateral horn AD1a4 neuron				
+LHAD1b1_a	FBbt:00049322	adult lateral horn AD1b1 neuron				
+LHAD1b1_b	FBbt:00049322	adult lateral horn AD1b1 neuron				
+LHAD1b2_a	FBbt:00049323	adult lateral horn AD1b2 neuron				
+LHAD1b2_b	FBbt:00049323	adult lateral horn AD1b2 neuron				
+LHAD1b2_c	FBbt:00049323	adult lateral horn AD1b2 neuron				
+LHAD1b2_d	FBbt:00049323	adult lateral horn AD1b2 neuron				
 LHAD1b3					new	
 LHAD1b4					new	
 LHAD1b5					new	
 LHAD1b6_a					new	
 LHAD1b6_b					new	
-LHAD1c1_a	FBbt:00049324	adult AD1c1 neuron				
-LHAD1c1_b	FBbt:00049324	adult AD1c1 neuron				
+LHAD1c1_a	FBbt:00049324	adult lateral horn AD1c1 neuron				
+LHAD1c1_b	FBbt:00049324	adult lateral horn AD1c1 neuron				
 LHAD1c2					new	
 LHAD1c3					new	
-LHAD1d1	FBbt:00049325	adult AD1d1 neuron				
+LHAD1d1	FBbt:00049325	adult lateral horn AD1d1 neuron				
 LHAD1d2					new	
-LHAD1f1	FBbt:00049326	adult AD1f1 neuron				
+LHAD1f1	FBbt:00049326	adult lateral horn AD1f1 neuron				
 LHAD1f2					new	
 LHAD1f3_a					new	
 LHAD1f3_b					new	
@@ -2041,7 +2041,7 @@ LHAD1i2_a					new
 LHAD1i2_b					new	
 LHAD1j1					new	
 LHAD1k1					new	
-LHAD2b1	FBbt:00049328	adult AD2b1 neuron				
+LHAD2b1	FBbt:00049328	adult lateral horn AD2b1 neuron				
 LHAD2c1					new	
 LHAD2c2					new	
 LHAD2c3					new	
@@ -2066,14 +2066,14 @@ LHAD3a7_b					new
 LHAD3a8_a	FBbt:00049669	adult lateral horn AD3a8 neuron				
 LHAD3a8_b	FBbt:00049669	adult lateral horn AD3a8 neuron				
 LHAD3a9					new	
-LHAD3b1_a	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_b	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_c	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_d	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_e	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_f	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_g	FBbt:00049329	adult AD3b1 neuron				
-LHAD3b1_h	FBbt:00049329	adult AD3b1 neuron				
+LHAD3b1_a	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_b	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_c	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_d	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_e	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_f	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_g	FBbt:00049329	adult lateral horn AD3b1 neuron				
+LHAD3b1_h	FBbt:00049329	adult lateral horn AD3b1 neuron				
 LHAD3c1					new	
 LHAD3d1					new	
 LHAD3d2					new	
@@ -2086,13 +2086,13 @@ LHAD3f1_a					new
 LHAD3f1_b					new	
 LHAD3g1					new	
 LHAD4a1					new	
-LHAV1a1	FBbt:00049331	adult AV1a1 neuron				
-LHAV1a2_a	FBbt:00049332	adult AV1a2 neuron				
-LHAV1a2_b	FBbt:00049332	adult AV1a2 neuron				
-LHAV1a3	FBbt:00049333	adult AV1a3 neuron				
-LHAV1a4	FBbt:00049334	adult AV1a4 neuron				
-LHAV1a5	FBbt:00049335	adult AV1a5 neuron				
-LHAV1b1	FBbt:00049336	adult AV1b1 neuron				
+LHAV1a1	FBbt:00049331	adult lateral horn AV1a1 neuron				
+LHAV1a2_a	FBbt:00049332	adult lateral horn AV1a2 neuron				
+LHAV1a2_b	FBbt:00049332	adult lateral horn AV1a2 neuron				
+LHAV1a3	FBbt:00049333	adult lateral horn AV1a3 neuron				
+LHAV1a4	FBbt:00049334	adult lateral horn AV1a4 neuron				
+LHAV1a5	FBbt:00049335	adult lateral horn AV1a5 neuron				
+LHAV1b1	FBbt:00049336	adult lateral horn AV1b1 neuron				
 LHAV1b2					new	
 LHAV1b3					new	
 LHAV1b4					new	
@@ -2102,19 +2102,19 @@ LHAV1d2_a					new
 LHAV1d2_b					new	
 LHAV1e1					new	
 LHAV1f1					new	
-LHAV2a1	FBbt:00049337	adult AV2a1 neuron				
-LHAV2a2	FBbt:00049338	adult AV2a2 neuron				
-LHAV2a3	FBbt:00049339	adult AV2a3 neuron				
-LHAV2a4_a	FBbt:00049340	adult AV2a4 neuron				
-LHAV2a4_b	FBbt:00049340	adult AV2a4 neuron				
+LHAV2a1	FBbt:00049337	adult lateral horn AV2a1 neuron				
+LHAV2a2	FBbt:00049338	adult lateral horn AV2a2 neuron				
+LHAV2a3	FBbt:00049339	adult lateral horn AV2a3 neuron				
+LHAV2a4_a	FBbt:00049340	adult lateral horn AV2a4 neuron				
+LHAV2a4_b	FBbt:00049340	adult lateral horn AV2a4 neuron				
 LHAV2a5_a					new	
 LHAV2a5_b					new	
-LHAV2b1	FBbt:00049341	adult AV2b1 neuron				
+LHAV2b1	FBbt:00049341	adult lateral horn AV2b1 neuron				
 LHAV2b10					new	
 LHAV2b11					new	
-LHAV2b2_a	FBbt:00049342	adult AV2b2 neuron				
-LHAV2b2_b	FBbt:00049342	adult AV2b2 neuron				
-LHAV2b2_c	FBbt:00049342	adult AV2b2 neuron				
+LHAV2b2_a	FBbt:00049342	adult lateral horn AV2b2 neuron				
+LHAV2b2_b	FBbt:00049342	adult lateral horn AV2b2 neuron				
+LHAV2b2_c	FBbt:00049342	adult lateral horn AV2b2 neuron				
 LHAV2b3					new	
 LHAV2b4					new	
 LHAV2b5_a					new	
@@ -2124,7 +2124,7 @@ LHAV2b7_a					new
 LHAV2b7_b					new	
 LHAV2b8					new	
 LHAV2b9					new	
-LHAV2c1	FBbt:00049343	adult AV2c1 neuron				
+LHAV2c1	FBbt:00049343	adult lateral horn AV2c1 neuron				
 LHAV2c2					new	
 LHAV2d1	FBbt:00049670	adult lateral horn AV2d1 neuron				
 LHAV2e1					new	
@@ -2174,9 +2174,9 @@ LHAV2m1					new
 LHAV2n1					new	
 LHAV2o1					new	
 LHAV2p1					new	
-LHAV3a1_a	FBbt:00049344	adult AV3a1 neuron				
-LHAV3a1_b	FBbt:00049344	adult AV3a1 neuron				
-LHAV3a1_c	FBbt:00049344	adult AV3a1 neuron				
+LHAV3a1_a	FBbt:00049344	adult lateral horn AV3a1 neuron				
+LHAV3a1_b	FBbt:00049344	adult lateral horn AV3a1 neuron				
+LHAV3a1_c	FBbt:00049344	adult lateral horn AV3a1 neuron				
 LHAV3a2	FBbt:00049671	adult lateral horn AV3a2 neuron				
 LHAV3a3					new	
 LHAV3a4					new	
@@ -2234,28 +2234,28 @@ LHAV3n1					new
 LHAV3o1	FBbt:00049677	adult lateral horn AV3o1 neuron				
 LHAV3p1					new	
 LHAV3q1	FBbt:00049678	adult lateral horn AV3q1 neuron				
-LHAV4a1_a	FBbt:00049345	adult AV4a1 neuron				
-LHAV4a1_b	FBbt:00049345	adult AV4a1 neuron				
-LHAV4a1_c	FBbt:00049345	adult AV4a1 neuron				
-LHAV4a2	FBbt:00049346	adult AV4a2 neuron				
-LHAV4a3_a	FBbt:00049347	adult AV4a3 neuron				
-LHAV4a3_b	FBbt:00049347	adult AV4a3 neuron				
-LHAV4a4	FBbt:00049348	adult AV4a4 neuron				
-LHAV4a5	FBbt:00049349	adult AV4a5 neuron				
+LHAV4a1_a	FBbt:00049345	adult lateral horn AV4a1 neuron				
+LHAV4a1_b	FBbt:00049345	adult lateral horn AV4a1 neuron				
+LHAV4a1_c	FBbt:00049345	adult lateral horn AV4a1 neuron				
+LHAV4a2	FBbt:00049346	adult lateral horn AV4a2 neuron				
+LHAV4a3_a	FBbt:00049347	adult lateral horn AV4a3 neuron				
+LHAV4a3_b	FBbt:00049347	adult lateral horn AV4a3 neuron				
+LHAV4a4	FBbt:00049348	adult lateral horn AV4a4 neuron				
+LHAV4a5	FBbt:00049349	adult lateral horn AV4a5 neuron				
 LHAV4a6					new	
 LHAV4a7					new	
-LHAV4b1_a	FBbt:00049350	adult AV4b1 neuron				
-LHAV4b1_b	FBbt:00049350	adult AV4b1 neuron				
-LHAV4b2_a	FBbt:00049351	adult AV4b2 neuron				
-LHAV4b2_b	FBbt:00049351	adult AV4b2 neuron				
-LHAV4b3	FBbt:00049352	adult AV4b3 neuron				
-LHAV4b4	FBbt:00049353	adult AV4b4 neuron				
-LHAV4b5	FBbt:00049354	adult AV4b5 neuron				
+LHAV4b1_a	FBbt:00049350	adult lateral horn AV4b1 neuron				
+LHAV4b1_b	FBbt:00049350	adult lateral horn AV4b1 neuron				
+LHAV4b2_a	FBbt:00049351	adult lateral horn AV4b2 neuron				
+LHAV4b2_b	FBbt:00049351	adult lateral horn AV4b2 neuron				
+LHAV4b3	FBbt:00049352	adult lateral horn AV4b3 neuron				
+LHAV4b4	FBbt:00049353	adult lateral horn AV4b4 neuron				
+LHAV4b5	FBbt:00049354	adult lateral horn AV4b5 neuron				
 LHAV4b6					new	
-LHAV4c1_a	FBbt:00049356	adult AV4c1 neuron				
-LHAV4c1_b	FBbt:00049356	adult AV4c1 neuron				
-LHAV4c2	FBbt:00049357	adult AV4c2 neuron				
-LHAV4d1	FBbt:00049359	adult AV4d1 neuron				
+LHAV4c1_a	FBbt:00049356	adult lateral horn AV4c1 neuron				
+LHAV4c1_b	FBbt:00049356	adult lateral horn AV4c1 neuron				
+LHAV4c2	FBbt:00049357	adult lateral horn AV4c2 neuron				
+LHAV4d1	FBbt:00049359	adult lateral horn AV4d1 neuron				
 LHAV4d2_a					new	
 LHAV4d2_b					new	
 LHAV4d3	FBbt:00049679	adult lateral horn AV4d3 neuron				
@@ -2266,7 +2266,7 @@ LHAV4e1_b					new
 LHAV4e2_a					new	
 LHAV4e2_b					new	
 LHAV4e3					new	
-LHAV4e4					new	
+LHAV4e4	FBbt:00049938	adult lateral horn AV4e4 neuron				
 LHAV4e5					new	
 LHAV4e6					new	
 LHAV4e7_a	FBbt:00049680	adult lateral horn AV4e7 neuron				
@@ -2301,7 +2301,7 @@ LHAV4j1					new
 LHAV4k1					new	
 LHAV4k2					new	
 LHAV4l1					new	
-LHAV5a1	FBbt:00049360	adult AV5a1 neuron				
+LHAV5a1	FBbt:00049360	adult lateral horn AV5a1 neuron				
 LHAV5a10_a					new	
 LHAV5a10_b					new	
 LHAV5a2_a					new	
@@ -2319,20 +2319,20 @@ LHAV5a6_b					new
 LHAV5a7_a					new	
 LHAV5a7_b					new	
 LHAV5a7_c					new	
-LHAV5a8					new	
+LHAV5a8	FBbt:00049698	adult lateral horn AV5a8 neuron	FlyBase:FBrf0246460			
 LHAV5a9_a	FBbt:00049699	adult lateral horn AV5a9 neuron				
 LHAV5a9_b	FBbt:00049699	adult lateral horn AV5a9 neuron				
-LHAV5b1	FBbt:00049361	adult AV5b1 neuron				
+LHAV5b1	FBbt:00049361	adult lateral horn AV5b1 neuron				
 LHAV5b2					new	
 LHAV5c1					new	
 LHAV5d1					new	
 LHAV5e1	FBbt:00049700	adult lateral horn AV5e1 neuron				
-LHAV6a1_a	FBbt:00049362	adult AV6a1 neuron				
-LHAV6a1_b	FBbt:00049362	adult AV6a1 neuron				
+LHAV6a1_a	FBbt:00049362	adult lateral horn AV6a1 neuron				
+LHAV6a1_b	FBbt:00049362	adult lateral horn AV6a1 neuron				
 LHAV6a10	FBbt:00049701	adult lateral horn AV6a10 neuron				
-LHAV6a2_a	FBbt:00049363	adult AV6a2 neuron				
-LHAV6a2_b	FBbt:00049363	adult AV6a2 neuron				
-LHAV6a2_c	FBbt:00049363	adult AV6a2 neuron				
+LHAV6a2_a	FBbt:00049363	adult lateral horn AV6a2 neuron				
+LHAV6a2_b	FBbt:00049363	adult lateral horn AV6a2 neuron				
+LHAV6a2_c	FBbt:00049363	adult lateral horn AV6a2 neuron				
 LHAV6a3_a	FBbt:00049702	adult lateral horn AV6a3 neuron				
 LHAV6a3_b	FBbt:00049702	adult lateral horn AV6a3 neuron				
 LHAV6a4					new	
@@ -2341,13 +2341,13 @@ LHAV6a6					new
 LHAV6a7					new	
 LHAV6a8					new	
 LHAV6a9					new	
-LHAV6b1_a	FBbt:00049364	adult AV6b1 neuron				
-LHAV6b1_b	FBbt:00049364	adult AV6b1 neuron				
+LHAV6b1_a	FBbt:00049364	adult lateral horn AV6b1 neuron				
+LHAV6b1_b	FBbt:00049364	adult lateral horn AV6b1 neuron				
 LHAV6b2_a					new	
 LHAV6b2_b					new	
-LHAV6b3	FBbt:00049365	adult AV6b3 neuron				
+LHAV6b3	FBbt:00049365	adult lateral horn AV6b3 neuron				
 LHAV6b4					new	
-LHAV6c1	FBbt:00049366	adult AV6c1 neuron				
+LHAV6c1	FBbt:00049366	adult lateral horn AV6c1 neuron				
 LHAV6d1					new	
 LHAV6e1					new	
 LHAV6f1_a					new	
@@ -2358,8 +2358,8 @@ LHAV6f3_b					new
 LHAV6f3_c					new	
 LHAV6g1					new	
 LHAV6h1					new	
-LHAV7a1_a	FBbt:00049367	adult AV7a1 neuron				
-LHAV7a1_b	FBbt:00049367	adult AV7a1 neuron				
+LHAV7a1_a	FBbt:00049367	adult lateral horn AV7a1 neuron				
+LHAV7a1_b	FBbt:00049367	adult lateral horn AV7a1 neuron				
 LHAV7a2					new	
 LHAV7a3_a					new	
 LHAV7a3_b					new	
@@ -2392,9 +2392,9 @@ LHCENT9	FBbt:00049802	adult lateral horn centrifugal neuron 9
 LHMB1	FBbt:00049662	adult lateral horn-mushroom body neuron 1				
 LHPD1a1					new	
 LHPD1b1					new	
-LHPD2a1	FBbt:00049368	adult PD2a1 neuron				
-LHPD2a2	FBbt:00049369	adult PD2a2 neuron				
-LHPD2a3	FBbt:00049370	adult PD2a3 neuron				
+LHPD2a1	FBbt:00049368	adult lateral horn PD2a1 neuron				
+LHPD2a2	FBbt:00049369	adult lateral horn PD2a2 neuron				
+LHPD2a3	FBbt:00049370	adult lateral horn PD2a3 neuron				
 LHPD2a4_a					new	
 LHPD2a4_b					new	
 LHPD2a4_c					new	
@@ -2404,27 +2404,27 @@ LHPD2a6					new
 LHPD2a7					new	
 LHPD2a8					new	
 LHPD2a9					new	
-LHPD2b1_a	FBbt:00049371	adult PD2b1 neuron				
-LHPD2b1_b	FBbt:00049371	adult PD2b1 neuron				
-LHPD2c1	FBbt:00049372	adult PD2c1 neuron				
+LHPD2b1_a	FBbt:00049371	adult lateral horn PD2b1 neuron				
+LHPD2b1_b	FBbt:00049371	adult lateral horn PD2b1 neuron				
+LHPD2c1	FBbt:00049372	adult lateral horn PD2c1 neuron				
 LHPD2c2					new	
 LHPD2c3					new	
 LHPD2c4					new	
 LHPD2c5					new	
 LHPD2c6					new	
 LHPD2c7					new	
-LHPD2d1	FBbt:00049373	adult PD2d1 neuron				
+LHPD2d1	FBbt:00049373	adult lateral horn PD2d1 neuron				
 LHPD2d2					new	
-LHPD3a1	FBbt:00049375	adult PD3a1 neuron				
-LHPD3a2_a	FBbt:00049376	adult PD3a2 neuron				
-LHPD3a2_b	FBbt:00049376	adult PD3a2 neuron				
-LHPD3a2_c	FBbt:00049376	adult PD3a2 neuron				
-LHPD3a3_a					new	
-LHPD3a3_b					new	
-LHPD3a3_c					new	
-LHPD3a4_a					new	
-LHPD3a4_b					new	
-LHPD3a4_c					new	
+LHPD3a1	FBbt:00049375	adult lateral horn PD3a1 neuron				
+LHPD3a2_a	FBbt:00049376	adult lateral horn PD3a2 neuron				
+LHPD3a2_b	FBbt:00049376	adult lateral horn PD3a2 neuron				
+LHPD3a2_c	FBbt:00049376	adult lateral horn PD3a2 neuron				
+LHPD3a3_a	FBbt:00049936	adult lateral horn PD3a3 neuron	FlyBase:FBrf0242628			
+LHPD3a3_b	FBbt:00049936	adult lateral horn PD3a3 neuron				
+LHPD3a3_c	FBbt:00049936	adult lateral horn PD3a3 neuron				
+LHPD3a4_a	FBbt:00049937	adult lateral horn PD3a4 neuron				
+LHPD3a4_b	FBbt:00049937	adult lateral horn PD3a4 neuron				
+LHPD3a4_c	FBbt:00049937	adult lateral horn PD3a4 neuron				
 LHPD3a5	FBbt:00049685	adult lateral horn PD3a5 neuron				
 LHPD3b1_a	FBbt:00049686	adult lateral horn PD3b1 neuron				
 LHPD3b1_b	FBbt:00049686	adult lateral horn PD3b1 neuron				
@@ -2435,11 +2435,11 @@ LHPD4a1					new
 LHPD4a2					new	
 LHPD4b1					new	
 LHPD4c1					new	
-LHPD4d1	FBbt:00049377	adult PD4d1 neuron				
+LHPD4d1	FBbt:00049377	adult lateral horn PD4d1 neuron				
 LHPD4d2_a					new	
 LHPD4d2_b					new	
-LHPD4e1_a	FBbt:00049378	adult PD4e1 neuron				
-LHPD4e1_b	FBbt:00049378	adult PD4e1 neuron				
+LHPD4e1_a	FBbt:00049378	adult lateral horn PD4e1 neuron				
+LHPD4e1_b	FBbt:00049378	adult lateral horn PD4e1 neuron				
 LHPD5a1	FBbt:00049704	adult lateral horn PD5a1 neuron				
 LHPD5b1					new	
 LHPD5c1					new	
@@ -2448,38 +2448,38 @@ LHPD5e1					new
 LHPD5f1					new	
 LHPV10a1					new	
 LHPV10b1					new	
-LHPV10c1	FBbt:00049424	adult PV10c1 neuron				
+LHPV10c1	FBbt:00049424	adult lateral horn PV10c1 neuron				
 LHPV10d1					new	
 LHPV11a1					new	
-LHPV12a1	FBbt:00049428	adult PV12a1 neuron				
+LHPV12a1	FBbt:00049428	adult lateral horn PV12a1 neuron				
 LHPV1c1	FBbt:00049691	adult lateral horn PV1c1 neuron				
 LHPV1c2					new	
 LHPV1d1					new	
-LHPV2a1_a	FBbt:00049379	adult PV2a1 neuron				
-LHPV2a1_b	FBbt:00049379	adult PV2a1 neuron				
-LHPV2a1_c	FBbt:00049379	adult PV2a1 neuron				
-LHPV2a1_d	FBbt:00049379	adult PV2a1 neuron				
-LHPV2a1_e	FBbt:00049379	adult PV2a1 neuron				
+LHPV2a1_a	FBbt:00049379	adult lateral horn PV2a1 neuron				
+LHPV2a1_b	FBbt:00049379	adult lateral horn PV2a1 neuron				
+LHPV2a1_c	FBbt:00049379	adult lateral horn PV2a1 neuron				
+LHPV2a1_d	FBbt:00049379	adult lateral horn PV2a1 neuron				
+LHPV2a1_e	FBbt:00049379	adult lateral horn PV2a1 neuron				
 LHPV2a2	FBbt:00049689	adult lateral horn PV2a2 neuron				
 LHPV2a3	FBbt:00049690	adult lateral horn PV2a3 neuron				
 LHPV2a4					new	
 LHPV2a5					new	
-LHPV2b1	FBbt:00049380	adult PV2b1 neuron				
+LHPV2b1	FBbt:00049380	adult lateral horn PV2b1 neuron				
 LHPV2b2_a					new	
 LHPV2b2_b					new	
 LHPV2b3					new	
 LHPV2b4					new	
 LHPV2b5_a	FBbt:00049687	adult lateral horn PV2b5 neuron				
 LHPV2b5_b	FBbt:00049687	adult lateral horn PV2b5 neuron				
-LHPV2c1_a	FBbt:00049381	adult PV2c1 neuron				
-LHPV2c1_b	FBbt:00049381	adult PV2c1 neuron				
-LHPV2c1_c	FBbt:00049381	adult PV2c1 neuron				
+LHPV2c1_a	FBbt:00049381	adult lateral horn PV2c1 neuron				
+LHPV2c1_b	FBbt:00049381	adult lateral horn PV2c1 neuron				
+LHPV2c1_c	FBbt:00049381	adult lateral horn PV2c1 neuron				
 LHPV2c2					new	
 LHPV2c3					new	
 LHPV2c4					new	
 LHPV2c5					new	
 LHPV2c6					new	
-LHPV2d1	FBbt:00049382	adult PV2d1 neuron				
+LHPV2d1	FBbt:00049382	adult lateral horn PV2d1 neuron				
 LHPV2e1_a					new	
 LHPV2e1_b					new	
 LHPV2e2					new	
@@ -2499,59 +2499,59 @@ LHPV3a3_c					new
 LHPV3b1_a	FBbt:00049705	adult lateral horn PV3b1 neuron				
 LHPV3b1_b	FBbt:00049705	adult lateral horn PV3b1 neuron				
 LHPV3c1					new	
-LHPV4a1	FBbt:00049384	adult PV4a1 neuron				
-LHPV4a10_a	FBbt:00049393	adult PV4a10 neuron				
-LHPV4a10_b	FBbt:00049393	adult PV4a10 neuron				
-LHPV4a11	FBbt:00049394	adult PV4a11 neuron				
-LHPV4a12_a	FBbt:00049395	adult PV4a12 neuron				
-LHPV4a12_b	FBbt:00049395	adult PV4a12 neuron				
-LHPV4a2	FBbt:00049385	adult PV4a2 neuron				
-LHPV4a3	FBbt:00049386	adult PV4a3 neuron				
-LHPV4a4_a	FBbt:00049387	adult PV4a4 neuron				
-LHPV4a4_b	FBbt:00049387	adult PV4a4 neuron				
-LHPV4a4_c	FBbt:00049387	adult PV4a4 neuron				
-LHPV4a5_a	FBbt:00049388	adult PV4a5 neuron				
-LHPV4a5_b	FBbt:00049388	adult PV4a5 neuron				
-LHPV4a6	FBbt:00049389	adult PV4a6 neuron				
-LHPV4a7_a	FBbt:00049390	adult PV4a7 neuron				
-LHPV4a7_b	FBbt:00049390	adult PV4a7 neuron				
-LHPV4a7_c	FBbt:00049390	adult PV4a7 neuron				
-LHPV4a7_d	FBbt:00049390	adult PV4a7 neuron				
-LHPV4a7_e	FBbt:00049390	adult PV4a7 neuron				
-LHPV4a7_f	FBbt:00049390	adult PV4a7 neuron				
-LHPV4a8	FBbt:00049391	adult PV4a8 neuron				
-LHPV4a9_a	FBbt:00049392	adult PV4a9 neuron				
-LHPV4a9_b	FBbt:00049392	adult PV4a9 neuron				
-LHPV4b1_a	FBbt:00049396	adult PV4b1 neuron				
-LHPV4b1_b	FBbt:00049396	adult PV4b1 neuron				
-LHPV4b2	FBbt:00049397	adult PV4b2 neuron				
-LHPV4b3	FBbt:00049398	adult PV4b3 neuron				
+LHPV4a1	FBbt:00049384	adult lateral horn PV4a1 neuron				
+LHPV4a10_a	FBbt:00049393	adult lateral horn PV4a10 neuron				
+LHPV4a10_b	FBbt:00049393	adult lateral horn PV4a10 neuron				
+LHPV4a11	FBbt:00049394	adult lateral horn PV4a11 neuron				
+LHPV4a12_a	FBbt:00049395	adult lateral horn PV4a12 neuron				
+LHPV4a12_b	FBbt:00049395	adult lateral horn PV4a12 neuron				
+LHPV4a2	FBbt:00049385	adult lateral horn PV4a2 neuron				
+LHPV4a3	FBbt:00049386	adult lateral horn PV4a3 neuron				
+LHPV4a4_a	FBbt:00049387	adult lateral horn PV4a4 neuron				
+LHPV4a4_b	FBbt:00049387	adult lateral horn PV4a4 neuron				
+LHPV4a4_c	FBbt:00049387	adult lateral horn PV4a4 neuron				
+LHPV4a5_a	FBbt:00049388	adult lateral horn PV4a5 neuron				
+LHPV4a5_b	FBbt:00049388	adult lateral horn PV4a5 neuron				
+LHPV4a6	FBbt:00049389	adult lateral horn PV4a6 neuron				
+LHPV4a7_a	FBbt:00049390	adult lateral horn PV4a7 neuron				
+LHPV4a7_b	FBbt:00049390	adult lateral horn PV4a7 neuron				
+LHPV4a7_c	FBbt:00049390	adult lateral horn PV4a7 neuron				
+LHPV4a7_d	FBbt:00049390	adult lateral horn PV4a7 neuron				
+LHPV4a7_e	FBbt:00049390	adult lateral horn PV4a7 neuron				
+LHPV4a7_f	FBbt:00049390	adult lateral horn PV4a7 neuron				
+LHPV4a8	FBbt:00049391	adult lateral horn PV4a8 neuron				
+LHPV4a9_a	FBbt:00049392	adult lateral horn PV4a9 neuron				
+LHPV4a9_b	FBbt:00049392	adult lateral horn PV4a9 neuron				
+LHPV4b1_a	FBbt:00049396	adult lateral horn PV4b1 neuron				
+LHPV4b1_b	FBbt:00049396	adult lateral horn PV4b1 neuron				
+LHPV4b2	FBbt:00049397	adult lateral horn PV4b2 neuron				
+LHPV4b3	FBbt:00049398	adult lateral horn PV4b3 neuron				
 LHPV4b4	FBbt:00049692	adult lateral horn PV4b4 neuron				
 LHPV4b5					new	
 LHPV4b6					new	
 LHPV4b7					new	
 LHPV4b8					new	
 LHPV4b9	FBbt:00049706	adult lateral horn PV4b9 neuron				
-LHPV4c1_a	FBbt:00049399	adult PV4c1 neuron				
-LHPV4c1_b	FBbt:00049399	adult PV4c1 neuron				
-LHPV4c1_c	FBbt:00049399	adult PV4c1 neuron				
-LHPV4c2	FBbt:00049400	adult PV4c2 neuron				
-LHPV4c3	FBbt:00049401	adult PV4c3 neuron				
+LHPV4c1_a	FBbt:00049399	adult lateral horn PV4c1 neuron				
+LHPV4c1_b	FBbt:00049399	adult lateral horn PV4c1 neuron				
+LHPV4c1_c	FBbt:00049399	adult lateral horn PV4c1 neuron				
+LHPV4c2	FBbt:00049400	adult lateral horn PV4c2 neuron				
+LHPV4c3	FBbt:00049401	adult lateral horn PV4c3 neuron				
 LHPV4c4_a	FBbt:00049693	adult lateral horn PV4c4 neuron				
 LHPV4c4_b	FBbt:00049693	adult lateral horn PV4c4 neuron				
-LHPV4d1	FBbt:00049402	adult PV4d1 neuron				
+LHPV4d1	FBbt:00049402	adult lateral horn PV4d1 neuron				
 LHPV4d10					new	
-LHPV4d2	FBbt:00049403	adult PV4d2 neuron				
-LHPV4d3	FBbt:00049404	adult PV4d3 neuron				
-LHPV4d4	FBbt:00049405	adult PV4d4 neuron				
+LHPV4d2	FBbt:00049403	adult lateral horn PV4d2 neuron				
+LHPV4d3	FBbt:00049404	adult lateral horn PV4d3 neuron				
+LHPV4d4	FBbt:00049405	adult lateral horn PV4d4 neuron				
 LHPV4d5					new	
 LHPV4d6					new	
 LHPV4d7					new	
 LHPV4d8					new	
 LHPV4d9					new	
-LHPV4e1	FBbt:00049425	adult PV4e1 neuron				
-LHPV4f1_a	FBbt:00049406	adult PV4f1 neuron				
-LHPV4f1_b	FBbt:00049406	adult PV4f1 neuron				
+LHPV4e1	FBbt:00049425	adult lateral horn PV4e1 neuron				
+LHPV4f1_a	FBbt:00049406	adult lateral horn PV4f1 neuron				
+LHPV4f1_b	FBbt:00049406	adult lateral horn PV4f1 neuron				
 LHPV4g1	FBbt:00049694	adult lateral horn PV4g1 neuron				
 LHPV4g2					new	
 LHPV4h1_a	FBbt:00049707	adult lateral horn PV4h1 neuron				
@@ -2569,43 +2569,43 @@ LHPV4j1_b					new
 LHPV4j2					new	
 LHPV4j3					new	
 LHPV4j4					new	
-LHPV4k1_a					new	
-LHPV4k1_b					new	
+LHPV4k1_a	FBbt:00049918	adult lateral horn PV4k1 neuron				
+LHPV4k1_b	FBbt:00049918	adult lateral horn PV4k1 neuron				
 LHPV4l1					new	
-LHPV4m1					new	
-LHPV5a1_a	FBbt:00049407	adult PV5a1 neuron				
-LHPV5a1_b	FBbt:00049407	adult PV5a1 neuron				
-LHPV5a2	FBbt:00049408	adult PV5a2 neuron				
-LHPV5a3	FBbt:00049409	adult PV5a3 neuron				
+LHPV4m1	FBbt:00049860	adult lateral horn PV4m1 neuron	doi:10.1101/2020.08.29.273276			
+LHPV5a1_a	FBbt:00049407	adult lateral horn PV5a1 neuron				
+LHPV5a1_b	FBbt:00049407	adult lateral horn PV5a1 neuron				
+LHPV5a2	FBbt:00049408	adult lateral horn PV5a2 neuron				
+LHPV5a3	FBbt:00049409	adult lateral horn PV5a3 neuron				
 LHPV5a4					new	
 LHPV5a5	FBbt:00049695	adult lateral horn PV5a5 neuron				
-LHPV5b1	FBbt:00049410	adult PV5b1 neuron				
-LHPV5b2_a	FBbt:00049411	adult PV5b2 neuron				
-LHPV5b2_b	FBbt:00049411	adult PV5b2 neuron				
-LHPV5b2_c	FBbt:00049411	adult PV5b2 neuron				
-LHPV5b3	FBbt:00049412	adult PV5b3 neuron				
+LHPV5b1	FBbt:00049410	adult lateral horn PV5b1 neuron				
+LHPV5b2_a	FBbt:00049411	adult lateral horn PV5b2 neuron				
+LHPV5b2_b	FBbt:00049411	adult lateral horn PV5b2 neuron				
+LHPV5b2_c	FBbt:00049411	adult lateral horn PV5b2 neuron				
+LHPV5b3	FBbt:00049412	adult lateral horn PV5b3 neuron				
 LHPV5b4_a					new	
 LHPV5b4_b					new	
 LHPV5b5					new	
 LHPV5b6					new	
-LHPV5c1_a	FBbt:00049413	adult PV5c1 neuron				
-LHPV5c1_b	FBbt:00049413	adult PV5c1 neuron				
-LHPV5c1_c	FBbt:00049413	adult PV5c1 neuron				
-LHPV5c1_d	FBbt:00049413	adult PV5c1 neuron				
-LHPV5c2	FBbt:00049414	adult PV5c2 neuron				
-LHPV5c3	FBbt:00049415	adult PV5c3 neuron				
+LHPV5c1_a	FBbt:00049413	adult lateral horn PV5c1 neuron				
+LHPV5c1_b	FBbt:00049413	adult lateral horn PV5c1 neuron				
+LHPV5c1_c	FBbt:00049413	adult lateral horn PV5c1 neuron				
+LHPV5c1_d	FBbt:00049413	adult lateral horn PV5c1 neuron				
+LHPV5c2	FBbt:00049414	adult lateral horn PV5c2 neuron				
+LHPV5c3	FBbt:00049415	adult lateral horn PV5c3 neuron				
 LHPV5c4					new	
-LHPV5d1_a	FBbt:00049416	adult PV5d1 neuron				
-LHPV5d1_b	FBbt:00049416	adult PV5d1 neuron				
+LHPV5d1_a	FBbt:00049416	adult lateral horn PV5d1 neuron				
+LHPV5d1_b	FBbt:00049416	adult lateral horn PV5d1 neuron				
 LHPV5d2					new	
 LHPV5d3	FBbt:00049696	adult lateral horn PV5d3 neuron				
 LHPV5e1					new	
 LHPV5e2					new	
 LHPV5e3					new	
 LHPV5f1					new	
-LHPV5g1_a	FBbt:00049417	adult PV5g1 neuron				
-LHPV5g1_b	FBbt:00049417	adult PV5g1 neuron				
-LHPV5g2	FBbt:00049418	adult PV5g2 neuron				
+LHPV5g1_a	FBbt:00049417	adult lateral horn PV5g1 neuron				
+LHPV5g1_b	FBbt:00049417	adult lateral horn PV5g1 neuron				
+LHPV5g2	FBbt:00049418	adult lateral horn PV5g2 neuron				
 LHPV5h1					new	
 LHPV5h2					new	
 LHPV5h3					new	
@@ -2620,14 +2620,14 @@ LHPV5j4					new
 LHPV5j5					new	
 LHPV5l1					new	
 LHPV5m1					new	
-LHPV6a1	FBbt:00049420	adult PV6a1 neuron				
+LHPV6a1	FBbt:00049420	adult lateral horn PV6a1 neuron				
 LHPV6a10					new	
 LHPV6a11_a					new	
 LHPV6a11_b					new	
 LHPV6a2_a					new	
 LHPV6a2_b					new	
-LHPV6a3_a	FBbt:00049421	adult PV6a3 neuron				
-LHPV6a3_b	FBbt:00049421	adult PV6a3 neuron				
+LHPV6a3_a	FBbt:00049421	adult lateral horn PV6a3 neuron				
+LHPV6a3_b	FBbt:00049421	adult lateral horn PV6a3 neuron				
 LHPV6a4_a					new	
 LHPV6a4_b					new	
 LHPV6a4_c					new	
@@ -2639,7 +2639,7 @@ LHPV6a8					new
 LHPV6a9_a					new	
 LHPV6a9_b					new	
 LHPV6b1					new	
-LHPV6c1	FBbt:00049422	adult PV6c1 neuron				
+LHPV6c1	FBbt:00049422	adult lateral horn PV6c1 neuron				
 LHPV6c2					new	
 LHPV6d1					new	
 LHPV6e1					new	
@@ -2806,55 +2806,55 @@ M_adPNm5	FBbt:00100369	adult multiglomerular antennal lobe projection neuron adP
 M_adPNm6	FBbt:00100369	adult multiglomerular antennal lobe projection neuron adPN			specificity	
 M_adPNm7	FBbt:00100369	adult multiglomerular antennal lobe projection neuron adPN			specificity	
 M_adPNm8	FBbt:00100369	adult multiglomerular antennal lobe projection neuron adPN			specificity	
-M_ilPN8t91	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_ilPNm90	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_imPNl92	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PN10t19	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PN3t18	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNl20	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNl21	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNl22	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNl23	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNm14	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNm15	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNm16	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_l2PNm17	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lPNm11A	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lPNm11B	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lPNm11C	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lPNm11D	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lPNm12	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lPNm13	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lv2PN9t49	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm24	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm25	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm26	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm27	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm28	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm29	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm30	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm31	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm32	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm33	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm34	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm35	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm36	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm37	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm38	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm39	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm40	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm41	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm42	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm43	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm44	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm45	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm46	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm47	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_lvPNm48	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_smPN6t2	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_smPNm1	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_spPN4t9	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-M_spPN5t10	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
+M_ilPN8t91	FBbt:00049780	adult multiglomerular antennal lobe projection neuron of SEZ	FlyBase:FBrf0246460		specificity	
+M_ilPNm90	FBbt:00049780	adult multiglomerular antennal lobe projection neuron of SEZ	FlyBase:FBrf0246460		specificity	
+M_imPNl92	FBbt:00047723	lateral antennal lobe tract projection neuron 3	FlyBase:FBrf0246460			
+M_l2PN10t19	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PN3t18	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNl20	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNl21	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNl22	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNl23	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNm14	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNm15	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNm16	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_l2PNm17	FBbt:00049910	adult multiglomerular antennal lobe projection neuron l2PN	FlyBase:FBrf0246460		specificity	
+M_lPNm11A	FBbt:00049778	adult multiglomerular antennal lobe projection neuron lPN	FlyBase:FBrf0246460		specificity	
+M_lPNm11B	FBbt:00049778	adult multiglomerular antennal lobe projection neuron lPN	FlyBase:FBrf0246460		specificity	
+M_lPNm11C	FBbt:00049778	adult multiglomerular antennal lobe projection neuron lPN	FlyBase:FBrf0246460		specificity	
+M_lPNm11D	FBbt:00049778	adult multiglomerular antennal lobe projection neuron lPN	FlyBase:FBrf0246460		specificity	
+M_lPNm12	FBbt:00049778	adult multiglomerular antennal lobe projection neuron lPN	FlyBase:FBrf0246460		specificity	
+M_lPNm13	FBbt:00049778	adult multiglomerular antennal lobe projection neuron lPN	FlyBase:FBrf0246460		specificity	
+M_lv2PN9t49	FBbt:00049746	adult antennal lobe projection neuron VP2++ lv2PN	FlyBase:FBrf0246456			
+M_lvPNm24	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm25	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm26	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm27	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm28	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm29	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm30	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm31	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm32	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm33	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm34	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm35	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm36	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm37	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm38	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm39	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm40	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm41	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm42	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm43	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm44	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm45	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm46	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm47	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_lvPNm48	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
+M_smPN6t2	FBbt:00049757	adult antennal lobe projection neuron VP1m++ smPN	FlyBase:FBrf0246456			
+M_smPNm1	FBbt:00049747	adult antennal lobe projection neuron VP3+ smPN	FlyBase:FBrf0246456			
+M_spPN4t9	FBbt:00047720	transverse antennal lobe tract 4 projection neuron 1	FlyBase:FBrf0246460		specificity	
+M_spPN5t10	FBbt:00047720	transverse antennal lobe tract 4 projection neuron 1	FlyBase:FBrf0246460		specificity	
 M_vPNml50	FBbt:00007414	adult multiglomerular antennal lobe projection neuron vPN			specificity	
 M_vPNml51	FBbt:00007414	adult multiglomerular antennal lobe projection neuron vPN			specificity	
 M_vPNml52	FBbt:00007414	adult multiglomerular antennal lobe projection neuron vPN			specificity	
@@ -2920,29 +2920,29 @@ mALD2					?	mediodorsal AL neuron? Scheffer2020
 mALD3					?	mediodorsal AL neuron? Scheffer2020
 mALD4					?	mediodorsal AL neuron? Scheffer2020
 MB-C1	FBbt:00100226	mushroom body calyx arborizing neuron 1				
-MBON01	FBbt:00100234	mushroom body medial lobe arborizing neuron 6				
+MBON01	FBbt:00100234	mushroom body output neuron 1				
 MBON02	FBbt:00111012	mushroom body output neuron 2				
-MBON03	FBbt:00100232	mushroom body medial lobe arborizing neuron 4				
+MBON03	FBbt:00100232	mushroom body output neuron 3				
 MBON04	FBbt:00111014	mushroom body output neuron 4				
 MBON05	FBbt:00111004	mushroom body output neuron 5				
-MBON06	FBbt:00100242	mushroom body medial-vertical lobe arborizing neuron 2				
+MBON06	FBbt:00100242	mushroom body output neuron 6				
 MBON07	FBbt:00111005	mushroom body output neuron 7				
 MBON09	FBbt:00111007	mushroom body output neuron 9				
 MBON10	FBbt:00111008	mushroom body output neuron 10				
-MBON11	FBbt:00100246	mushroom body pedunculus-medial lobe and vertical lobe arborizing neuron 2				
+MBON11	FBbt:00100246	mushroom body output neuron 11				
 MBON12	FBbt:00111009	mushroom body output neuron 12				
-MBON13	FBbt:00100239	mushroom body vertical lobe arborizing neuron 4				
-MBON14	FBbt:00100238	mushroom body vertical lobe arborizing neuron 3				
+MBON13	FBbt:00100239	mushroom body output neuron 13				
+MBON14	FBbt:00100238	mushroom body output neuron 14				
 MBON15	FBbt:00111010	mushroom body output neuron 15				
 MBON15-like	FBbt:00111010	mushroom body output neuron 15	doi:10.1101/2020.08.29.273276		specificity	
-MBON16	FBbt:00111063	mushroom body vertical lobe arborizing neuron 2 alpha\' anterior-posterior				
-MBON17	FBbt:00111064	mushroom body vertical lobe arborizing neuron 2 alpha\' middle				
+MBON16	FBbt:00111063	mushroom body output neuron 16				
+MBON17	FBbt:00111064	mushroom body output neuron 17				
 MBON17-like	FBbt:00111064	mushroom body output neuron 17	doi:10.1101/2020.08.29.273276		specificity	
-MBON18	FBbt:00110101	mushroom body vertical lobe arborizing neuron 2 alpha				
+MBON18	FBbt:00110101	mushroom body output neuron 18				
 MBON19	FBbt:00111011	mushroom body output neuron 19				
 MBON20	FBbt:00111013	mushroom body output neuron 20				
 MBON21	FBbt:00111046	mushroom body output neuron 21				
-MBON22	FBbt:00100240	mushroom body calyx-pedunculus arborizing neuron 1				
+MBON22	FBbt:00100240	mushroom body output neuron 22				
 MBON23	FBbt:00049113	mushroom body output neuron 23				
 MBON24	FBbt:00049844	mushroom body output neuron 24				
 MBON25	FBbt:00049845	mushroom body output neuron 25				
@@ -2963,7 +2963,7 @@ MC65	FBbt:00111640	medulla columnar neuron			specificity
 MC66	FBbt:00111640	medulla columnar neuron			specificity	
 MDN	FBbt:00111308	adult moonwalker descending neuron				
 MZ_lv2PN	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
-MZ_lvPN	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
+MZ_lvPN	FBbt:00049779	adult multiglomerular antennal lobe projection neuron lvPN	FlyBase:FBrf0246460		specificity	
 NPFL1-I	FBbt:00048114	adult NPF L1-l neuron				
 NPFP1	FBbt:00048120	adult NPF P1 neuron				
 OA-ASM1	FBbt:00110168	octopaminergic ASM1 neuron				
@@ -2976,14 +2976,14 @@ OA-VUMa2	FBbt:00110157	octopaminergic VUMa2 neuron
 OA-VUMa5	FBbt:00047934	octopaminergic VUMa5 neuron				
 OA-VUMa6	FBbt:00047935	octopaminergic VUMa6 neuron				
 OA-VUMa7	FBbt:00047936	octopaminergic VUMa7 neuron				
-OCG01	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG02	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG03	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG04	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG05	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG06	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG07	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
-OCG08	FBbt:00049818	ocellar interneuron	doi:10.7554/eLife.57443		specificity	
+OCG01	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG02	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG03	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG04	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG05	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG06	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG07	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
+OCG08	FBbt:00049818	ocellar interneuron	FlyBase:FBrf0246888		specificity	
 ORN_D	FBbt:00067034	adult olfactory receptor neuron Or69a			assuming 1 ORN per glomerulus	
 ORN_DA1	FBbt:00067031	adult olfactory receptor neuron Or67d			assuming 1 ORN per glomerulus	
 ORN_DA2	FBbt:00067063	adult olfactory receptor neuron Or56a			assuming 1 ORN per glomerulus	
@@ -3035,9 +3035,9 @@ ORN_VM5d	FBbt:00007389	adult olfactory receptor neuron Or85b/98b			assuming 1 OR
 ORN_VM5v	FBbt:00067062	adult olfactory receptor neuron Or98a			assuming 1 ORN per glomerulus	
 ORN_VM7d	FBbt:00067042	adult olfactory receptor neuron Or42a			assuming 1 ORN per glomerulus	
 ORN_VM7v	FBbt:00067007	adult olfactory receptor neuron Or59c			assuming 1 ORN per glomerulus	
-oviDNa					new	oviposition DN  - Scheffer2020
-oviDNb					new	oviposition DN  - Scheffer2020
-oviIN					new	oviposition inhibitory neuron - Scheffer2020
+oviDNa	FBbt:00049920	oviposition descending neuron a	FlyBase:FBrf0245074			
+oviDNb	FBbt:00049921	oviposition descending neuron b	FlyBase:FBrf0245074			
+oviIN	FBbt:00049928	oviposition inhibitory neuron	FlyBase:FBrf0245074			
 P1-9					?	
 P6-8P9	FBbt:00111056	protocerebral bridge 4 glomeruli neuron				
 PAL01	FBbt:00100215	dopaminergic PAL neuron				
@@ -3046,7 +3046,7 @@ PAL03	FBbt:00100215	dopaminergic PAL neuron
 PAM01_a	FBbt:00111015	dopaminergic PAM neuron 1				
 PAM01_b	FBbt:00111015	dopaminergic PAM neuron 1				
 PAM02	FBbt:00111016	dopaminergic PAM neuron 2				
-PAM03	FBbt:00100231	mushroom body medial lobe arborizing neuron 3				
+PAM03	FBbt:00100231	dopaminergic PAM neuron 3				
 PAM04_a	FBbt:00110993	dopaminergic PAM neuron 4				
 PAM04_b	FBbt:00110993	dopaminergic PAM neuron 4				
 PAM05	FBbt:00111017	dopaminergic PAM neuron 5				
@@ -3061,7 +3061,7 @@ PAM08_e	FBbt:00111020	dopaminergic PAM neuron 8
 PAM09	FBbt:00111021	dopaminergic PAM neuron 9				
 PAM10	FBbt:00110994	dopaminergic PAM neuron 10				
 PAM11	FBbt:00111022	dopaminergic PAM neuron 11				
-PAM12	FBbt:00100230	mushroom body medial lobe arborizing neuron 2				
+PAM12	FBbt:00100230	dopaminergic PAM neuron 12				
 PAM13	FBbt:00111023	dopaminergic PAM neuron 13				
 PAM14	FBbt:00111024	dopaminergic PAM neuron 14				
 PAM15_a	FBbt:00049841	dopaminergic PAM neuron 15				
@@ -3071,11 +3071,11 @@ pC1b	FBbt:00047349	adult doublesex pC1 (female) neuron
 pC1c	FBbt:00047349	adult doublesex pC1 (female) neuron				
 pC1d	FBbt:00047349	adult doublesex pC1 (female) neuron				
 pC1e	FBbt:00047349	adult doublesex pC1 (female) neuron				
-PEG	FBbt:00047031	PBG1-9.s-EBt.b-D/V GA.b neuron	FlyBase:FBrf0240744			
+PEG	FBbt:00047031	P-EG neuron	FlyBase:FBrf0240744			
 PEN_a(PEN1)	FBbt:00049803	P-EN1 neuron	doi:10.1016/j.neuron.2020.08.006			
 PEN_b(PEN2)	FBbt:00049804	P-EN2 neuron	doi:10.1016/j.neuron.2020.08.006			
 PFGs	FBbt:00111457	PB 1 glomerulus-FB layers 3 and 6-ventral gall surround neuron	FlyBase:FBrf0240744			
-PFL1	FBbt:00111433	PB 1 glomerulus-FB layer 2-IDFP HB-lateral neuron	doi:10.7554/eLife.57443			
+PFL1	FBbt:00111433	PB 1 glomerulus-FB layer 2-IDFP HB-lateral neuron	FlyBase:FBrf0246888			
 PFL2	FBbt:00003635	horizontal fiber system neuron	FlyBase:FBrf0240744		specificity	
 PFL3	FBbt:00003635	horizontal fiber system neuron	FlyBase:FBrf0240744		specificity	
 PFNa	FBbt:00111396	PB-FB-NO3 anterior domain neuron	FlyBase:FBrf0240744			
@@ -3358,7 +3358,7 @@ PLP255	FBbt:20001755	adult posterior lateral protocerebrum neuron 255
 PPL101	FBbt:00100243	mushroom body pedunculus-medial lobe arborizing neuron 1				
 PPL102	FBbt:00111025	dopaminergic PPL1 neuron 2				
 PPL103	FBbt:00100241	mushroom body medial-vertical lobe arborizing neuron 1				
-PPL104	FBbt:00110321	MB-alpha\' neuron of the dopaminergic PPL1 cluster				
+PPL104	FBbt:00110321	MB-alpha' neuron of the dopaminergic PPL1 cluster				
 PPL105	FBbt:00100236	mushroom body vertical lobe arborizing neuron 1				
 PPL106	FBbt:00110320	MB-alpha neuron of the dopaminergic PPL1 cluster				
 PPL107	FBbt:00100219	dopaminergic PPL1 neuron			specificity	
@@ -3945,7 +3945,7 @@ SAD093	FBbt:20002302	adult saddle neuron 093
 SAD094	FBbt:20002303	adult saddle neuron 094				
 SAD095	FBbt:20002304	adult saddle neuron 095				
 SAF	FBbt:00049145	adult Slp-AF neuron	FlyBase:FBrf0240744			
-SAG	FBbt:00111304	adult sex peptide abdominal ganglion neuron	doi:10.7554/eLife.57443		new	
+SAG	FBbt:00111304	adult sex peptide abdominal ganglion neuron	FlyBase:FBrf0246888		new	
 SIFa	FBbt:00047427	adult SIFamide cell of pars intercerebralis			based on 2 per hemisphere and not much CA arborization	
 SIP001	FBbt:20002305	adult superior intermediate protocerebrum neuron 001				
 SIP002	FBbt:20002306	adult superior intermediate protocerebrum neuron 002				
@@ -5164,7 +5164,7 @@ SMP602	FBbt:20003464	adult superior medial protocerebrum neuron 602
 SMP603	FBbt:20003465	adult superior medial protocerebrum neuron 603				
 SMP604	FBbt:20003466	adult superior medial protocerebrum neuron 604				
 SpsP	FBbt:00111514	SPS-PB neuron	FlyBase:FBrf0240744			
-TRN_VP1m	FBbt:00049660	adult hygrosensory neuron Ir68a VP1m	FBrf0246456			
+TRN_VP1m	FBbt:00049660	adult hygrosensory neuron Ir68a VP1m	FlyBase:FBrf0246456			
 TRN_VP2	FBbt:00007575	aristal sensory neuron VP2			assuming 1 TRN per glomerulus	
 TRN_VP3	FBbt:00007576	aristal sensory neuron VP3	doi:10.1016/j.cub.2020.06.028			arista - based on Marin2020
 TuBu01	FBbt:00047047	adult TuBu neuron				
@@ -5180,8 +5180,8 @@ TuBu10	FBbt:00047047	adult TuBu neuron
 TuTuA					new	
 TuTuB_a					new	
 TuTuB_b					new	
-V_ilPN	FBbt:00007440	adult uniglomerular antennal lobe projection neuron			specificity	
-V_l2PN	FBbt:00047312	adult uniglomerular antennal lobe projection neuron lPN			specificity	
+V_ilPN	FBbt:00003995	adult uniglomerular antennal lobe projection neuron V ilPN	FlyBase:FBrf0246460			
+V_l2PN	FBbt:00047718	adult uniglomerular antennal lobe projection neuron V l2PN	FlyBase:FBrf0246460		RETYPED	
 v2LN2	FBbt:00007390	local interneuron of adult antennal lobe			specificity	
 v2LN30	FBbt:00007390	local interneuron of adult antennal lobe			specificity	
 v2LN31	FBbt:00007390	local interneuron of adult antennal lobe			specificity	
@@ -5233,20 +5233,20 @@ VC4_adPN	FBbt:00100383	adult antennal lobe projection neuron VC4 adPN
 VC5_adPN	FBbt:00100379	adult antennal lobe projection neuron VC5 adPN				
 VC5_lvPN	FBbt:00007440	adult uniglomerular antennal lobe projection neuron			specificity	
 VCH	FBbt:00048127	ventral centrifugal horizontal neuron				
-vDeltaA_a	FBbt:00049144	adult A-F neuron	doi:10.7554/eLife.57443			
-vDeltaA_b	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaB	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaC	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaD	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaE	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaF	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaG	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaH	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaI	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaJ	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaK	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaL	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
-vDeltaM	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	doi:10.7554/eLife.57443		specificity	
+vDeltaA_a	FBbt:00049144	adult A-F neuron	FlyBase:FBrf0246888			
+vDeltaA_b	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaB	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaC	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaD	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaE	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaF	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaG	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaH	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaI	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaJ	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaK	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaL	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
+vDeltaM	FBbt:00049821	fan-shaped body intrinsic unicolumnar neuron	FlyBase:FBrf0246888		specificity	
 VES001	FBbt:20003467	adult vest neuron 001				
 VES002	FBbt:20003468	adult vest neuron 002				
 VES003	FBbt:20003469	adult vest neuron 003				
@@ -5335,6 +5335,7 @@ VES084	FBbt:20003550	adult vest neuron 084
 VL1_ilPN	FBbt:00049772	adult antennal lobe projection neuron VL1 ilPN				
 VL1_vPN	FBbt:00007444	adult antennal lobe projection neuron VL1 vPN				
 VL2a_adPN	FBbt:00100380	adult antennal lobe projection neuron VL2a adPN				
+VL2a_vPN	FBbt:00049764	adult antennal lobe projection neuron VL2a vPN	FlyBase:FBrf0246460			
 VL2p_adPN	FBbt:00007450	adult antennal lobe projection neuron VL2p adPN				
 VL2p_vPN	FBbt:00049765	adult antennal lobe projection neuron VL2p vPN				
 vLN24	FBbt:00007390	local interneuron of adult antennal lobe			specificity	
@@ -5350,12 +5351,13 @@ VM4_adPN	FBbt:00100378	adult antennal lobe projection neuron VM4 adPN
 VM4_lvPN	FBbt:00049775	adult antennal lobe projection neuron VM4 lvPN				
 VM5d_adPN	FBbt:00100385	adult antennal lobe projection neuron VM5d adPN				
 VM5v_adPN	FBbt:00100386	adult antennal lobe projection neuron VM5v adPN				
+VM7d_adPN	FBbt:00049514	adult antennal lobe projection neuron VM7d adPN	FlyBase:FBrf0246460			
 VM7v_adPN	FBbt:00007454	adult antennal lobe projection neuron VM7v adPN				
 VP1d_il2PN	FBbt:00049721	adult antennal lobe projection neuron VP1d il2PN				
 VP1d+VP4_l2PN1	FBbt:00049727	adult antennal lobe projection neuron VP1d+VP4 l2PN1				
 VP1d+VP4_l2PN2	FBbt:00049728	adult antennal lobe projection neuron VP1d+VP4 l2PN2				
 VP1l+_lvPN	FBbt:00007440	adult uniglomerular antennal lobe projection neuron			specificity	
-VP1l+VP3_ilPN	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
+VP1l+VP3_ilPN	FBbt:00111339	adult bilateral antennal lobe projection neuron VP1l+VP3 ilPN	FlyBase:FBrf0246456			
 VP1m_l2PN	FBbt:00049729	adult antennal lobe projection neuron VP1m l2PN				
 VP1m+_lvPN	FBbt:00049745	adult antennal lobe projection neuron VP1m+ lvPN				
 VP1m+VP2_lvPN1	FBbt:00049740	adult antennal lobe projection neuron VP1m+VP2 lvPN 1				
@@ -5368,14 +5370,14 @@ VP2+VC5_l2PN	FBbt:00049731	adult antennal lobe projection neuron VP2+VC5 l2PN
 VP2+Z_lvPN	FBbt:00067123	adult antennal lobe projection neuron			specificity	
 VP3+_l2PN	FBbt:00007440	adult uniglomerular antennal lobe projection neuron			specificity	
 VP3+_vPN	FBbt:00007440	adult uniglomerular antennal lobe projection neuron			specificity	
-VP3+VP1l_ivPN	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
+VP3+VP1l_ivPN	FBbt:00049724	adult bilateral antennal lobe projection neuron VP3+VP1l ivPN	FlyBase:FBrf0246456			
 VP4_vPN	FBbt:00049752	adult antennal lobe projection neuron VP4 vPN				
 VP4+_vPN	FBbt:00049751	adult antennal lobe projection neuron VP4+ vPN				
 VP4+VL1_l2PN	FBbt:00007441	adult multiglomerular antennal lobe projection neuron			specificity	
 VP5+_l2PN	FBbt:00049726	adult antennal lobe projection neuron VP5+ l2PN				
 VP5+VP2_l2PN	FBbt:00111340	adult antennal lobe projection neuron VP5+VP2 l2PN				
 VP5+VP3_l2PN	FBbt:00049736	adult antennal lobe projection neuron VP5+VP3 l2PN				
-VP5+Z_adPN	FBbt:00067123	adult antennal lobe projection neuron			specificity	
+VP5+Z_adPN	FBbt:00100374	adult uniglomerular projection neuron VP5+SEZ adPN	doi:10.1101/2020.08.29.273276			
 vpoDN					?	
 vpoEN					?	
 VS	FBbt:00007516	vertical system neuron				
@@ -5590,17 +5592,17 @@ WEDPN17_b	FBbt:00048516	wedge projection neuron			specificity
 WEDPN17_c	FBbt:00048516	wedge projection neuron			specificity	
 WEDPN18	FBbt:00048516	wedge projection neuron			specificity	
 WEDPN19	FBbt:00048516	wedge projection neuron			specificity	
-WEDPN1A_a	FBbt:00049454	adult WED-PN1 lateral horn input neuron				
-WEDPN1A_b	FBbt:00049454	adult WED-PN1 lateral horn input neuron				
-WEDPN1B	FBbt:00049454	adult WED-PN1 lateral horn input neuron				
-WEDPN2A	FBbt:00049455	adult WED-PN2 lateral horn input neuron				
-WEDPN2B	FBbt:00049455	adult WED-PN2 lateral horn input neuron				
-WEDPN3	FBbt:00049456	adult WED-PN3 lateral horn input neuron				
-WEDPN4	FBbt:00049457	adult WED-PN4 lateral horn input neuron				
-WEDPN5	FBbt:00049458	adult WED-PN5 lateral horn input neuron				
-WEDPN6A	FBbt:00049459	adult WED-PN6 lateral horn input neuron				
-WEDPN6B	FBbt:00049459	adult WED-PN6 lateral horn input neuron				
-WEDPN6C	FBbt:00049459	adult WED-PN6 lateral horn input neuron				
+WEDPN1A_a	FBbt:00049454	adult wedge projection neuron 1				
+WEDPN1A_b	FBbt:00049454	adult wedge projection neuron 1				
+WEDPN1B	FBbt:00049454	adult wedge projection neuron 1				
+WEDPN2A	FBbt:00049455	adult wedge projection neuron 2				
+WEDPN2B	FBbt:00049455	adult wedge projection neuron 2				
+WEDPN3	FBbt:00049456	adult wedge projection neuron 3				
+WEDPN4	FBbt:00049457	adult wedge projection neuron 4				
+WEDPN5	FBbt:00049458	adult wedge projection neuron 5				
+WEDPN6A	FBbt:00049459	adult wedge projection neuron 6				
+WEDPN6B	FBbt:00049459	adult wedge projection neuron 6				
+WEDPN6C	FBbt:00049459	adult wedge projection neuron 6				
 WEDPN7A	FBbt:00049663	adult wedge projection neuron 7				
 WEDPN7B	FBbt:00049663	adult wedge projection neuron 7				
 WEDPN7C	FBbt:00049663	adult wedge projection neuron 7				

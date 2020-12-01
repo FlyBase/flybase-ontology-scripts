@@ -6,8 +6,8 @@ import sys
 Make spreadsheet using resources/fbbt-simple.json for is_a and part_of children (not just cells) of provided term.
 Use full IRI.
 Example usage:
-python3 spreadsheet_from_parent_term.py http://purl.obolibrary.org/obo/FBbt_00040005
-(= synaptic neuropil)
+python3 spreadsheet_from_parent_term.py http://purl.obolibrary.org/obo/FBbt_00047095
+(= adult neuron)
 """
 
 fbbt_path = "./resources/fbbt-simple.json"

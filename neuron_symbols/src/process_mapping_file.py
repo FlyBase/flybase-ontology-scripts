@@ -34,7 +34,7 @@ if len(changed_ids) > 0:
     print('WARNING: Symbols with changed FBbt IDs: ', changed_ids)
 
 # add reference detail that was in old file and missing from new (only for matching mapping)
-mapping.update(old_input)
+mapping.update(old_input, overwrite=False)
 # merge old and new (indicator keeps track of which file row came from)
 mapping = pd.merge(mapping, old_input, on=['term', 'FBbt', 'reference'], how='outer', indicator=True)
 mapping.reset_index(inplace=True)
@@ -58,8 +58,8 @@ mapping = mapping.drop(indices_to_drop, axis=0).drop(['_merge'], axis=1)
 
 # drop Giant Fiber and too broad mappings - TODO - check again later
 mapping = mapping.drop(mapping[mapping['term'].isin(
-    ['Giant Fiber', 'H2', 'JO-A/B/C', 'TRN_VP1m', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
-     'vDeltaA', 'DM3_vPN', 'V_l2PN'])].index, axis=0)
+    ['Giant Fiber', 'H2', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
+     'vDeltaA', 'DM3_vPN'])].index, axis=0)
 """
 # update term labels and save file
 mapping = update_term_labels_in_file.replace_labels(mapping, id_col_name='FBbt')

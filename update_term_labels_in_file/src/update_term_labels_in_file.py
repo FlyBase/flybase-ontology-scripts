@@ -5,14 +5,14 @@ nc = Neo4jConnect('http://kb.virtualflybrain.org', 'neo4j', 'neo4j')
 
 # to run on a local file, amend details here:
 file = './file.tsv'
-id_column_name = 'FBbt_ID'
+id_column_name = 'FBbt_id'
 label_column_name = 'FBbt_name'
 
 
-def replace_labels(dataframe, id_col_name='FBbt_ID', label_col_name='FBbt_name'):
+def replace_labels(dataframe, id_col_name='FBbt_id', label_col_name='FBbt_name'):
     """Updates labels from latest FBbt release (from VFB) based on IDs.
 
-    Input is a dataframe - default for ID column to be 'FBbt_ID' and label column as 'FBbt_name'.
+    Input is a dataframe - default for ID column to be 'FBbt_id' and label column as 'FBbt_name'.
     Label column not required in input."""
     col_order = dataframe.columns
     FBbt_list = [str(x).replace(':', '_') for x in set(
@@ -40,10 +40,10 @@ def replace_labels(dataframe, id_col_name='FBbt_ID', label_col_name='FBbt_name')
     return dataframe
 
 
-def replace_labels_in_file(filename, id_col_name='FBbt_ID', label_col_name='FBbt_name'):
+def replace_labels_in_file(filename, id_col_name='FBbt_id', label_col_name='FBbt_name'):
     """Updates labels from latest FBbt release (from VFB) based on IDs.
 
-    Input is a file - default for ID column to be 'FBbt_ID' and label column as 'FBbt_name'."""
+    Input is a file - default for ID column to be 'FBbt_id' and label column as 'FBbt_name'."""
     input_dataframe = pd.read_csv(filename, sep='\t')
     output_dataframe = replace_labels(input_dataframe, id_col_name, label_col_name)
 

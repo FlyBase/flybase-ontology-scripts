@@ -1349,9 +1349,9 @@ DNb04	FBbt:00047585	descending neuron of the anterior ventral brain DNb04
 DNb05	FBbt:00047586	descending neuron of the anterior ventral brain DNb05				
 DNb06	FBbt:00047587	descending neuron of the anterior ventral brain DNb06				
 DNd01	FBbt:00047590	descending neuron of the anterior brain DNd01				
-DNES1					?	DN that doesn�t use neck connective? - Scheffer2020
-DNES2					?	DN that doesn�t use neck connective? - Scheffer2020
-DNES3					?	DN that doesn�t use neck connective? - Scheffer2020
+DNES1					?	DN that doesn’t use neck connective? - Scheffer2020
+DNES2					?	DN that doesn’t use neck connective? - Scheffer2020
+DNES3					?	DN that doesn’t use neck connective? - Scheffer2020
 DNg30	FBbt:00047622	descending neuron of the gnathal ganglion DNg30				
 DNp02	FBbt:00047635	descending neuron of the posterior brain DNp02				
 DNp03	FBbt:00047636	descending neuron of the posterior brain DNp03				
@@ -2710,19 +2710,19 @@ lLN15	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			spe
 lLN16A	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
 lLN16B	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
 lLN17	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2F_a	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2F_b	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2P_a	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2P_b	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2P_c	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2R_a	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2R_b	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2S	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2T_a	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2T_b	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2T_c	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2T_d	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
-lLN2T_e	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
+lLN2F_a	FBbt:00049812	adult antennal lobe lateral local neuron 2F	FlyBase:FBrf0246888			
+lLN2F_b	FBbt:00049812	adult antennal lobe lateral local neuron 2F	FlyBase:FBrf0246888			
+lLN2P_a	FBbt:00049813	adult antennal lobe lateral local neuron 2P	FlyBase:FBrf0246888			
+lLN2P_b	FBbt:00049813	adult antennal lobe lateral local neuron 2P	FlyBase:FBrf0246888			
+lLN2P_c	FBbt:00049813	adult antennal lobe lateral local neuron 2P	FlyBase:FBrf0246888			
+lLN2R_a	FBbt:00049814	adult antennal lobe lateral local neuron 2R	FlyBase:FBrf0246888			
+lLN2R_b	FBbt:00049814	adult antennal lobe lateral local neuron 2R	FlyBase:FBrf0246888			
+lLN2S	FBbt:00049815	adult antennal lobe lateral local neuron 2S	FlyBase:FBrf0246888			
+lLN2T_a	FBbt:00049816	adult antennal lobe lateral local neuron 2T	FlyBase:FBrf0246888			
+lLN2T_b	FBbt:00049816	adult antennal lobe lateral local neuron 2T	FlyBase:FBrf0246888			
+lLN2T_c	FBbt:00049816	adult antennal lobe lateral local neuron 2T	FlyBase:FBrf0246888			
+lLN2T_d	FBbt:00049816	adult antennal lobe lateral local neuron 2T	FlyBase:FBrf0246888			
+lLN2T_e	FBbt:00049816	adult antennal lobe lateral local neuron 2T	FlyBase:FBrf0246888			
 lLN7	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
 lLN8	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
 lLN9	FBbt:00007394	adult local interneuron of the lateral ALl1 neuroblast			specificity	
@@ -5378,8 +5378,8 @@ VP5+_l2PN	FBbt:00049726	adult antennal lobe projection neuron VP5+ l2PN
 VP5+VP2_l2PN	FBbt:00111340	adult antennal lobe projection neuron VP5+VP2 l2PN				
 VP5+VP3_l2PN	FBbt:00049736	adult antennal lobe projection neuron VP5+VP3 l2PN				
 VP5+Z_adPN	FBbt:00100374	adult uniglomerular projection neuron VP5+SEZ adPN	doi:10.1101/2020.08.29.273276			
-vpoDN					?	
-vpoEN					?	
+vpoDN	FBbt:00048405	adult doublesex pMN2 (female) neuron	doi:10.1101/2020.08.07.241919			new mapping
+vpoEN	FBbt:00049947	vaginal plate opening excitatory neuron	doi:10.1101/2020.08.07.241919			new mapping
 VS	FBbt:00007516	vertical system neuron				
 WED001	FBbt:20003551	adult wedge neuron 001				
 WED002	FBbt:20003552	adult wedge neuron 002				

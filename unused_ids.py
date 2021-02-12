@@ -4,7 +4,7 @@
 outfile = 'unused_ids.txt'
 ontology_file = "" # path to ontology file
 ontology_short = "FBbt"
-id_range = range(47001,50000,1)
+id_range = range(51000,52999,1)
 id_length = 8
 
 # convert id_range to list strings with correct length

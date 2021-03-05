@@ -1,4 +1,8 @@
 term	FBbt	reference	FBbt_name
+5-HTPLP	FBbt:00110945	FlyBase:FBrf0246888	adult serotonergic PLP neuron
+5-HTPMP	FBbt:00049528	FlyBase:FBrf0246888	adult serotonergic PMP neuron
+5-HTPMPD	FBbt:00110955	FlyBase:FBrf0246888	adult serotonergic PMPD neuron
+5-HTPMPV	FBbt:00110937	FlyBase:FBrf0246888	adult serotonergic IP neuron
 AL-AST1	FBbt:00047928		antennal lobe AST-associated neuron 1
 AL-MBDL1	FBbt:00047933		antennal lobe median bundle neuron 1
 AMMC-A1	FBbt:00110183		antennal mechanosensory and motor center A1 projection neuron
@@ -1181,6 +1185,7 @@ CRE105	FBbt:20001174	FlyBase:FBrf0246888	adult crepine neuron 105
 CRE106	FBbt:20001175	FlyBase:FBrf0246888	adult crepine neuron 106
 CRE107	FBbt:20001176	FlyBase:FBrf0246888	adult crepine neuron 107
 CRE108	FBbt:20001177	FlyBase:FBrf0246888	adult crepine neuron 108
+CRZ	FBbt:00051052	FlyBase:FBrf0246888	
 CSD	FBbt:00007405	FlyBase:FBrf0227179	adult CSD interneuron
 CT1	FBbt:00048245		tangential neuron CT1
 DA1_lPN	FBbt:00067363		adult antennal lobe projection neuron DA1 lPN
@@ -1211,6 +1216,8 @@ DM4_vPN	FBbt:00049767		adult antennal lobe projection neuron DM4 vPN
 DM5_lPN	FBbt:00067367		adult antennal lobe projection neuron DM5 lPN
 DM6_adPN	FBbt:00067360		adult antennal lobe projection neuron DM6 adPN
 DN1a	FBbt:00007429		DN1a neuron
+DNES	FBbt:00051054	FlyBase:FBrf0246888	
+DNa	FBbt:00047512	FlyBase:FBrf0246888	descending neuron of the anterior dorsal brain
 DNa01	FBbt:00047572	FlyBase:FBrf0239335	descending neuron of the anterior dorsal brain DNa01
 DNa02	FBbt:00047573	FlyBase:FBrf0239335	descending neuron of the anterior dorsal brain DNa02
 DNa03	FBbt:00047574	FlyBase:FBrf0239335	descending neuron of the anterior dorsal brain DNa03
@@ -1221,17 +1228,21 @@ DNa07	FBbt:00047578	FlyBase:FBrf0239335	descending neuron of the anterior dorsal
 DNa08	FBbt:00047579	FlyBase:FBrf0239335	descending neuron of the anterior dorsal brain DNa08
 DNa09	FBbt:00047580	FlyBase:FBrf0239335	descending neuron of the anterior dorsal brain DNa09
 DNa10	FBbt:00047581	FlyBase:FBrf0239335	descending neuron of the anterior dorsal brain DNa10
+DNb	FBbt:00047513	FlyBase:FBrf0246888	descending neuron of the anterior ventral brain
 DNb01	FBbt:00047582	FlyBase:FBrf0239335	descending neuron of the anterior ventral brain DNb01
 DNb02	FBbt:00047583	FlyBase:FBrf0239335	descending neuron of the anterior ventral brain DNb02
 DNb03	FBbt:00047584	FlyBase:FBrf0239335	descending neuron of the anterior ventral brain DNb03
 DNb04	FBbt:00047585	FlyBase:FBrf0239335	descending neuron of the anterior ventral brain DNb04
 DNb05	FBbt:00047586	FlyBase:FBrf0239335	descending neuron of the anterior ventral brain DNb05
 DNb06	FBbt:00047587	FlyBase:FBrf0239335	descending neuron of the anterior ventral brain DNb06
+DNc	FBbt:00047514	FlyBase:FBrf0239335	descending neuron of the pars intercerebralis
 DNc01	FBbt:00047588	FlyBase:FBrf0239335	descending neuron of the pars intercerebralis DNc01
 DNc02	FBbt:00047589	FlyBase:FBrf0239335	descending neuron of the pars intercerebralis DNc02
+DNd	FBbt:00047515	FlyBase:FBrf0246888	descending neuron of the outside anterior cluster
 DNd01	FBbt:00047590	FlyBase:FBrf0239335	descending neuron of the anterior brain DNd01
 DNd02	FBbt:00047591	FlyBase:FBrf0239335	descending neuron of the anterior brain DNd02
 DNd03	FBbt:00047592	FlyBase:FBrf0239335	descending neuron of the anterior brain DNd03
+DNg	FBbt:00047516	FlyBase:FBrf0246888	descending neuron of the gnathal ganglion
 DNg01	FBbt:00047593	FlyBase:FBrf0239335	descending neuron of the gnathal ganglion DNg01
 DNg02	FBbt:00047594	FlyBase:FBrf0239335	descending neuron of the gnathal ganglion DNg02
 DNg03	FBbt:00047595	FlyBase:FBrf0239335	descending neuron of the gnathal ganglion DNg03
@@ -1273,6 +1284,7 @@ DNg38	FBbt:00047630	FlyBase:FBrf0239335	descending neuron of the gnathal ganglio
 DNg39	FBbt:00047631	FlyBase:FBrf0239335	descending neuron of the gnathal ganglion DNg39
 DNg40	FBbt:00047632	FlyBase:FBrf0239335	descending neuron of the gnathal ganglion DNg40
 DNg41	FBbt:00047633	FlyBase:FBrf0239335	descending neuron of the gnathal ganglion DNg41
+DNp	FBbt:00047517	FlyBase:FBrf0246888	descending neuron of the posterior brain
 DNp01	FBbt:00047634	FlyBase:FBrf0239335	descending neuron of the posterior brain DNp01
 DNp02	FBbt:00047635	FlyBase:FBrf0239335	descending neuron of the posterior brain DNp02
 DNp03	FBbt:00047636	FlyBase:FBrf0239335	descending neuron of the posterior brain DNp03
@@ -1315,11 +1327,13 @@ DP1l_vPN	FBbt:00049769		adult antennal lobe projection neuron DP1l vPN
 DP1m_adPN	FBbt:00067021		adult antennal lobe projection neuron DP1m adPN
 DP1m_vPN	FBbt:00049773		adult antennal lobe projection neuron DP1m vPN
 DPM	FBbt:00005780		mushroom body dorsal paired medial cell
+DSK	FBbt:00048998	FlyBase:FBrf0246888	Drosulfakinin neuron
 D_adPN	FBbt:00067355		adult antennal lobe projection neuron D adPN
 Delta7	FBbt:00111057		protocerebral bridge 18 glomeruli type 2 neuron
 EL	FBbt:00049180	FlyBase:FBrf0240744	EBw.AMP.s-Dga-s.b neuron
 EPG	FBbt:00047030	FlyBase:FBrf0240744	EB-PB 1 glomerulus-D/Vgall neuron
 EPGt	FBbt:00111423	FlyBase:FBrf0240744	EB slice 8-GA-PB slice 9 neuron
+ER	FBbt:00007507	FlyBase:FBrf0246888	ring neuron R
 ER1	FBbt:00003650		ring neuron R1
 ER2	FBbt:00003651		ring neuron R2
 ER3a	FBbt:00047039		ring neuron R3a
@@ -1331,6 +1345,7 @@ ER4d	FBbt:00007538		ring neuron R4d
 ER4m	FBbt:00007537		ring neuron R4m
 ER5	FBbt:00047042		ring neuron R5
 ER6	FBbt:00047043		ring neuron R6
+ExR	FBbt:00003654	FlyBase:FBrf0246888	extrinsic ring neuron
 ExR1	FBbt:00003655		extrinsic ring neuron ExR1
 ExR2	FBbt:00110327		EB neuron of the dopaminergic PPM3 cluster
 ExR3	FBbt:00047035		extrinsic ring neuron ExR3
@@ -1465,6 +1480,7 @@ IB117	FBbt:20001294	FlyBase:FBrf0246888	adult inferior bridge neuron 117
 IB118	FBbt:20001295	FlyBase:FBrf0246888	adult inferior bridge neuron 118
 IB119	FBbt:20001296	FlyBase:FBrf0246888	adult inferior bridge neuron 119
 IbSpsP	FBbt:00111383	FlyBase:FBrf0240744	CCP-VMP-PB neuron
+KC	FBbt:00003686	FlyBase:FBrf0246888	Kenyon cell
 KCa'b'-ap1	FBbt:00049836		alpha'/beta' anterior-posterior type 1 Kenyon cell
 KCa'b'-ap2	FBbt:00049837		alpha'/beta' anterior-posterior type 2 Kenyon cell
 KCa'b'-m	FBbt:00100253		alpha'/beta' middle Kenyon cell
@@ -1682,6 +1698,7 @@ LAL201	FBbt:20001497	FlyBase:FBrf0246888	adult lateral accessory lobe neuron 201
 LAL202	FBbt:20001498	FlyBase:FBrf0246888	adult lateral accessory lobe neuron 202
 LAL203	FBbt:20001499	FlyBase:FBrf0246888	adult lateral accessory lobe neuron 203
 LAL204	FBbt:20001500	FlyBase:FBrf0246888	adult lateral accessory lobe neuron 204
+LC	FBbt:00003870	FlyBase:FBrf0246888	lobula columnar neuron
 LC10	FBbt:00100482	FlyBase:FBrf0246888	lobula columnar neuron LC10
 LC10a	FBbt:00111747	FlyBase:FBrf0246888	lobula columnar neuron LC10a
 LC10b	FBbt:00111745	FlyBase:FBrf0246888	lobula columnar neuron LC10b
@@ -1778,6 +1795,7 @@ LHAV6c1	FBbt:00049366		adult lateral horn AV6c1 neuron
 LHAV6f2	FBbt:00049703		adult lateral horn AV6f2 neuron
 LHAV7a1	FBbt:00049367		adult lateral horn AV7a1 neuron
 LHAV8a1	FBbt:00049683		adult lateral horn AV8a1 neuron
+LHCENT	FBbt:00049661	FlyBase:FBrf0246888	adult lateral horn centrifugal neuron
 LHCENT1	FBbt:00049794		adult lateral horn centrifugal neuron 1
 LHCENT2	FBbt:00049795		adult lateral horn centrifugal neuron 2
 LHCENT3	FBbt:00049796		adult lateral horn centrifugal neuron 3
@@ -1871,6 +1889,7 @@ LHPV7a2	FBbt:00049714		adult lateral horn PV7a2 neuron
 LHPV7c1	FBbt:00049793		adult lateral horn PV7c1 neuron
 LNOa	FBbt:00049137	FlyBase:FBrf0240744	adult L-NA neuron
 LNd	FBbt:00004045		LNd neuron
+LPC	FBbt:00111766	FlyBase:FBrf0246888	lobula plate columnar neuron
 LPC1	FBbt:00111767		lobula plate columnar neuron LPC1
 LPLC1	FBbt:00111762		lobula complex columnar neuron LPLC1
 LPLC2	FBbt:00111763		lobula complex columnar neuron LPLC2
@@ -1878,10 +1897,13 @@ LPLC4	FBbt:00111765		lobula complex columnar neuron LPLC4
 LPN	FBbt:00007432		LP neuron
 LPi4-3	FBbt:00111288		lobula plate intrinsic neuron LPi4-3
 LPsP	FBbt:00111382	FlyBase:FBrf0240744	CVLP-IDFP-VMP-PB neuron
+LT	FBbt:00003859	FlyBase:FBrf0246888	lobula tangential neuron
 LT1	FBbt:00003860		lobula tangential neuron Lt1
 LT11	FBbt:00100487		lobula tangential neuron Lt11
 LT33	FBbt:00049516		lobula tangential neuron Lt33
+Li	FBbt:00003882	FlyBase:FBrf0246888	lobula intrinsic neuron
 MB-C1	FBbt:00100226	FlyBase:FBrf0227179	mushroom body calyx arborizing neuron 1
+MBON	FBbt:00047953	FlyBase:FBrf0246888	mushroom body output neuron
 MBON01	FBbt:00100234		mushroom body output neuron 1
 MBON02	FBbt:00111012		mushroom body output neuron 2
 MBON03	FBbt:00100232		mushroom body output neuron 3
@@ -1914,6 +1936,7 @@ MBON32	FBbt:00049852		mushroom body output neuron 32
 MBON33	FBbt:00049853		mushroom body output neuron 33
 MBON34	FBbt:00049854		mushroom body output neuron 34
 MBON35	FBbt:00049855		mushroom body output neuron 35
+MC	FBbt:00111640	FlyBase:FBrf0246888	medulla columnar neuron
 MC61	FBbt:00111641	FlyBase:FBrf0246888	medulla columnar neuron MC61
 MC62	FBbt:00111768	FlyBase:FBrf0246888	medulla columnar neuron MC62
 MDN	FBbt:00111308		adult moonwalker descending neuron
@@ -1921,18 +1944,24 @@ M_imPNl92	FBbt:00047723	FlyBase:FBrf0246460	lateral antennal lobe tract projecti
 M_lv2PN9t49	FBbt:00049746	FlyBase:FBrf0246456	adult antennal lobe projection neuron VP2++ lv2PN
 M_smPN6t2	FBbt:00049757	FlyBase:FBrf0246456	adult antennal lobe projection neuron VP1m++ smPN
 M_smPNm1	FBbt:00049747	FlyBase:FBrf0246456	adult antennal lobe projection neuron VP3+ smPN
+NPF	FBbt:00048113	FlyBase:FBrf0246888	adult NPF neuron
 NPFL1-I	FBbt:00048114		adult NPF L1-l neuron
 NPFP1	FBbt:00048120		adult NPF P1 neuron
+OA	FBbt:00007364	FlyBase:FBrf0246888	octopaminergic neuron
+OA-ASM	FBbt:00110167	FlyBase:FBrf0246888	octopaminergic ASM neuron
 OA-ASM1	FBbt:00110168		octopaminergic ASM1 neuron
 OA-ASM2	FBbt:00110169		octopaminergic ASM2 neuron
 OA-ASM3	FBbt:00110170		octopaminergic ASM3 neuron
+OA-VPM	FBbt:00110148	FlyBase:FBrf0246888	octopaminergic VPM neuron
 OA-VPM3	FBbt:00110151	FlyBase:FBrf0227179	octopaminergic VPM3 neuron
 OA-VPM4	FBbt:00110152	FlyBase:FBrf0227179	octopaminergic VPM4 neuron
+OA-VUMa	FBbt:00110155	FlyBase:FBrf0246888	octopaminergic VUMa neuron
 OA-VUMa1	FBbt:00110156		octopaminergic VUMa1 neuron
 OA-VUMa2	FBbt:00110157		octopaminergic VUMa2 neuron
 OA-VUMa5	FBbt:00047934		octopaminergic VUMa5 neuron
 OA-VUMa6	FBbt:00047935		octopaminergic VUMa6 neuron
 OA-VUMa7	FBbt:00047936		octopaminergic VUMa7 neuron
+OCG	FBbt:00049818	FlyBase:FBrf0246888	ocellar interneuron
 ORN_D	FBbt:00067034		adult olfactory receptor neuron Or69a
 ORN_DA1	FBbt:00067031		adult olfactory receptor neuron Or67d
 ORN_DA2	FBbt:00067063		adult olfactory receptor neuron Or56a
@@ -1981,6 +2010,8 @@ ORN_VM5v	FBbt:00067062		adult olfactory receptor neuron Or98a
 ORN_VM7d	FBbt:00067042		adult olfactory receptor neuron Or42a
 ORN_VM7v	FBbt:00067007		adult olfactory receptor neuron Or59c
 P6-8P9	FBbt:00111056		protocerebral bridge 4 glomeruli neuron
+PAL	FBbt:00100215	FlyBase:FBrf0246888	dopaminergic PAL neuron
+PAM	FBbt:00100214	FlyBase:FBrf0246888	dopaminergic PAM neuron
 PAM01	FBbt:00111015		dopaminergic PAM neuron 1
 PAM02	FBbt:00111016		dopaminergic PAM neuron 2
 PAM03	FBbt:00100231		dopaminergic PAM neuron 3
@@ -2007,6 +2038,7 @@ PFNm	FBbt:00111513	FlyBase:FBrf0240744	PB-FB-NO3 medial domain neuron
 PFNp	FBbt:00111404	FlyBase:FBrf0240744	PB-FB-NO3 posterior domain neuron
 PFNv	FBbt:00111512	FlyBase:FBrf0240744	PB-FB-NO2 ventral domain neuron
 PFR	FBbt:00111424	FlyBase:FBrf0240744	PB 1 glomerulus-FB layers 3-5-IDFP RB neuron
+PI	FBbt:00047185	FlyBase:FBrf0246888	neurosecretory cell of pars intercerebralis
 PLP001	FBbt:20001501	FlyBase:FBrf0246888	adult posterior lateral protocerebrum neuron 001
 PLP002	FBbt:20001502	FlyBase:FBrf0246888	adult posterior lateral protocerebrum neuron 002
 PLP003	FBbt:20001503	FlyBase:FBrf0246888	adult posterior lateral protocerebrum neuron 003
@@ -2262,6 +2294,7 @@ PLP252	FBbt:20001752	FlyBase:FBrf0246888	adult posterior lateral protocerebrum n
 PLP253	FBbt:20001753	FlyBase:FBrf0246888	adult posterior lateral protocerebrum neuron 253
 PLP254	FBbt:20001754	FlyBase:FBrf0246888	adult posterior lateral protocerebrum neuron 254
 PLP255	FBbt:20001755	FlyBase:FBrf0246888	adult posterior lateral protocerebrum neuron 255
+PPL1	FBbt:00100219	FlyBase:FBrf0246888	dopaminergic PPL1 neuron
 PPL101	FBbt:00100243		mushroom body pedunculus-medial lobe arborizing neuron 1
 PPL102	FBbt:00111025		dopaminergic PPL1 neuron 2
 PPL103	FBbt:00100241		mushroom body medial-vertical lobe arborizing neuron 1
@@ -3991,6 +4024,7 @@ T5	FBbt:00003736		T neuron T5
 TRN_VP1m	FBbt:00049660	FlyBase:FBrf0246456	adult hygrosensory neuron Ir68a VP1m
 TRN_VP2	FBbt:00007575	FlyBase:FBrf0246456	aristal sensory neuron VP2
 TRN_VP3	FBbt:00007576	FlyBase:FBrf0246456	aristal sensory neuron VP3
+TuBu	FBbt:00047047	FlyBase:FBrf0246888	adult TuBu neuron
 VA1d_adPN	FBbt:00067357		adult antennal lobe projection neuron VA1d adPN
 VA1d_vPN	FBbt:00049766		adult antennal lobe projection neuron VA1d vPN
 VA1v_adPN	FBbt:00067361		adult antennal lobe projection neuron VA1v adPN
@@ -4128,7 +4162,7 @@ VP5+VP2_l2PN	FBbt:00111340		adult antennal lobe projection neuron VP5+VP2 l2PN
 VP5+VP3_l2PN	FBbt:00049736		adult antennal lobe projection neuron VP5+VP3 l2PN
 VP5+Z_adPN	FBbt:00100374	doi:10.1101/2020.08.29.273276	adult uniglomerular projection neuron VP5+SEZ adPN
 VP5+_l2PN	FBbt:00049726		adult antennal lobe projection neuron VP5+ l2PN
-VS	FBbt:00007516		vertical system neuron
+VS	FBbt:00007516	FlyBase:FBrf0246888	vertical system neuron
 V_ilPN	FBbt:00003995	FlyBase:FBrf0246460	adult uniglomerular antennal lobe projection neuron V ilPN
 V_l2PN	FBbt:00047718	FlyBase:FBrf0246460	adult uniglomerular antennal lobe projection neuron V l2PN
 WED001	FBbt:20003551	FlyBase:FBrf0246888	adult wedge neuron 001

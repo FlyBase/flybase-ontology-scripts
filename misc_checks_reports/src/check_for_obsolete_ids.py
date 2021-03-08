@@ -3,6 +3,10 @@ from vfb_connect.neo.neo4j_tools import Neo4jConnect, dict_cursor
 
 nc = Neo4jConnect('http://kb.virtualflybrain.org', 'neo4j', 'neo4j')
 
+"""
+Finds obsolete IDs used within a tsv file.
+"""
+
 # to run on a local file, amend details here:
 file = './file.tsv'
 id_column_name = 'FBbt_id'

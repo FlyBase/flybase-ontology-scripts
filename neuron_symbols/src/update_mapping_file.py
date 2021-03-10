@@ -37,10 +37,17 @@ new_mapping = new_mapping.drop_duplicates()
 # check for duplicate FBbt IDs in the mapping file (will happen with hemibrain) and don't use these rows
 dup_FBbt = list(new_mapping['FBbt'].value_counts()[
                                    new_mapping['FBbt'].value_counts() > 1].index)
+
 if len(dup_FBbt) > 0:
     print('duplicate FBbt IDs in mapping file - ignoring these:')
     print(dup_FBbt)
 new_mapping = new_mapping[~new_mapping.FBbt.isin(dup_FBbt)].set_index('term', 'FBbt')
+
+# drop Giant Fiber and too broad mappings from hemibrain - TODO - check again later
+if hemibrain:
+    new_mapping = new_mapping.drop(
+        ['Giant Fiber', 'H2', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
+         'vDeltaA', 'DM3_vPN'], axis=0)
 
 # check for symbols with changed FBbt IDs
 changed_ids = []
@@ -70,11 +77,6 @@ if len(changed_symbols_df) > 0:
 # drop rows from old file where symbol is different in new file
 indices_to_drop = changed_symbols_df[changed_symbols_df['in_file'] == 'old'].index
 merged_mapping = merged_mapping.drop(indices_to_drop, axis=0).drop(['_merge'], axis=1)
-
-# drop Giant Fiber and too broad mappings - TODO - check again later
-merged_mapping = merged_mapping.drop(merged_mapping[merged_mapping['term'].isin(
-    ['Giant Fiber', 'H2', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
-     'vDeltaA', 'DM3_vPN'])].index, axis=0)
 
 # sort dataframe (by symbol) and output to file
 merged_mapping = merged_mapping.sort_values(by='term')

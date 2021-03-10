@@ -9,17 +9,19 @@ import wget
 """
 runs checks on input and makes template
 """
+
+fbbt_file = "fbbt-edit.obo"
 delete_edit_file = False
-if not os.path.isfile("input_files/fbbt-edit.obo"):
+if not os.path.isfile(fbbt_file):
     delete_edit_file = True
     wget.download(("https://raw.githubusercontent.com/FlyBase/"
                    "drosophila-anatomy-developmental-ontology"
-                   "/master/src/ontology/fbbt-edit.obo"), "input_files/fbbt-edit.obo")
+                   "/master/src/ontology/fbbt-edit.obo"), fbbt_file)
 
-fbbt = obonet.read_obo("input_files/fbbt-edit.obo")
+fbbt = obonet.read_obo(fbbt_file)
 
 # input file should contain 'term', 'FBbt' and 'reference' columns
-input_file = os.getcwd() + "/input_files/input.tsv"
+input_file = "input.tsv"
 term_table = pd.read_csv(input_file, sep='\t')\
     .applymap(str)\
     .applymap(lambda y: y.strip())
@@ -38,14 +40,14 @@ if max(fbbt_frequencies) > 1:
     print("Error: duplicate FBbt IDs in input file\nAborting")
     print(fbbt_frequencies[fbbt_frequencies > 1])
     if delete_edit_file:
-        os.remove("input_files/fbbt-edit.obo")
+        os.remove(fbbt_file)
     raise SystemExit
 symbol_frequencies = term_table['symbol'].value_counts()
 if max(symbol_frequencies) > 1:
     print("Error: duplicate symbols in input file\nAborting")
     print(symbol_frequencies[symbol_frequencies > 1])
     if delete_edit_file:
-        os.remove("input_files/fbbt-edit.obo")
+        os.remove(fbbt_file)
     raise SystemExit
 
 # Get existing symbol and synonym data for terms from FBbt
@@ -57,7 +59,7 @@ for term in term_table['FBbt']:
             and (synonym_info[term].existing_symbol != synonym_info[term].new_symbol):
         print("Error: %s already has a different symbol\nAborting" % term)
         if delete_edit_file:
-            os.remove("input_files/fbbt-edit.obo")
+            os.remove(fbbt_file)
         raise SystemExit
 
 # Check symbol does not exist as a symbol on another term
@@ -67,7 +69,7 @@ for s in term_table['symbol']:
         print("Error: symbol %s already in use for %s\nAborting"
               % (s, existing_symbols[s]))
         if delete_edit_file:
-            os.remove("input_files/fbbt-edit.obo")
+            os.remove(fbbt_file)
         raise SystemExit
 
 
@@ -117,5 +119,5 @@ for i in term_table.index:
 template.to_csv("./template.tsv", sep="\t", header=True, index=False)
 
 if delete_edit_file:
-    os.remove("input_files/fbbt-edit.obo")
+    os.remove(fbbt_file)
 

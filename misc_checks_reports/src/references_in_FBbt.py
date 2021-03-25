@@ -25,7 +25,9 @@ url_pattern = re.compile('http[s]?://[a-zA-Z0-9./\-]*')
 urls = set(re.findall(url_pattern, fbbt))
 
 # filter to remove 'acceptable' urls
-filtered_urls = [u for u in urls if not ('orcid' in u or 'flybase' in u or 'purl' in u)]
+filtered_urls = [u for u in urls if not (
+        'orcid' in u or 'flybase' in u or 'purl' in u
+        or 'http://dx.doi.org/10.1186/2041-1480-4-32' in u)]
 
 url_file = open('url.txt', 'w')
 for u in filtered_urls:

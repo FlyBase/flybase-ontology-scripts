@@ -12,8 +12,12 @@ This script updates the 'input.tsv' file from a provided file.
 """
 
 # file of new symbol mappings to add to input file
-new_mapping_file = 'new_symbols.tsv'
-hemibrain = (new_mapping_file == 'hemibrain_1-1_type_mapping.tsv')
+if os.path.isfile('hemibrain_1-1_type_mapping.tsv'):
+    new_mapping_file = 'hemibrain_1-1_type_mapping.tsv'
+    hemibrain = True
+
+if not hemibrain:
+    new_mapping_file = 'new_symbols.tsv'
 
 if os.path.isfile('input.tsv'):
     os.rename('input.tsv', 'old_input.tsv')

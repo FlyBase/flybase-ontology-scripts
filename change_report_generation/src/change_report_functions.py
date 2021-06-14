@@ -4,6 +4,7 @@ import urllib
 import os
 import pandas as pd
 
+
 class Parameters:
     """Object for storing parameters."""
     def __init__(self, ontology, new_date, old_date, new_release):
@@ -75,8 +76,10 @@ def get_ontology_from_github(ontology, release_date, filename):
         wget.download("http://purl.obolibrary.org/obo/fbdv/releases/%s/fly_development.obo" % release_date
                       , filename)
     elif ontology.lower() == 'do':
-        wget.download("http://purl.obolibrary.org/obo/doid/releases/%s/doid.obo" % release_date
-                      , filename)
+        if release_date == '2021-06-08':
+            wget.download("http://purl.obolibrary.org/obo/doid/releases/2021--6-08/doid.obo", filename)
+        else:
+            wget.download("http://purl.obolibrary.org/obo/doid/releases/%s/doid.obo" % release_date, filename)
     else:
         raise ValueError('Unrecognised ontology')
 

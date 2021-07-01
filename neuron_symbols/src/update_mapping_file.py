@@ -6,12 +6,13 @@ import os
 This script updates the 'input.tsv' file from a provided file.
 'input.tsv' is used by 'symbol_template.py to generate a robot template for producing a new 'neuron_symbols.owl'.
 
-# 1 run process_mapping_file.py to add new mappings to 'input.tsv'
+# 1 run update_mapping_file.py to add new mappings to 'input.tsv'
 # 2 check 'new_input.tsv' and manually rename to 'input.tsv' if ok (and delete 'old_input.tsv')
 # 3 run symbol_template.py
 """
 
 # file of new symbol mappings to add to input file
+hemibrain = False
 if os.path.isfile('hemibrain_1-1_type_mapping.tsv'):
     new_mapping_file = 'hemibrain_1-1_type_mapping.tsv'
     hemibrain = True

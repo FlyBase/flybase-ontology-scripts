@@ -48,17 +48,18 @@ if len(dup_FBbt) > 0:
     print(dup_FBbt)
 new_mapping = new_mapping[~new_mapping.FBbt.isin(dup_FBbt)].set_index('term', 'FBbt')
 
-# drop Giant Fiber and too broad mappings from hemibrain - TODO - check again later
+# drop Giant Fiber and too broad (or specific) mappings from hemibrain - TODO - check again later
 if hemibrain:
     new_mapping = new_mapping.drop(
         ['Giant Fiber', 'H2', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
-         'vDeltaA', 'DM3_vPN'], axis=0)
+         'vDeltaA', 'DM3_vPN', 'PFR'], axis=0)
 
 # check for symbols with changed FBbt IDs
 changed_ids = []
 for i in new_mapping.index:
-    if i in old_input.index and old_input['FBbt'][i] != new_mapping['FBbt'][i]:
-        changed_ids.append({i: {'old': old_input['FBbt'][i], 'new': new_mapping['FBbt'][i]}})
+    if i in old_input.index:
+        if old_input['FBbt'][i] != new_mapping['FBbt'][i]:
+            changed_ids.append({i: {'old': old_input['FBbt'][i], 'new': new_mapping['FBbt'][i]}})
 if len(changed_ids) > 0:
     print('WARNING: Symbols with changed FBbt IDs: ', changed_ids)
 

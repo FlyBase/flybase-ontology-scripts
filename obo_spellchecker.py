@@ -132,10 +132,10 @@ def make_exclude_short_word_filter(threshold):
 @click.command(context_settings={'help_option_names': ['-h', '--help']})
 @click.version_option(version=prog_version, message=prog_notice)
 @click.argument('obofile')
-@click.option('--output', type=click.File('w'), default=sys.stdout,
+@click.option('--output', '-o', type=click.File('w'), default=sys.stdout,
               help="""Write the report to the specified FILE instead
                       of standard output.""")
-@click.option('--dictionary', multiple=True, metavar='DICT',
+@click.option('--dictionary', '-d', multiple=True, metavar='DICT',
               help="""Use the specified additional dictionary.""")
 def check_ontology(obofile, output, dictionary):
     """Spell-check the specified OBOFILE.

@@ -20,6 +20,8 @@
 # IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
 # POSSIBILITY OF SUCH DAMAGE.
 
+# pypi-requirements: pronto pyspellchecker click
+
 import sys
 
 from pronto import Ontology

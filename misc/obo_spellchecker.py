@@ -162,7 +162,9 @@ def _load_dictionary(location):
                       If DICT starts with a pipe character ('|'),
                       it is interpreted as a command that is expected
                       to write the dictionary to its standard output. """)
-def check_ontology(obofile, output, dictionary):
+@click.option('--obsolete/--no-obsolete', default=False,
+              help="""Check terms marked as obsolete.""")
+def check_ontology(obofile, output, dictionary, obsolete):
     """Spell-check the specified OBOFILE.
     
     This command performs a spell-check on the ontology in the
@@ -193,6 +195,8 @@ def check_ontology(obofile, output, dictionary):
     checker.add_filter(exclude_camelcase_words, pre=True)
 
     for term in onto.terms():
+        if term.obsolete and not obsolete:
+            continue
         r = checker.check_term(term)
         if not r:
             continue

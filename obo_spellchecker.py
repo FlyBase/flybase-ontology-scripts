@@ -23,6 +23,7 @@
 # pypi-requirements: pronto pyspellchecker click
 
 import sys
+from subprocess import run
 
 from pronto import Ontology
 from spellchecker import SpellChecker
@@ -45,8 +46,11 @@ class OntoChecker(object):
         self._post_filters = []
         self._pre_filters = []
 
-    def add_custom_dictionary(self, dictfile):
-        self._checker.word_frequency.load_text_file(dictfile)
+    def add_custom_dictionary(self, dictionary, is_file=True):
+        if is_file:
+            self._checker.word_frequency.load_text_file(dictionary)
+        else:
+            self._checker.word_frequency.load_text(dictionary)
 
     def add_filter(self, filter_, pre=False):
         if pre:
@@ -138,7 +142,12 @@ def make_exclude_short_word_filter(threshold):
               help="""Write the report to the specified FILE instead
                       of standard output.""")
 @click.option('--dictionary', '-d', multiple=True, metavar='DICT',
-              help="""Use the specified additional dictionary.""")
+              help="""Use the specified additional dictionary.
+                      This option may be used multiple times to use
+                      as many additional dictionaries as needed.
+                      If DICT starts with a pipe character ('|'),
+                      it is interpreted as a command that is expected
+                      to write the dictionary to its standard output. """)
 def check_ontology(obofile, output, dictionary):
     """Spell-check the specified OBOFILE.
     
@@ -154,7 +163,11 @@ def check_ontology(obofile, output, dictionary):
 
     checker = OntoChecker()
     for dictfile in dictionary:
-        checker.add_custom_dictionary(dictfile)
+        if dictfile[0] == '|':
+            r = run(dictfile[1:], shell=True, capture_output=True, text=True)
+            checker.add_custom_dictionary(r.stdout, is_file=False)
+        else:
+            checker.add_custom_dictionary(dictfile)
 
     checker.add_filter(exclude_words_with_number)
     checker.add_filter(make_exclude_short_word_filter(4))

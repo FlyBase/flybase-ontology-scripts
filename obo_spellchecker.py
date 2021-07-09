@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 # obo-spellchecker - Spellchecker for OBO-formatted ontologies
 # Copyright © 2021 Damien Goutte-Gattat
@@ -39,6 +40,11 @@ This program is released under the terms of the 1-clause BSD licence.
 """
 
 
+def die(msg):
+    print(f"{prog_name}: {msg}", file=sys.stderr)
+    sys.exit(1)
+
+
 class OntoChecker(object):
 
     def __init__(self):
@@ -46,11 +52,8 @@ class OntoChecker(object):
         self._post_filters = []
         self._pre_filters = []
 
-    def add_custom_dictionary(self, dictionary, is_file=True):
-        if is_file:
-            self._checker.word_frequency.load_text_file(dictionary)
-        else:
-            self._checker.word_frequency.load_text(dictionary)
+    def add_custom_dictionary(self, dictionary):
+        self._checker.word_frequency.load_text(dictionary)
 
     def add_filter(self, filter_, pre=False):
         if pre:
@@ -135,6 +138,17 @@ def make_exclude_short_word_filter(threshold):
     return exclude_short_word_filter
 
 
+def _load_dictionary(location):
+    if location[0] == '|':
+        r = run(location[1:], shell=True, capture_output=True, text=True)
+        if r.returncode != 0:
+            raise RuntimeError(f"Command failed ({r.returncode})")
+        return r.stdout
+    else:
+        with open(location, 'r') as f:
+            return f.read()
+
+
 @click.command(context_settings={'help_option_names': ['-h', '--help']})
 @click.version_option(version=prog_version, message=prog_notice)
 @click.argument('obofile')
@@ -159,15 +173,19 @@ def check_ontology(obofile, output, dictionary):
     It produces a report listing the misspelled words for each
     term.
     """
-    onto = Ontology(obofile)
+
+    try:
+        onto = Ontology(obofile)
+    except Exception as e:
+        die(f"Cannot load ontology: {e}")
 
     checker = OntoChecker()
     for dictfile in dictionary:
-        if dictfile[0] == '|':
-            r = run(dictfile[1:], shell=True, capture_output=True, text=True)
-            checker.add_custom_dictionary(r.stdout, is_file=False)
-        else:
-            checker.add_custom_dictionary(dictfile)
+        try:
+            dictdata = _load_dictionary(dictfile)
+        except Exception as e:
+            die(f"Cannot load dictionary: {e}")
+        checker.add_custom_dictionary(dictdata)
 
     checker.add_filter(exclude_words_with_number)
     checker.add_filter(make_exclude_short_word_filter(4))

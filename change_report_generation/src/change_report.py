@@ -45,16 +45,22 @@ if parameters.ontology.lower() == 'fbcv':
 
     for i in namespace_list:
         number = str(count)
-        subprocess.run("perl -I %s %s %s %s > "
-                       "%s_%s_no_defs.tsv"
-                       % (scriptpath, os.path.join(scriptpath, "onto_metrics_calc.pl"), i, parameters.new_file,
-                          parameters.report_prefix, number), shell=True)
+        try:
+            subprocess.run("perl -I %s %s %s %s > "
+                           "%s_%s_no_defs.tsv"
+                           % (scriptpath, os.path.join(scriptpath, "onto_metrics_calc.pl"), i, parameters.new_file,
+                              parameters.report_prefix, number), check=True, shell=True)
+        except subprocess.CalledProcessError:
+            print("onto_metrics_calc.pl could not process " + i + " namespace, probably no usage.")
+            continue
+
         try:
             result = pd.read_csv("%s_%s_no_defs.tsv"
                                  % (parameters.report_prefix, number), sep='\t', index_col=False)
+            result["Namespace"] = i
             output = pd.concat([output, result], ignore_index=True, sort=False)
-            output["Namespace"][count] = i
         except pd.errors.EmptyDataError:
+            print("Empty file created for " + i)
             pass
         subprocess.run("rm %s_%s_no_defs.tsv"
                        % (parameters.report_prefix, number), shell=True)

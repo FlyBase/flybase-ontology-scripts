@@ -39,20 +39,28 @@ if hemibrain:
     new_mapping['term'] = new_mapping['term'].map(lambda x: re.sub(re.compile('_[a-z]$'), "", x))
 new_mapping = new_mapping.drop_duplicates()
 
-# check for duplicate FBbt IDs in the mapping file (will happen with hemibrain) and don't use these rows
+# check for duplicate FBbt IDs and symbols in the mapping file (will happen with hemibrain) and don't use these rows
 dup_FBbt = list(new_mapping['FBbt'].value_counts()[
                                    new_mapping['FBbt'].value_counts() > 1].index)
 
 if len(dup_FBbt) > 0:
     print('duplicate FBbt IDs in mapping file - ignoring these:')
     print(dup_FBbt)
-new_mapping = new_mapping[~new_mapping.FBbt.isin(dup_FBbt)].set_index('term', 'FBbt')
+new_mapping = new_mapping[~new_mapping.FBbt.isin(dup_FBbt)]
+
+dup_term = list(new_mapping['term'].value_counts()[
+                                   new_mapping['term'].value_counts() > 1].index)
+
+if len(dup_term) > 0:
+    print('duplicate terms in mapping file - ignoring these:')
+    print(dup_term)
+new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index('term', 'FBbt')
 
 # drop Giant Fiber and too broad (or specific) mappings from hemibrain - TODO - check again later
 if hemibrain:
     new_mapping = new_mapping.drop(
         ['Giant Fiber', 'H2', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
-         'vDeltaA', 'DM3_vPN', 'PFR'], axis=0)
+         'vDeltaA', 'DM3_vPN', 'LHCENT10'], axis=0)
 
 # check for symbols with changed FBbt IDs
 changed_ids = []

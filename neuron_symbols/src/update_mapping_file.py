@@ -25,7 +25,7 @@ if os.path.isfile('input.tsv'):
 
 # load old input file and set symbol and ID as multiindex
 old_input = pd.read_csv('old_input.tsv', sep='\t')
-old_input = old_input[['term', 'FBbt', 'reference']].set_index('term', 'FBbt')
+old_input = old_input[['term', 'FBbt', 'reference']].set_index(['term', 'FBbt'])
 
 # load file, update colnames to 'term' and 'FBbt' (if using hemibrain file), drop excess cols and rows
 new_mapping = pd.read_csv(new_mapping_file, sep='\t')
@@ -54,7 +54,7 @@ dup_term = list(new_mapping['term'].value_counts()[
 if len(dup_term) > 0:
     print('duplicate terms in mapping file - ignoring these:')
     print(dup_term)
-new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index('term', 'FBbt')
+new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index(['term', 'FBbt'])
 
 # drop Giant Fiber and too broad (or specific) mappings from hemibrain - TODO - check again later
 if hemibrain:

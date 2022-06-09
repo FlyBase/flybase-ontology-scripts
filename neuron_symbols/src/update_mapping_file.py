@@ -23,9 +23,9 @@ if not hemibrain:
 if os.path.isfile('input.tsv'):
     os.rename('input.tsv', 'old_input.tsv')
 
-# load old input file and set symbol and ID as multiindex
+# load old input file and set symbol as index
 old_input = pd.read_csv('old_input.tsv', sep='\t')
-old_input = old_input[['term', 'FBbt', 'reference']].set_index(['term', 'FBbt'])
+old_input = old_input[['term', 'FBbt', 'reference']].set_index(['term'])
 
 # load file, update colnames to 'term' and 'FBbt' (if using hemibrain file), drop excess cols and rows
 new_mapping = pd.read_csv(new_mapping_file, sep='\t')
@@ -54,7 +54,7 @@ dup_term = list(new_mapping['term'].value_counts()[
 if len(dup_term) > 0:
     print('duplicate terms in mapping file - ignoring these:')
     print(dup_term)
-new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index(['term', 'FBbt'])
+new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index(['term'])
 
 # drop Giant Fiber and too broad (or specific) mappings from hemibrain - TODO - check again later
 if hemibrain:
@@ -71,7 +71,7 @@ for i in new_mapping.index:
 if len(changed_ids) > 0:
     print('WARNING: Symbols with changed FBbt IDs: ', changed_ids)
 
-# add reference detail where present in one file and missing from other (for matching multiindex)
+# add reference detail where present in one file and missing from other (for matching index)
 new_mapping.update(old_input, overwrite=False)
 old_input.update(new_mapping, overwrite=False)
 # merge old and new (indicator keeps track of which file row came from)

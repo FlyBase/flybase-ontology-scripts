@@ -59,7 +59,7 @@ new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index(['term'])
 # drop Giant Fiber and too broad (or specific) mappings from hemibrain - TODO - check again later
 if hemibrain:
     new_mapping = new_mapping.drop(
-        ['Giant Fiber', 'H2', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
+        ['Giant Fiber', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
          'vDeltaA', 'DM3_vPN', 'LHCENT10'], axis=0)
 
 # check for symbols with changed FBbt IDs

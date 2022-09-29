@@ -60,7 +60,7 @@ new_mapping = new_mapping[~new_mapping.term.isin(dup_term)].set_index(['term'])
 if hemibrain:
     new_mapping = new_mapping.drop(
         ['Giant Fiber', 'JO-A/B/C', 'LPC2', '5-HTPLP01', '5-HTPMPD01', 'KCab-m',
-         'vDeltaA', 'DM3_vPN', 'LHCENT10'], axis=0)
+         'vDeltaA', 'DM3_vPN', 'LHCENT10', 'AstA1'], axis=0)
 
 # check for symbols with changed FBbt IDs
 changed_ids = []

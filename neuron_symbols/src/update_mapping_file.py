@@ -69,7 +69,7 @@ for i in new_mapping.index:
         if old_input['FBbt'][i] != new_mapping['FBbt'][i]:
             changed_ids.append({i: {'old': old_input['FBbt'][i], 'new': new_mapping['FBbt'][i]}})
 if len(changed_ids) > 0:
-    print('WARNING: Symbols with changed FBbt IDs: ', changed_ids)
+    print('WARNING: Symbols with changed FBbt IDs: ', changed_ids, ' Please delete one manually.')
 
 # add reference detail where present in one file and missing from other (for matching index)
 new_mapping.update(old_input, overwrite=False)

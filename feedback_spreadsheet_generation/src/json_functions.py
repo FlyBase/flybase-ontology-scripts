@@ -78,6 +78,17 @@ def find_synonyms(ontology, term_id):
     return synonyms
 
 
+def find_symbol(ontology, term_id):
+    """Finds the symbol (should only be one!) for a given term ID, returns an empty string if term is not found."""
+
+    symbol = ""
+    for n in ontology['graphs'][0]['nodes']:
+        if n['id'] == term_id:
+            symbol = [s['val'] for s in n['meta']['basicPropertyValues']
+                      if s['pred'] == 'http://purl.obolibrary.org/obo/IAO_0000028']
+    return symbol
+
+
 def find_definition(ontology, term_id):
     """Finds the definition for a given term ID.
 
@@ -147,12 +158,13 @@ def get_term_details(id_list, ontology=None):
         ontology = requests.get("http://purl.obolibrary.org/obo/fbbt/fbbt.json").json()
 
     result_label = [find_label(ontology, i) for i in id_list]  # one label per term
+    result_symbol = [find_symbol(ontology, i) for i in id_list]  # one symbol per term
     result_syn = [find_synonyms(ontology, i) for i in id_list]  # list of synonyms per term
     result_def = [find_definition(ontology, i) for i in id_list]  # one def per term
     result_ref = [find_def_refs(ontology, i) for i in id_list]  # list of def refs per term
 
     # output list of results
-    data = {"FBbt_ID": id_list, "Name": result_label, "Synonyms": result_syn,
+    data = {"FBbt_ID": id_list, "Symbol": result_symbol, "Name": result_label, "Synonyms": result_syn,
             "Definition": result_def, "References": result_ref}
     return pd.DataFrame(data)
 

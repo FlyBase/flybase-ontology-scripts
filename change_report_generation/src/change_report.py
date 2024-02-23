@@ -24,9 +24,9 @@ if input_details['update_scripts'][0].lower() in ["y", "yes"]:
 
 # if no ontology file is present already, get one from github
 if not os.path.isfile(parameters.old_file):
-    crf.get_ontology_from_github(parameters.ontology, parameters.old_date, parameters.old_file)
+    parameters.get_ontology_from_github(new_old='old')
 if not os.path.isfile(parameters.new_file):
-    crf.get_ontology_from_github(parameters.ontology, parameters.new_date, parameters.new_file)
+    parameters.get_ontology_from_github(new_old='new')
 
 if parameters.ontology.lower() == 'fbcv':
     fbcv_namespace_file = os.path.join(os.getcwd(), "fbcv_namespaces.txt")
@@ -77,7 +77,7 @@ if parameters.ontology.lower() == 'fbcv':
 else:
     # Count number of terms and percent defined (not fbcv)
     subprocess.run("perl -I %s %s %s %s > %s_no_defs.txt"
-                   % (scriptpath, os.path.join(scriptpath, "onto_metrics_calc.pl"), parameters.namespace, parameters.new_file,
+                   % (scriptpath, os.path.join(scriptpath, "onto_metrics_calc.pl"), parameters.obo_namespace, parameters.new_file,
                       parameters.report_prefix), shell=True)
 
     termcount = pd.read_csv("%s_no_defs.txt" % parameters.report_prefix, sep='\t', index_col=False)
@@ -152,6 +152,9 @@ obs = out9.decode()
                                   shell=True).communicate()
 merges = out10.decode()
 
+# new terms
+new_terms = parameters.find_new_terms()
+
 # put document together
 file = open(os.path.join(parameters.outpath, "release_details_%s_%s.txt"
                          % (parameters.ontology, parameters.new_date)), "w")
@@ -161,47 +164,45 @@ if len(parameters.new_release) > 0:
 else:
     release_text = ""
 
-file.write("Release details for new %s dated %s%s:\n\n\n"
+file.write("Release details for new %s dated %s%s:\n\n"
            % (parameters.ontology, parameters.new_date, release_text))
 file.write(str(termcount['%'][0]) + "% of terms now have a definition (" + str(termcount.Defined[0]) + "/" + str(
     termcount.Total[0]) + ")\n\n")
 file.write("====\n\n")
 
 file.write("Since last release (" + parameters.old_date + "):\n\n")
-if ndef == '1':
-    file.write(ndef + " new definition\n\n")
-else:
-    file.write(ndef + " new definitions\n\n")
-if chdef == '1':
-    file.write(chdef + " changed definition\n\n")
-else:
-    file.write(chdef + " changed definitions\n\n")
-if ncom == '1':
-    file.write(ncom + " new comment\n\n")
-else:
-    file.write(ncom + " new comments\n\n")
-if chcom == '1':
-    file.write(chcom + " changed comment\n\n")
-else:
-    file.write(chcom + " changed comments\n\n")
+file.write(f"New terms: {len(new_terms)}\n")
+file.write(f"Name changes: {num_namchg}\n")
+file.write(f"Obsoletions: {num_obs}\n")
+file.write(f"Merges: {num_merges}\n")
+file.write(f"New definitions: {ndef}\n")
+file.write(f"Changed definitions: {chdef}\n")
+file.write(f"New comments: {ncom}\n")
+file.write(f"Changed comments: {chcom}\n\n")
 file.write("====\n\n")
 
-file.write("Details of name changes, obsoletions and merges:\n\n")
-if num_namchg == '1':
-    file.write(num_namchg + " name change\n")
+file.write("Details of new terms, name changes, obsoletions and merges:\n\n")
+
+file.write("New terms:\n")
+if len(new_terms) <= 50:
+    for t in new_terms.keys():
+        file.write(f'{t} ; {new_terms[t]}\n')
+    output_new_terms = False
 else:
-    file.write(num_namchg + " name changes\n")
+    file.write("More than 50 new terms, please see separate file.\n")
+    output_new_terms = True
+
+
+file.write("\nName changes:\n")
 file.write(namchg + "\n")
-if num_obs == '1':
-    file.write(num_obs + " obsoletion\n")
-else:
-    file.write(num_obs + " obsoletions\n")
+file.write("Obsoletions:\n")
 file.write(obs + "\n")
-if num_merges == '1':
-    file.write(num_merges + " merge\n")
-else:
-    file.write(num_merges + " merges\n")
+file.write("Merges:\n")
 file.write(merges + "\n")
 
 file.close()
 
+if output_new_terms:
+    with open(os.path.join(parameters.outpath, "new_terms.tsv"), "w") as f:
+        for t in new_terms.keys():
+            f.write(f'{t}\t{new_terms[t]}\n')

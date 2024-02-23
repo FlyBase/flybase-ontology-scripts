@@ -1,7 +1,9 @@
 requests
 pandas
 openpyxl
-wget
+wget~=3.2
 obonet
-pronto
+pronto~=2.5.0
 pyspellchecker
+click~=8.1.7
+oaklib

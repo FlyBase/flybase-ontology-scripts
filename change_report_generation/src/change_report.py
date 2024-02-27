@@ -203,6 +203,7 @@ file.write(merges + "\n")
 file.close()
 
 if output_new_terms:
-    with open(os.path.join(parameters.outpath, "new_terms.tsv"), "w") as f:
+    with open(os.path.join(parameters.outpath,
+                           "new_terms_%s_%s.tsv" % (parameters.ontology, parameters.new_date)), "w") as f:
         for t in new_terms.keys():
             f.write(f'{t}\t{new_terms[t]}\n')

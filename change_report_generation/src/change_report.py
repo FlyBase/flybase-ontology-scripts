@@ -28,6 +28,9 @@ if not os.path.isfile(parameters.old_file):
 if not os.path.isfile(parameters.new_file):
     parameters.get_ontology_from_github(new_old='new')
 
+# remove any xref_analog lines (oak can't seem to handle these)
+parameters.strip_xref_analog()
+
 if parameters.ontology.lower() == 'fbcv':
     fbcv_namespace_file = os.path.join(os.getcwd(), "fbcv_namespaces.txt")
     # optionally update fbcv_namespace

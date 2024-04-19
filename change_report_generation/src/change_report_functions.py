@@ -4,6 +4,7 @@ import urllib
 import os
 import pandas as pd
 import oaklib
+import re
 
 class Parameters:
     """Object for storing parameters."""
@@ -84,6 +85,17 @@ class Parameters:
                 wget.download("http://purl.obolibrary.org/obo/doid/releases/%s/doid.obo" % release_date, filename)
         else:
             raise ValueError('Unrecognised ontology')
+
+
+    def strip_xref_analog(self):
+        """Remove xref_analog annotations from old and new files."""
+        for f in [self.old_file, self.new_file]:
+            with open(f, 'r') as file:
+                lines = [line for line in file if not line.startswith('xref_analog')]
+            with open(f, 'w') as file:
+                for l in lines:
+                    file.write(l)
+
 
     def find_new_terms(self):
         old_ont = oaklib.get_adapter(self.old_file)

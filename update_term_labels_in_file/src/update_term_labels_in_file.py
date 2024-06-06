@@ -1,8 +1,5 @@
 import pandas as pd
 import argparse
-from vfb_connect.neo.neo4j_tools import Neo4jConnect, dict_cursor
-from oaklib import get_adapter
-
 
 # setup arguments that can be provided on command line
 parser = argparse.ArgumentParser()
@@ -35,6 +32,12 @@ if args.source:
     source = args.source
 else:
     source = 'VFB'
+
+# conditional imports
+if source == 'VFB':
+    from vfb_connect.neo.neo4j_tools import Neo4jConnect, dict_cursor
+else:
+    from oaklib import get_adapter
 
 
 def get_id_cols(filename=file):

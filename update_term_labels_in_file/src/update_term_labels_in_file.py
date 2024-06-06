@@ -19,11 +19,11 @@ else:
 if args.id_col:
     id_column_name = args.id_col
 else:
-    id_column_name = 'FBbt_id'
+    id_column_name = 'auto'
 if args.label_col:
     label_column_name = args.label_col
 else:
-    label_column_name = 'FBbt_name'
+    label_column_name = 'term_label'
 if args.sep:
     separator = args.sep
 else:

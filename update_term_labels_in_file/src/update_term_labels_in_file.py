@@ -48,7 +48,6 @@ def get_id_cols(filename=file):
     for col in mapping.columns:
         if len(mapping.loc[mapping[col].str.contains("[A-z]+:[0-9]+", na=False)]) > 0:
             id_cols.append(col)
-
     return id_cols
 
 
@@ -61,6 +60,7 @@ def replace_labels(dataframe, id_col_name=id_column_name, label_col_name=label_c
     # separate ids to lists and make one flat list of unique values
     dataframe['id_lists'] = dataframe[id_col_name].apply(lambda x: x.split(sep))
     flat_FBbt_list = list(set(dataframe['id_lists'].explode().tolist()))
+    flat_FBbt_list = list(filter(None, flat_FBbt_list))  # remove Nones
 
     if source == 'VFB':  # get labels from VFB KB
         flat_FBbt_list_converted = [item.replace(':', '_') for item in flat_FBbt_list]
@@ -82,6 +82,8 @@ def replace_labels(dataframe, id_col_name=id_column_name, label_col_name=label_c
         labels_df['ID'] = flat_FBbt_list
         labels_df['label'] = labels_df['ID'].apply(lambda x: ontology.label(x))
         labels_df = labels_df.set_index('ID')
+
+    labels_df = labels_df[labels_df['label'].notnull()]
 
     def label_lookup(ID_list):
         """Looks up labels of items of a list of IDs in labels_df and returns list of labels."""

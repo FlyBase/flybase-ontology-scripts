@@ -41,12 +41,12 @@ else:
 
 
 def get_id_cols(filename=file):
-    """Returns column names from the given file if '[A-z]+:[0-9]+' is in the column."""
+    """Returns column names from the given file if '^[A-z]+:[0-9]+$' is in the column."""
     mapping = pd.read_csv(filename, sep='\t', dtype=str)
 
     id_cols = []
     for col in mapping.columns:
-        if len(mapping.loc[mapping[col].str.contains("[A-z]+:[0-9]+", na=False)]) > 0:
+        if len(mapping.loc[mapping[col].str.contains("^[A-z]+:[0-9]+$", na=False)]) > 0:
             id_cols.append(col)
     return id_cols
 

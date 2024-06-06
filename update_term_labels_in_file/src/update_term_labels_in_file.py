@@ -8,8 +8,8 @@ from oaklib import get_adapter
 parser = argparse.ArgumentParser()
 
 parser.add_argument("--filename", "-f", help="Filename")
-parser.add_argument("--id_col", "-i", help="Name of column containing IDs")
-parser.add_argument("--label_col", "-l", help="Name of column for labels")
+parser.add_argument("--id_col", "-i", help="Name of column containing IDs or 'auto' to autodetect column(s)")
+parser.add_argument("--label_col", "-l", help="Name of column for labels (if -i is 'auto', '{id_col}_label' will be used)")
 parser.add_argument("--sep", "-s", help="Separator for lists")
 parser.add_argument("--source", "-c", help="Where to lookup labels ('VFB' or a filename)")
 args = parser.parse_args()
@@ -111,10 +111,18 @@ def replace_labels_in_file(filename, id_col_name=id_column_name, label_col_name=
     """Updates labels from latest FBbt release (from VFB) based on IDs.
 
     Input is a file - default for ID column to be 'FBbt_id' and label column as 'FBbt_name'."""
-    input_dataframe = pd.read_csv(filename, sep='\t', dtype=str, na_filter=False)
-    output_dataframe = replace_labels(input_dataframe, id_col_name, label_col_name, sep)
+    if id_col_name == 'auto':
+        id_columns = get_id_cols(filename)
+    else:
+        id_columns = id_col_name
 
-    output_dataframe.to_csv(filename, sep='\t', index=False)
+    dataframe = pd.read_csv(filename, sep='\t', dtype=str, na_filter=False)
+    for i in id_columns:
+        if id_col_name == 'auto':
+            label_col_name = i + '_label'
+        dataframe = replace_labels(dataframe, i, label_col_name, sep)
+
+    dataframe.to_csv(filename, sep='\t', index=False)
 
 
 if __name__ == "__main__":

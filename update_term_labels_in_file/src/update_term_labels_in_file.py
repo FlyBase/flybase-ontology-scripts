@@ -122,6 +122,8 @@ def replace_labels_in_file(filename, id_col_name=id_column_name, label_col_name=
         id_columns = id_col_name
 
     dataframe = pd.read_csv(filename, sep='\t', dtype=str, na_filter=False)
+    if not isinstance(id_columns, list):  # if only one column, make it a list
+        id_columns = [id_columns]
     for i in id_columns:
         if id_col_name == 'auto':
             label_col_name = i + '_label'

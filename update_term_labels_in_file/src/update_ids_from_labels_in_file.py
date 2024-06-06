@@ -44,7 +44,7 @@ def replace_ids_in_file(filename, id_col_name='FBbt_id', label_col_name='FBbt_na
     """Updates ids from latest FBbt release (from VFB) based on labels.
 
     Input is a file - default for ID column to be 'FBbt_id' and label column as 'FBbt_name'."""
-    input_dataframe = pd.read_csv(filename, sep='\t')
+    input_dataframe = pd.read_csv(filename, sep='\t', dtype=str, na_filter=False)
     output_dataframe = replace_ids(input_dataframe, id_col_name, label_col_name)
 
     output_dataframe.to_csv(filename, sep='\t', index=False)

@@ -14,14 +14,16 @@ def generate_report(iri_list, fbbt_path, xlsx_out):
     fbbt_path = path to fbbt json file
     xlsx_out = name of xlsx output file"""
     fbbt = json.load(open(fbbt_path, "r"))
-    term_table = json_functions.get_term_details(list(iri_list), ontology=fbbt).applymap(str)
+    term_table = json_functions.get_term_details(list(iri_list), ontology=fbbt).map(str)
 
     # minor tidying strings and lists
-    term_table = term_table.applymap(lambda x: x.replace("['", ""))  # tidy beginnings of lists
-    term_table = term_table.applymap(lambda x: x.replace("']", ""))  # tidy ends of lists
-    term_table = term_table.applymap(lambda x: x.replace("', '", "; "))  # tidy middles of lists
-    term_table = term_table.applymap(lambda x: re.sub("FBC:[a-zA-Z_]+;*\s*", "", x))  # remove FBC: refs
-    term_table = term_table.applymap(lambda x: re.sub("FlyBase:", "", x))  # remove FlyBase: prefixes
+    term_table = term_table.apply(lambda x: x.replace("['", ""))  # tidy beginnings of lists
+    term_table = term_table.apply(lambda x: x.replace("']", ""))  # tidy ends of lists
+    term_table = term_table.apply(lambda x: x.replace("', '", "; "))  # tidy middles of lists
+    term_table['References'] = term_table['References'].apply(
+        lambda x: re.sub("FBC:[a-zA-Z]+_?[a-zA-Z]*[; ]*", "", x))  # remove FBC: refs
+    term_table['References'] = term_table['References'].apply(
+        lambda x: re.sub("FlyBase:", "", x))  # remove FlyBase: prefixes
 
     # substitute IRIs with hyperlinks
 
@@ -44,23 +46,22 @@ def generate_report(iri_list, fbbt_path, xlsx_out):
 
     # replace FBrfs in term_table table
     for fbrf in fbrf_list:
-        term_table = term_table.applymap(lambda x:
-                                         re.sub(fbrf,
-                                                ref_list["Reference"][fbrf] +
-                                                " (flybase.org/reports/" + fbrf + ")", x))
+        term_table['References'] = term_table['References'].apply(lambda x:
+                                                                  re.sub(fbrf,
+                                                                         ref_list["Reference"][fbrf]
+                                                                         + f" (flybase.org/reports/{fbrf})",
+                                                                         x))
 
     # replace FlyPNS, DoOR
-    term_table = term_table.applymap(lambda x:
-                                     x.replace("FlyPNS:",
-                                               "http://www.normalesup.org/~vorgogoz/FlyPNS/"))
+    term_table = term_table.apply(lambda x:
+                                  x.replace("FlyPNS:", "http://www.normalesup.org/~vorgogoz/FlyPNS/"))
 
-    term_table = term_table.applymap(lambda x: x.replace(
+    term_table = term_table.apply(lambda x: x.replace(
         "DoOR:", "http://neuro.uni-konstanz.de/DoOR/content/receptor.php?OR="))
 
     # add columns for review notes, suggested markers, abundance
     term_table = term_table.reindex(
-        columns=term_table.columns.tolist()
-                + ['Review_notes', 'Suggested_markers', 'Abundance'])
+        columns=term_table.columns.tolist() + ['Review_notes', 'Suggested_markers', 'Abundance'])
 
     # sort on label:
 

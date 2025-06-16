@@ -13,6 +13,7 @@ id_column_names = ['FBbt_id']  # ignored if check_all_columns is True
 update = True
 
 ontology = get_adapter('fbbt-merged.db')
+all_obsoletes = [i for i in ontology.obsoletes()]
 replacement_df = pd.DataFrame(ontology.obsoletes_migration_relationships(ontology.obsoletes()), columns=['old_id', 'rel', 'new_id'])
 replacement_df = replacement_df[replacement_df['rel'] == 'IAO:0100001']
 if replacement_df['old_id'].duplicated(keep=False).any():
@@ -29,14 +30,11 @@ def find_obsoletes_in_df(dataframe, id_col_names=['FBbt_id'], check_all_columns=
     else:
         cols_to_check = id_col_names
     for i in cols_to_check:
-        for c in dataframe[i].drop_duplicates():
-            if c in replacement_df.index:
-                obsoletes[i].append(c)
+        obsoletes[i] = [c for c in dataframe[i].drop_duplicates() if c in all_obsoletes]
 
-    if len(obsoletes.keys()) > 0:
-        obsoletes_df = pd.DataFrame(obsoletes)
+    if any(obsoletes.values()):
         print("Some obsolete terms in use:")
-        print(obsoletes_df)
+        print(obsoletes)
     else:
         print("No obsolete terms in use.")
 
@@ -48,8 +46,17 @@ def replace_obsoletes_in_df(dataframe, id_col_names=['FBbt_id'], check_all_colum
         cols_to_check = dataframe.columns
     else:
         cols_to_check = id_col_names
+
+    obsoletes = {}
     for i in cols_to_check:
         dataframe[i] = dataframe[i].apply(lambda x: x if x not in replacement_df.index else replacement_df['new_id'][x])
+        obsoletes[i] = [c for c in dataframe[i].drop_duplicates() if c in all_obsoletes]
+
+    if any(obsoletes.values()):
+        print("Some obsolete terms could not be replaced:")
+        print(obsoletes)
+    else:
+        print("No more obsolete terms in use.")
 
     return dataframe
 
@@ -67,4 +74,4 @@ def process_obsoletes_in_file(filename, id_col_names=['FBbt_id'], check_all_colu
 
 if __name__ == "__main__":
     for file in file_list:
-        process_obsoletes_in_file(file, id_column_names, check_all_columns, update)
+        process_obsoletes_in_file(f'files/{file}', id_column_names, check_all_columns, update)

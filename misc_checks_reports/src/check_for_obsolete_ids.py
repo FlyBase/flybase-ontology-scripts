@@ -1,18 +1,20 @@
 import os
 import pandas as pd
 from oaklib import get_adapter
-import update_term_labels_in_file
 
 """
 Finds obsolete IDs used within tsv files in /files
 """
 
-file_list = [f for f in os.listdir('files') if not f.startswith('.')]
-check_all_columns = True
+check_all_columns = False
 id_column_names = ['FBbt_id']  # ignored if check_all_columns is True
 update = True
 
-ontology = get_adapter('fbbt-merged.db')
+try:
+    ontology = get_adapter('fbbt-merged.db')
+except(FileNotFoundError):
+    ontology = get_adapter("sqlite:obo:fbbt")
+
 all_obsoletes = [i for i in ontology.obsoletes()]
 replacement_df = pd.DataFrame(ontology.obsoletes_migration_relationships(ontology.obsoletes()), columns=['old_id', 'rel', 'new_id'])
 replacement_df = replacement_df[replacement_df['rel'] == 'IAO:0100001']
@@ -30,7 +32,8 @@ def find_obsoletes_in_df(dataframe, id_col_names=['FBbt_id'], check_all_columns=
     else:
         cols_to_check = id_col_names
     for i in cols_to_check:
-        obsoletes[i] = [c for c in dataframe[i].drop_duplicates() if c in all_obsoletes]
+        obsoletes[i] = [c for a in dataframe.loc[dataframe[i].notnull(), i].drop_duplicates()
+                        for c in a.split('|') if c in all_obsoletes]
 
     if any(obsoletes.values()):
         print("Some obsolete terms in use:")
@@ -49,8 +52,11 @@ def replace_obsoletes_in_df(dataframe, id_col_names=['FBbt_id'], check_all_colum
 
     obsoletes = {}
     for i in cols_to_check:
-        dataframe[i] = dataframe[i].apply(lambda x: x if x not in replacement_df.index else replacement_df['new_id'][x])
-        obsoletes[i] = [c for c in dataframe[i].drop_duplicates() if c in all_obsoletes]
+        dataframe[i] = dataframe[i].map(lambda x: '|'.join(
+            y if y not in replacement_df.index else replacement_df.loc[y, 'new_id'] for y in x.split('|')),
+                                        na_action='ignore')
+        obsoletes[i] = [c for a in dataframe.loc[dataframe[i].notnull(), i].drop_duplicates()
+                        for c in a.split('|') if c in all_obsoletes]
 
     if any(obsoletes.values()):
         print("Some obsolete terms could not be replaced:")
@@ -73,5 +79,6 @@ def process_obsoletes_in_file(filename, id_col_names=['FBbt_id'], check_all_colu
 
 
 if __name__ == "__main__":
+    file_list = [f for f in os.listdir('files') if not f.startswith('.')]
     for file in file_list:
         process_obsoletes_in_file(f'files/{file}', id_column_names, check_all_columns, update)

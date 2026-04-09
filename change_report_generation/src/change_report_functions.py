@@ -1,8 +1,8 @@
 import subprocess
 import wget
 import urllib
+import urllib.error
 import os
-import pandas as pd
 import oaklib
 import re
 
@@ -126,23 +126,48 @@ def update_scripts(scriptpath):
 
 
 def update_fbcv_namespaces(fbcv_file, namespace_file):
-    subprocess.run(
-        "grep 'namespace' %s | sort | uniq > %s"
-        % (fbcv_file, namespace_file), shell=True)
+    # Parse the OBO file and collect namespaces only from non-obsolete term stanzas.
+    with open(fbcv_file, 'r') as fh:
+        text = fh.read()
 
-    fbcv_namespaces = pd.read_csv(namespace_file, sep=' ', header=None)
+    # Split into stanzas (separated by one or more blank lines)
+    stanzas = [s.strip() for s in re.split(r'\n\s*\n', text) if s.strip()]
 
-    # fix misc CV and add escapes
-    namespace_list_o = list(fbcv_namespaces[1])
-    namespace_list_o[0] = "FlyBase\ miscellaneous\ CV"
-    namespace_list = list()
-    for i in namespace_list_o:
-        x = i.replace("_", "\_")
+    namespaces = []
+    for stanza in stanzas:
+        # consider only term stanzas that contain a namespace declaration
+        if 'namespace:' not in stanza:
+            continue
+        # skip stanzas marked obsolete
+        if re.search(r'^\s*is_obsolete:\s*true\b', stanza, flags=re.M):
+            continue
+        # find all namespace lines in this stanza
+        for m in re.finditer(r'^\s*namespace:\s*(.+)$', stanza, flags=re.M):
+            ns = m.group(1).strip()
+            # preserve order but avoid duplicates
+            if ns not in namespaces:
+                namespaces.append(ns)
+
+    # ensure the canonical FlyBase miscellaneous CV is always present
+    if 'FlyBase miscellaneous CV' not in namespaces:
+        namespaces.append('FlyBase miscellaneous CV')
+
+    # Put the canonical FlyBase miscellaneous CV at the top, then sort the rest
+    others = [ns for ns in namespaces if ns != 'FlyBase miscellaneous CV']
+    sorted_others = sorted(others, key=lambda s: s.lower())
+    sorted_namespaces = ['FlyBase miscellaneous CV'] + sorted_others
+
+    # Escape/format namespaces for output (special-case the FlyBase entry)
+    namespace_list = []
+    for ns in sorted_namespaces:
+        if ns == 'FlyBase miscellaneous CV':
+            x = 'FlyBase\\ miscellaneous\\ CV'
+        else:
+            x = ns.replace('_', '\\_')
         namespace_list.append(x)
 
     # save file
     with open(namespace_file, 'w') as f:
         for namespace in namespace_list:
             f.write(namespace + '\n')
-        f.close()
 

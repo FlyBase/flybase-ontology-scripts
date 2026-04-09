@@ -18,7 +18,6 @@ genotype\_to\_phenotype\_relation
 group\_descriptor
 intensity\_qualifier
 language
-mode\_of\_assay
 origin\_of\_mutation
 phenotypic\_class
 project\_attribute
